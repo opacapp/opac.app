@@ -1,4 +1,4 @@
-Django==1.9.*
+Django==1.8.*
 
 # Django CMS requirements
 django-cms~=3.2.0
@@ -13,4 +13,4 @@ djangocms-table
 django-filer~=1.0.6
 cmsplugin-filer~=1.0.0
 Pillow
-django-reversion~=1.10.0
+django-reversion~=1.9.0
