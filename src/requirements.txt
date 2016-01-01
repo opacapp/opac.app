@@ -1,0 +1,16 @@
+Django==1.9.*
+
+# Django CMS requirements
+django-cms~=3.2.0
+
+# Optional Django CMS dependencies
+djangocms-text-ckeditor~=2.8.1
+djangocms-link
+djangocms-snippet
+djangocms-style
+djangocms-grid
+djangocms-table
+django-filer~=1.0.6
+cmsplugin-filer~=1.0.0
+Pillow
+django-reversion~=1.10.0
