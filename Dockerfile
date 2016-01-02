@@ -7,7 +7,7 @@ ENV DEBIAN_FRONTEND noninteractive
 RUN apt-get update && apt-get install -y python3 git python3-pip \
 	libxml2-dev libxslt1-dev python-dev python-virtualenv locales libffi-dev \
 	build-essential python3-dev zlib1g-dev libssl-dev npm gettext git \
-	libpq-dev libmysqlclient-dev libmemcached-dev libjpeg-dev \
+	libpq-dev libmysqlclient-dev libmemcached-dev libjpeg-dev libmysqlclient-dev \
 	--no-install-recommends
 
 RUN dpkg-reconfigure locales && \
@@ -25,7 +25,7 @@ COPY docker/get-pip.py /tmp/get-pip.py
 RUN python3 /tmp/get-pip.py
 
 COPY src/requirements.txt /tmp/requirements.txt
-RUN pip install -q -r /tmp/requirements.txt
+RUN pip install -q mysqlclient -r /tmp/requirements.txt
 
 ENV DATA_DIR /data
 COPY src /code/opacweb
