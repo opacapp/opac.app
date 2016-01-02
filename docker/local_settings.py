@@ -100,4 +100,5 @@ CACHES = {
 
 ALLOWED_HOSTS = ['opacapp.de', 'opacapp.net', 'new.opacapp.net', 'www.opacapp.de', 'www.opacapp.net']
 
-STATICFILES_STORAGE = 'whitenoise.django.GzipManifestStaticFilesStorage'
+# Enable when https://github.com/divio/django-filer/issues/630 is resolved
+# STATICFILES_STORAGE = 'whitenoise.django.GzipManifestStaticFilesStorage'
