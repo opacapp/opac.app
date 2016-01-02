@@ -33,6 +33,11 @@ INSTALLED_APPS = [
     'cmsplugin_filer_image',
     'cmsplugin_filer_teaser',
     'cmsplugin_filer_video',
+    'cmsplugin_carousel',
+    'cmsplugin_plaintext',
+    'djangocms_table',
+    'cmsplugin_cascade',
+    'opacweb.opaccms'
 ]
 
 THUMBNAIL_PROCESSORS = (
@@ -118,7 +123,12 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
 CMS_TEMPLATES = (
     ('opacappnet/template_main.html', 'Main Template'),
+    ('opacappnet/template_front.html', 'Frontpage Template'),
 )
+CMSPLUGIN_CASCADE_PLUGINS = ('cmsplugin_cascade.bootstrap3',)
+CMSPLUGIN_CASCADE = {
+    'alien_plugins': ('CardPlugin', 'TextPlugin'),
+}
 
 if DEBUG:
     CACHES = {

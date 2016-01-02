@@ -1,0 +1,38 @@
+{% extends "opacappnet/base.html" %}
+{% load cms_tags staticfiles i18n %}
+
+{% block base_content %}
+    <div class="jumbo-header">
+        <div class="container">
+            <div class="screenshots">
+                <img src="{% static "img/nexus5x_shadow.png" %}" class="shadow">
+                <img src="{% static "img/nexus5x_back.png" %}" class="back">
+                {% placeholder screen_carousel %}
+                <img src="{% static "img/nexus5x_glare.png" %}" class="glare">
+            </div>
+            <div class="text">
+                <h1 class="title">
+                    {% placeholder front_title %}
+                </h1>
+
+                <h2 class="slogan">
+                    {% placeholder front_slogan %}
+                </h2>
+
+                <div class="intro">
+                    {% placeholder front_into %}
+                </div>
+                <div class="playbadge">
+                    <a href="https://play.google.com/store/apps/details?id=de.geeksfactory.opacclient">{% spaceless %}
+                        {% if request.LANGUAGE_CODE == "de" %}
+                            <img src="{% static "img/de-play-badge.png" %}">
+                        {% else %}
+                            <img src="{% static "img/en-play-badge.png" %}">
+                        {% endif %}
+                    {% endspaceless %}</a>
+                    <a href="">{% trans "Other ways to get the app" %}</a>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}

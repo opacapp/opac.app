@@ -1,13 +1,19 @@
-html, body {
+body {
     margin: 0;
-    padding: 70px 0 0 0;
+    padding: 50px 0 0 0;
 }
-
-.navbar .dropdown-menu .active > a, .navbar.navbar-default .dropdown-menu .active > a,
-.navbar, .navbar.navbar-default {
+html {
+    margin: 0 !important; /* Django CMS toolbar */
+}
+a, a:focus, a:hover {
+    color: #F44336;
+}
+.navbar .dropdown-menu .active > a, .navbar.navbar-default .dropdown-menu .active > a {
     background-color: #F44336;
 }
-
+.navbar, .navbar.navbar-default {
+    background-color: #D50000;
+}
 .navbar .dropdown-menu li > a:focus, .navbar .dropdown-menu li > a:hover, .navbar.navbar-default .dropdown-menu li > a:focus, .navbar.navbar-default .dropdown-menu li > a:hover,
 .navbar .dropdown-menu .active > a:focus, .navbar .dropdown-menu .active > a:hover, .navbar.navbar-default .dropdown-menu .active > a:focus, .navbar.navbar-default .dropdown-menu .active > a:hover {
     color: #F44336;
@@ -18,4 +24,142 @@ html, body {
     max-height: 100%;
     position: relative;
     top: -2px;
+}
+
+.jumbo-header {
+    width: 100%;
+    background: #F44336;
+    min-height: 600px;
+}
+
+.jumbo-header .text {
+    color: #FFFFFF;
+}
+
+.jumbo-header .screenshots {
+    position: relative;
+    height: 600px;
+    width: 350px;
+    float: left;
+}
+
+.jumbo-header .screenshots img.back,
+.jumbo-header .screenshots img.glare,
+.jumbo-header .screenshots img.shadow {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 600px;
+}
+
+.jumbo-header .carousel {
+    position: absolute;
+    top: 100px;
+    left: 63px;
+    width: 222px;
+}
+
+.jumbo-header .carousel img {
+    width: 222px;
+}
+
+.jumbo-header .carousel-indicators {
+    bottom: -33px;
+}
+
+.jumbo-header .carousel-indicators li, .jumbo-header .carousel-indicators li.active {
+    width: 8px;
+    height: 8px;
+    margin: 1px;
+}
+
+.jumbo-header h1 {
+    font-weight: normal;
+    font-size: 70px;
+}
+
+.jumbo-header h2 {
+    font-weight: 200;
+    font-size: 35px;
+}
+
+.jumbo-header .intro {
+    margin-top: 20px;
+    font-weight: 200;
+    font-size: 20px;
+}
+.jumbo-header .playbadge {
+    padding: 20px;
+}
+.jumbo-header a {
+    color: white;
+}
+.jumbo-header .playbadge img {
+    height: 70px;
+    margin-right: 10px;
+}
+
+.subpage {
+    margin-top: 10px;
+}
+.subpage .card {
+    padding: 20px;
+}
+
+.card h1 {
+    margin-top: 0;
+}
+
+footer {
+    padding: 10px 0;
+    text-align: center;
+    font-size: 12px;
+}
+
+@media (min-width: 768px) {
+    .jumbo-header .text {
+        padding-top: 25px;
+    }
+}
+
+@media (min-width: 1200px) {
+    body {
+        padding: 60px 0 0 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .jumbo-header h1 {
+        font-size: 35px;
+    }
+    .jumbo-header h2 {
+        font-size: 25px;
+    }
+    .jumbo-header .intro {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 370px) {
+    .jumbo-header .screenshots {
+        width: 100%;
+        height: auto;
+    }
+
+    .jumbo-header .screenshots img.shadow {
+        position: static;
+    }
+
+    .jumbo-header .screenshots img.back,
+    .jumbo-header .screenshots img.glare,
+    .jumbo-header .screenshots img.shadow {
+        width: 100%;
+        height: auto;
+    }
+
+    .jumbo-header .carousel {
+        top: 16%;
+        left: 18%;
+        width: 63.4%;
+    }
 }

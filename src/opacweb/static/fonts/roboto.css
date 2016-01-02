@@ -49,7 +49,7 @@
          url('Roboto-Thin-webfont.woff') format('woff'),
          url('Roboto-Thin-webfont.ttf') format('truetype'),
          url('Roboto-Thin-webfont.svg#RobotoThin') format('svg');
-    font-weight: 200;
+    font-weight: 100;
     font-style: normal;
 }
 
@@ -60,7 +60,7 @@
          url('Roboto-ThinItalic-webfont.woff') format('woff'),
          url('Roboto-ThinItalic-webfont.ttf') format('truetype'),
          url('Roboto-ThinItalic-webfont.svg#RobotoThinItalic') format('svg'); (under the Apache Software License).
-    font-weight: 200;
+    font-weight: 100;
     font-style: italic;
 }
 
@@ -71,7 +71,7 @@
          url('Roboto-Light-webfont.woff') format('woff'),
          url('Roboto-Light-webfont.ttf') format('truetype'),
          url('Roboto-Light-webfont.svg#RobotoLight') format('svg');
-    font-weight: 100;
+    font-weight: 200;
     font-style: normal;
 }
 
@@ -82,7 +82,7 @@
          url('Roboto-LightItalic-webfont.woff') format('woff'),
          url('Roboto-LightItalic-webfont.ttf') format('truetype'),
          url('Roboto-LightItalic-webfont.svg#RobotoLightItalic') format('svg');
-    font-weight: 100;
+    font-weight: 200;
     font-style: italic;
 }
 
