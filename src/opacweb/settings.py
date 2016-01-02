@@ -141,3 +141,5 @@ MIGRATION_MODULES = {
     'cmsplugin_filer_teaser': 'cmsplugin_filer_teaser.migrations_django',
     'cmsplugin_filer_video': 'cmsplugin_filer_video.migrations_django',
 }
+
+SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
