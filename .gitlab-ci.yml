@@ -1,0 +1,10 @@
+build:
+    type: deploy
+    script:
+        - docker login -u ciuser -p $DOCKERPW -e admin@rami.io docker.rami.io
+        - docker build -t opacapp/opacweb .
+        - docker tag -f opacapp/opacweb docker.rami.io/opacapp/opacweb:$CI_BUILD_REF_NAME
+        - docker push docker.rami.io/opacapp/opacweb:$CI_BUILD_REF_NAME
+    tags:
+        - docker
+

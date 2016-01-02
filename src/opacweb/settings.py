@@ -35,7 +35,6 @@ INSTALLED_APPS = [
     'cmsplugin_filer_video',
     'cmsplugin_carousel',
     'cmsplugin_plaintext',
-    'djangocms_table',
     'cmsplugin_cascade',
     'opacweb.opaccms'
 ]
@@ -88,8 +87,6 @@ TEMPLATES = [
         },
     },
 ]
-if not DEBUG:
-    TEMPLATES[0]['OPTIONS']['loaders'] = ('django.template.loaders.cached.Loader', TEMPLATES[0]['OPTIONS']['loaders'])
 
 WSGI_APPLICATION = 'opacweb.wsgi.application'
 
@@ -130,9 +127,8 @@ CMSPLUGIN_CASCADE = {
     'alien_plugins': ('CardPlugin', 'TextPlugin'),
 }
 
-if DEBUG:
-    CACHES = {
-        'default': {
-            'BACKEND': 'django.core.cache.backends.dummy.DummyCache',
-        }
+CACHES = {
+    'default': {
+        'BACKEND': 'django.core.cache.backends.dummy.DummyCache',
     }
+}

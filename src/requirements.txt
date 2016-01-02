@@ -13,6 +13,10 @@ Pillow
 django-reversion~=1.9.0
 djangocms-bootstrap3
 cmsplugin-bootstrap-carousel
+cmsplugin-plaintext
 djangocms-cascade
-git+git://github.com/MagicSolutions/django-orderedmodel.git@0.1.5#egg=django-orderedmodel-0.1.5
+git+git://github.com/MagicSolutions/django-orderedmodel.git@0.1.5#egg=django-orderedmodel
 git+git://github.com/raphaelm/cmsplugin-carousel.git#egg=cmsplugin-carousel
+
+# Deployment
+gunicorn
