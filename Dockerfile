@@ -35,6 +35,7 @@ RUN chmod +x /usr/local/bin/opacweb
 
 WORKDIR /code/opacweb
 RUN mkdir /data/logs
+ENV DJANGO_SETTINGS_MODULE opacweb.local_settings
 RUN python3 manage.py collectstatic --noinput
 
 VOLUME /data
