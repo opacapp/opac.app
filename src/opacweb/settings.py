@@ -21,8 +21,26 @@ INSTALLED_APPS = [
     'treebeard',  # utilities for implementing a tree
     'menus',  # helper for model independent hierarchical website navigation
     'sekizai',  # for JavaScript and CSS management
-    'reversion'
+    'reversion',
+
+    'djangocms_text_ckeditor',
+    'djangocms_snippet',
+    'cms_bootstrap3',
+    'filer',
+    'easy_thumbnails',
+    'cmsplugin_filer_file',
+    'cmsplugin_filer_folder',
+    'cmsplugin_filer_image',
+    'cmsplugin_filer_teaser',
+    'cmsplugin_filer_video',
 ]
+
+THUMBNAIL_PROCESSORS = (
+    'easy_thumbnails.processors.colorspace',
+    'easy_thumbnails.processors.autocrop',
+    'filer.thumbnail_processors.scale_and_crop_with_subject_location',
+    'easy_thumbnails.processors.filters',
+)
 
 MIDDLEWARE_CLASSES = [
     'cms.middleware.utils.ApphookReloadMiddleware',
@@ -49,7 +67,6 @@ TEMPLATES = [
         'DIRS': [
             os.path.join(BASE_DIR, 'opacweb/templates')
         ],
-        'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
                 'django.template.context_processors.debug',
@@ -59,9 +76,15 @@ TEMPLATES = [
                 'sekizai.context_processors.sekizai',
                 'cms.context_processors.cms_settings',
             ],
+            'loaders': [
+                'django.template.loaders.filesystem.Loader',
+                'django.template.loaders.app_directories.Loader',
+            ]
         },
     },
 ]
+if not DEBUG:
+    TEMPLATES[0]['OPTIONS']['loaders'] = ('django.template.loaders.cached.Loader', TEMPLATES[0]['OPTIONS']['loaders'])
 
 WSGI_APPLICATION = 'opacweb.wsgi.application'
 
@@ -74,10 +97,10 @@ DATABASES = {
 
 SITE_ID = 1
 
-LANGUAGE_CODE = 'en-us'
+LANGUAGE_CODE = 'en'
 LANGUAGES = (
     ('de', 'Deutsch'),
-    ('en-us', 'English')
+    ('en', 'English')
 )
 TIME_ZONE = 'Europe/Berlin'
 USE_I18N = True
@@ -86,6 +109,9 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+STATICFILES_DIRS = [
+    os.path.join(BASE_DIR, 'opacweb/static')
+]
 
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
@@ -93,3 +119,10 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 CMS_TEMPLATES = (
     ('opacappnet/template_main.html', 'Main Template'),
 )
+
+if DEBUG:
+    CACHES = {
+        'default': {
+            'BACKEND': 'django.core.cache.backends.dummy.DummyCache',
+        }
+    }

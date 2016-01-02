@@ -14,3 +14,4 @@ django-filer~=1.0.6
 cmsplugin-filer~=1.0.0
 Pillow
 django-reversion~=1.9.0
+djangocms-bootstrap3

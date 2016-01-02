@@ -1,0 +1,21 @@
+html, body {
+    margin: 0;
+    padding: 70px 0 0 0;
+}
+
+.navbar .dropdown-menu .active > a, .navbar.navbar-default .dropdown-menu .active > a,
+.navbar, .navbar.navbar-default {
+    background-color: #F44336;
+}
+
+.navbar .dropdown-menu li > a:focus, .navbar .dropdown-menu li > a:hover, .navbar.navbar-default .dropdown-menu li > a:focus, .navbar.navbar-default .dropdown-menu li > a:hover,
+.navbar .dropdown-menu .active > a:focus, .navbar .dropdown-menu .active > a:hover, .navbar.navbar-default .dropdown-menu .active > a:focus, .navbar.navbar-default .dropdown-menu .active > a:hover {
+    color: #F44336;
+}
+
+.navbar-brand img {
+    display: inline-block;
+    max-height: 100%;
+    position: relative;
+    top: -2px;
+}
