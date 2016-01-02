@@ -20,3 +20,4 @@ git+git://github.com/raphaelm/cmsplugin-carousel.git#egg=cmsplugin-carousel
 
 # Deployment
 gunicorn
+whitenoise

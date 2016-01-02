@@ -99,3 +99,5 @@ CACHES = {
 }
 
 ALLOWED_HOSTS = ['opacapp.de', 'opacapp.net', 'new.opacapp.net', 'www.opacapp.de', 'www.opacapp.net']
+
+STATICFILES_STORAGE = 'whitenoise.django.GzipManifestStaticFilesStorage'
