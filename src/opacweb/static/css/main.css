@@ -166,10 +166,10 @@ footer {
 
 /* Contact info */
 .contact-info hr {
-    width: -webkit-calc(100% - 67px);
-    width: calc(100% - 67px);
+    width: -webkit-calc(100% - 47px);
+    width: calc(100% - 47px);
     text-align: right;
-    margin: 0 0 0 auto;
+    margin: 0 -20px 0 auto;
 }
 
 .contact-info .contact-info-line {
