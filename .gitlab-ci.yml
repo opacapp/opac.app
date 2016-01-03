@@ -1,5 +1,5 @@
 build:
-    type: deploy
+    type: build
     script:
         - docker login -u ciuser -p $DOCKERPW -e admin@rami.io docker.rami.io
         - docker build -t opacapp/opacweb .
@@ -15,3 +15,7 @@ deploy:
         - master
     tags:
         - docker
+stages:
+    - build
+    - test
+    - deploy
