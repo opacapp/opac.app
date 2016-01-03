@@ -100,13 +100,13 @@ a, a:focus, a:hover {
 }
 
 .subpage {
-    margin-top: 10px;
+    margin-top: 20px;
 }
 .subpage .card {
     padding: 20px;
 }
 
-.card h1 {
+.card h1, .card h2 {
     margin-top: 0;
 }
 
