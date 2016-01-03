@@ -7,4 +7,11 @@ build:
         - docker push docker.rami.io/opacapp/opacweb:$CI_BUILD_REF_NAME
     tags:
         - docker
-
+deploy:
+    type: deploy
+    script:
+        - ssh -o UserKnownHostsFile=/keys/known_hosts -i /keys/opacweb_deploy root@butler.rami.io
+    only:
+        - master
+    tags:
+        - docker
