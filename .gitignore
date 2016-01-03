@@ -5,3 +5,4 @@ media/
 *~
 *.pyc
 *.sqlite3
+*.mo

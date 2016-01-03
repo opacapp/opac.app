@@ -38,6 +38,7 @@ RUN mkdir /data/logs
 ENV DJANGO_SETTINGS_MODULE opacweb.local_settings
 RUN mkdir /static
 RUN python3 manage.py collectstatic --noinput
+RUN python3 manage.py compilemessages
 
 VOLUME /data
 
