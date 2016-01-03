@@ -203,3 +203,13 @@ footer {
 .contact-info .contact-info-line.single-line .contact-info-icon {
     padding-top: 0;
 }
+
+/* Cards (overriding bootstrap-material-design's .card class) */
+.card {
+    /* Source for box-shadow code: Material Design Lite
+       https://github.com/google/material-design-lite/blob/f8cda2eb61954a787f0f2a5ef128a7abbc92f22e/src/_mixins.scss#L231 */
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14),
+              0 3px 1px -2px rgba(0, 0, 0, 0.2),
+              0 1px 5px 0 rgba(0, 0, 0, 0.12);
+    /* TODO: Add vendor prefixes (can Django do this automatically?) */
+}
