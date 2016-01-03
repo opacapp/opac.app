@@ -20,6 +20,9 @@ fi
 
 if [ "$1" == "web" ]; then
 	python3 manage.py migrate --noinput
+	python3 manage.py collectstatic --noinput
+	python3 manage.py compilemessages
+	
     exec gunicorn ${DJANGO_WSGI_MODULE}:application \
         --name $NAME \
         --workers $NUM_WORKERS \
@@ -36,5 +39,9 @@ if [ "$1" == "test" ]; then
     exec python3 manage.py test explorer
 fi
 
-echo "Specify argument: web|shell|test"
+if [ "$1" == "all" ]; then
+	/usr/bin/supervisord
+fi
+
+echo "Specify argument: all|web|shell|test"
 exit 1

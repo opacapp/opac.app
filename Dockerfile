@@ -8,7 +8,7 @@ RUN apt-get update && apt-get install -y python3 git python3-pip \
 	libxml2-dev libxslt1-dev python-dev python-virtualenv locales libffi-dev \
 	build-essential python3-dev zlib1g-dev libssl-dev npm gettext git \
 	libpq-dev libmysqlclient-dev libmemcached-dev libjpeg-dev libmysqlclient-dev \
-	--no-install-recommends
+	memcached supervisor --no-install-recommends
 
 RUN dpkg-reconfigure locales && \
 	locale-gen C.UTF-8 && \
@@ -33,12 +33,13 @@ COPY docker/local_settings.py /code/opacweb/opacweb/local_settings.py
 COPY docker/entrypoint.sh /usr/local/bin/opacweb
 RUN chmod +x /usr/local/bin/opacweb
 
+COPY docker/supervisord.conf /etc/supervisor/supervisord.conf
+RUN useradd -ms /bin/false memcached
+
 WORKDIR /code/opacweb
 RUN mkdir /data/logs
 ENV DJANGO_SETTINGS_MODULE opacweb.local_settings
 RUN mkdir /static
-RUN python3 manage.py collectstatic --noinput
-RUN python3 manage.py compilemessages
 
 VOLUME /data
 
