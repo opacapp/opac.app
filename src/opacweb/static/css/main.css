@@ -74,19 +74,19 @@ a, a:focus, a:hover {
 }
 
 .jumbo-header h1 {
-    font-weight: normal;
-    font-size: 70px;
-}
-
-.jumbo-header h2 {
-    font-weight: 200;
-    font-size: 35px;
+    /* Material Guidelines "Display 4" style */
+    font-size: 112px;
+    font-weight: 300;
+    line-height: 1;
+    letter-spacing: -0.04em;
 }
 
 .jumbo-header .intro {
-    margin-top: 20px;
-    font-weight: 200;
-    font-size: 20px;
+    /* Material Guidelines "Subhead" style (= h6) */
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.04em;
 }
 .jumbo-header .playbadge {
     padding: 20px;
