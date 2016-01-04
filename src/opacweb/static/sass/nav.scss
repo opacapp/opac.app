@@ -1,0 +1,52 @@
+.navbar-fixed {
+  width: 100vw;
+
+  .brand-logo {
+    height: 100%;
+  }
+
+  .brand-logo img {
+    max-height: 80%;
+    position: relative;
+    top: 10%;
+  }
+
+  .brand-logo span {
+    max-height: 80%;
+    position: relative;
+    top: -7px;
+  }
+
+  .nav-container {
+    margin: 0 auto;
+    max-width: 1280px;
+  }
+
+  @media #{$large-and-up} {
+    .nav-container {
+      width: 70%;
+    }
+  }
+
+  .button-collapse {
+    padding: 0 16px;
+  }
+
+  nav {
+    top: 0;
+    width: 100vw;
+  }
+}
+.side-nav {
+  li {
+    padding: 0;
+    a {
+      padding: 0 15px;
+      width: 100%;
+    }
+  }
+}
+.dropdown-content li > a {
+  display: block;
+}
+
