@@ -3,10 +3,10 @@
 <head>
     <title>{% page_attribute "page_title" %}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    {% render_block "css" postprocessor "compressor.contrib.sekizai.compress" %}
+    {% render_block "css" %}
     {% compress css %}
         <link rel="stylesheet" href="{% static 'sass/materialize.scss' %}" type="text/x-scss">
-        <link rel="stylesheet" href="{% static 'css/main.css' %}" type="text/css">
+        <link rel="stylesheet" href="{% static 'sass/main.scss' %}" type="text/x-scss">
     {% endcompress %}
 </head>
 <body>
@@ -60,11 +60,6 @@
     <script src="{% static 'js/jquery.min.js' %}" type="text/javascript"></script>
     <script src="{% static 'js/materialize.js' %}" type="text/javascript"></script>
 {% endcompress %}
-<script type="text/javascript">
-    $(function () {
-        $.material.init();
-    });
-</script>
-{% render_block "js" postprocessor "compressor.contrib.sekizai.compress" %}
+{% render_block "js" %}
 </body>
 </html>
