@@ -18,7 +18,7 @@ $mdi-prefix : 'mdi-';
     font-style: normal;
 }
 
-[class^="mdi-"], [class*="mdi-"] {
+[class^="mdi-"], [class*="mdi-"], .material-icons {
     speak: none;
     display: inline-block;
     font-family: "Material-Design-Icons";
@@ -26,6 +26,7 @@ $mdi-prefix : 'mdi-';
     font-weight: normal;
     font-variant: normal;
     text-rendering: auto;
+    vertical-align: middle;
     /* Better Font Rendering =========== */
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;

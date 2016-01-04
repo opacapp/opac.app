@@ -1,37 +1,57 @@
-.material-icons {
-  font-family: 'Material-Design-Icons';
-  font-weight: normal;
-  font-style: normal;
-  font-size: 24px; /* Preferred icon size */
-  display: inline-block;
-  width: 1em;
-  height: 1em;
-  line-height: 1;
-  text-transform: none;
-  letter-spacing: normal;
-  word-wrap: normal;
-  white-space: nowrap;
-  direction: ltr;
+@import "materialize";
 
-  /* Support for all WebKit browsers. */
-  -webkit-font-smoothing: antialiased;
-  /* Support for Safari and Chrome. */
-  text-rendering: optimizeLegibility;
+.navbar-fixed {
+  width: 100vw;
 
-  /* Support for Firefox. */
-  -moz-osx-font-smoothing: grayscale;
+  li a {
+    
+  }
 
-  /* Support for IE. */
-  font-feature-settings: 'liga';
+  .brand-logo {
+    height: 100%;
+  }
+
+  .brand-logo img {
+    max-height: 80%;
+    position: relative;
+    top: 10%;
+  }
+
+  .brand-logo span {
+    max-height: 80%;
+    position: relative;
+    top: -7px;
+  }
+
+  .nav-container {
+    margin: 0 auto;
+    max-width: 1280px;
+  }
+
+  @media #{$large-and-up} {
+    .nav-container {
+      width: 70%;
+    }
+  }
+
+  .button-collapse {
+    padding: 0 16px;
+  }
+
+  nav {
+    top: 0;
+    width: 100vw;
+  }
 }
-
-.brand-logo img {
-  display: inline-block;
-  max-height: 64px;
-  position: relative;
-  top: -2px;
+.side-nav {
+  li {
+    padding: 0;
+    a {
+      padding: 0 15px;
+      width: 100%;
+    }
+  }
 }
-
-.navbar-fixed nav {
-  top: 0;
+.dropdown-content li > a {
+  display: block;
 }

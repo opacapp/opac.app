@@ -5,61 +5,60 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     {% render_block "css" %}
     {% compress css %}
-        <link rel="stylesheet" href="{% static 'sass/materialize.scss' %}" type="text/x-scss">
         <link rel="stylesheet" href="{% static 'sass/main.scss' %}" type="text/x-scss">
     {% endcompress %}
 </head>
 <body>
-{% cms_toolbar %}
-<div class="navbar-fixed">
-    <nav>
-        <div class="nav-wrapper">
-            <div class="brand-logo">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse">
-                    <span class="sr-only">{% trans "Toggle navigation" %}</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="{% url 'pages-root' %}">
-                    <img src="{% static "img/logo.png" %}" alt="{% trans "Web Opac App" %}">
-                    {% trans "Web Opac App" %}
-                </a>
-            </div>
-        </div>
-    </nav>
-    <div class="container">
-        <div class="collapse navbar-collapse" id="navbar-collapse">
-            <ul class="nav navbar-nav">
-                {% main_menu %}
-            </ul>
-            <ul class="nav navbar-nav navbar-right">
-                <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                        Language
-                        <b class="caret"></b>
+    {% cms_toolbar %}
+    <ul class="dropdown-content" id="dropdown-language">
+        {% language_chooser %}
+    </ul>
+    <div class="navbar-fixed">
+        <nav>
+            <div class="nav-wrapper nav-container">
+                <div class="brand-logo">
+                    <a href="{% url 'pages-root' %}">
+                        <img src="{% static "img/logo.png" %}" alt="{% trans "Web Opac App" %}">
+                        <span>{% trans "Web Opac App" %}</span>
                     </a>
-                    <ul class="dropdown-menu">
-                        {% language_chooser %}
-                    </ul>
-                </li>
-            </ul>
+                </div>
+                <a href="#" data-activates="mobile-nav" class="button-collapse">
+                    <i class="material-icons">&#xE5D2;</i>
+                </a>
+                <ul id="nav-mobile" class="right hide-on-med-and-down">
+                    {% main_menu %}
+                    <li>
+                        <a class="dropdown-button" href="#!" data-activates="dropdown-language">
+                            Language <span class="material-icons">&#xE5C5;</span>
+                        </a>
+                    </li>
+                </ul>
+                <ul class="side-nav" id="mobile-nav">
+                    {% main_menu %}
+                    <li class="divider"></li>
+                    {% language_chooser %}
+                </ul>
+            </div>
+        </nav>
+    </div>
+    {% block base_content %}{% endblock %}
+    <footer>
+        <div class="container">
+            built with ♥ by <a href="https://rami.io">rami.io</a> / <a href="https://www.raphaelmichel.de">Raphael
+            Michel</a><br/>
+            Android, Google Play and the Google Play logo are trademarks of Google Inc.<br/>
+            Font Roboto by Google, Apache License &middot; App Icon by <a href="http://eiszblu.me">Raphael Pohl</a>
         </div>
-    </div>
-</div>
-{% block base_content %}{% endblock %}
-<footer>
-    <div class="container">
-        built with ♥ by <a href="https://rami.io">rami.io</a> / <a href="https://www.raphaelmichel.de">Raphael
-        Michel</a><br/>
-        Android, Google Play and the Google Play logo are trademarks of Google Inc.<br/>
-        Font Roboto by Google, Apache License &middot; App Icon by <a href="http://eiszblu.me">Raphael Pohl</a>
-    </div>
-</footer>
-{% compress js %}
-    <script src="{% static 'js/jquery.min.js' %}" type="text/javascript"></script>
-    <script src="{% static 'js/materialize.js' %}" type="text/javascript"></script>
-{% endcompress %}
-{% render_block "js" %}
+    </footer>
+    {% compress js %}
+        <script src="{% static 'js/jquery.min.js' %}" type="text/javascript"></script>
+        <script src="{% static 'js/materialize.js' %}" type="text/javascript"></script>
+        <script type="text/javascript">
+            jQuery(function ($) {
+                $(".button-collapse").sideNav();
+            });
+        </script>
+    {% endcompress %}
+    {% render_block "js" %}
 </body>
 </html>
