@@ -17,12 +17,18 @@ if [ ! -d /data/media ]; then
     mkdir /data/media;
 fi
 
+if [ "$1" == "init" ]; then
+    /usr/bin/memcached -p 11211 -u memcached -m 256 -c 1024 -t 4 &
+	sleep 1
+	python3 manage.py collectstatic --noinput
+	python3 manage.py compress
+	python3 manage.py compilemessages
+	kill $!  # kill memcached
+	exit 0
+fi
 
 if [ "$1" == "web" ]; then
 	python3 manage.py migrate --noinput
-	python3 manage.py collectstatic --noinput
-	python3 manage.py compilemessages
-	
     exec gunicorn ${DJANGO_WSGI_MODULE}:application \
         --name $NAME \
         --workers $NUM_WORKERS \
@@ -40,8 +46,8 @@ if [ "$1" == "test" ]; then
 fi
 
 if [ "$1" == "all" ]; then
-	/usr/bin/supervisord
+	exec /usr/bin/supervisord
 fi
 
-echo "Specify argument: all|web|shell|test"
+echo "Specify argument: all|init|web|shell|test"
 exit 1

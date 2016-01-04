@@ -1,4 +1,6 @@
 Django==1.8.*
+django-compressor
+django-libsass
 
 # Django CMS requirements
 django-cms~=3.2.0
@@ -22,3 +24,5 @@ git+git://github.com/raphaelm/cmsplugin-carousel.git#egg=cmsplugin-carousel
 gunicorn
 whitenoise
 pylibmc
+slimit
+csscompressor
