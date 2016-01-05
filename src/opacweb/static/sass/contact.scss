@@ -1,0 +1,40 @@
+.contact-info {
+  hr {
+    width: -webkit-calc(100% - 47px);
+    width: calc(100% - 47px);
+    text-align: right;
+    margin: 0 -20px 0 auto;
+  }
+
+  .contact-info-line {
+    position: relative;
+    padding-left: 67px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+
+  .contact-info-line.single-line {
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+
+  .contact-info-line p {
+    margin: 0;
+  }
+
+  .contact-info-line p.secondary {
+    color: rgba(0,0,0,.54);
+  }
+
+  .contact-info-line .contact-info-icon  {
+    left: 0;
+    position: absolute;
+    height: 100%;
+    padding-top: 8px;
+    color: #D50000;
+  }
+
+  .contact-info-line.single-line .contact-info-icon {
+    padding-top: 0;
+  }
+}
