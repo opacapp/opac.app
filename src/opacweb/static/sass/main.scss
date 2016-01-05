@@ -8,3 +8,14 @@
 html {
   margin: 0 !important; /* Django CMS toolbar */
 }
+
+/* Sticky footer (stays at the bottom even on tall screens with short pages) */
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.subpage {
+  flex: 1 0 auto;
+}
