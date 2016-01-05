@@ -1,6 +1,8 @@
 {% load cms_tags %}
 <div class="card">
-    {% for plugin in instance.child_plugin_instances %}
-        {% render_plugin plugin %}
-    {% endfor %}
+    <div class="card-content">
+        {% for plugin in instance.child_plugin_instances %}
+            {% render_plugin plugin %}
+        {% endfor %}
+    </div>
 </div>
