@@ -31,3 +31,27 @@
     }
   }
 }
+
+.table-of-contents-static {
+  border-left: 5px solid $primary-color-light;
+  padding-left: 20px;
+  margin-top: 18px;
+  margin-bottom: 48px;
+  ul {
+    margin: 0;
+    a {
+      display: inline-block;
+      font-size: 20px;
+      line-height: 40px;
+      color: $primary-color-light;
+    }
+  }
+  h3 {
+    font-size: 15px;
+    line-height: 16px;
+    padding-bottom: 12px;
+    font-weight: 400;
+    color: #757575;
+    margin: 0;
+  }
+}
