@@ -2,4 +2,8 @@
 @import "nav";
 @import "bootstrap-carousel";
 @import "frontpage";
+@import "footer";
 
+html {
+  margin: 0 !important; /* Django CMS toolbar */
+}
