@@ -31,9 +31,22 @@
   border-bottom: 1px solid $collapsible-border-color;
   box-sizing: border-box;
 
-  p {
-    margin: 0;
+  & > p {
+    margin: 2rem;
+    padding: 0;
+  }
+
+  .collapsible-inner {
     padding: 2rem;
+    p {
+      margin: 1rem 0;
+    }
+    p:first-child {
+      margin-top: 0;
+    }
+    p:last-child {
+      margin-bottom: 0;
+    }
   }
 }
 
