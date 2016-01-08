@@ -21,3 +21,11 @@ body {
   flex: 1 0 auto;
   padding-top: 20px;
 }
+
+h2 {
+  font-size: 3rem;
+}
+
+.card h2:first-child {
+  margin-top: 0;
+}
