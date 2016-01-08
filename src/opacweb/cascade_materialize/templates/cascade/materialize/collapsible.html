@@ -1,0 +1,21 @@
+{% load static cms_tags %}
+{% spaceless %}
+    {% with inline_styles=instance.inline_styles %}
+        <ul id="cmsplugin_{{ instance.id }}" class="{{ instance.css_classes }}"
+                {% if inline_styles %} style="{{ inline_styles }}"{% endif %}>
+            {% for panel in instance.child_plugin_instances %}
+                {% with panel_title=panel.glossary.panel_title|safe %}
+                    <li>
+                        <div class="collapsible-header{% if forloop.first  and instance.glossary.first_is_open = "on" %} active{% endif %}">
+                            {{ panel_title }}
+                        </div>
+                        <div class="collapsible-body">
+                            <div class="collapsible-inner">
+                                {% render_plugin panel %}
+                            </div>
+                        </div>
+                    </li>
+                {% endwith %}
+            {% endfor %}
+        </ul>
+    {% endwith %}{% endspaceless %}

@@ -3,7 +3,7 @@ from __future__ import unicode_literals
 from django.utils.translation import ugettext_lazy as _
 from cmsplugin_cascade.settings import cascade_config, orig_config
 
-CASCADE_PLUGINS = ('container', )
+CASCADE_PLUGINS = ('container', 'collapsible')
 
 cascade_config['materialize'] = {
     'breakpoints': (
