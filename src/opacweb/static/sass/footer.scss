@@ -1,9 +1,26 @@
 
-.page-footer {
+footer.page-footer {
+
   a {
     color: white;
     &:hover {
       text-decoration: underline;
+    }
+  }
+
+  p {
+    margin-bottom: 0;
+  }
+
+  .footer-copyright {
+    height: 70px;
+    line-height: 70px;
+    .container {
+      height: 100%;
+      img {
+        height: 100%;
+        width: auto;
+      }
     }
   }
 }
