@@ -12,15 +12,9 @@ footer.page-footer {
     margin-bottom: 0;
   }
 
-  .footer-copyright {
-    height: 70px;
-    line-height: 70px;
-    .container {
-      height: 100%;
-      img {
-        height: 100%;
-        width: auto;
-      }
-    }
+  .logo img {
+    height: 65px;
+    width: auto;
   }
+
 }
