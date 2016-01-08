@@ -38,7 +38,9 @@ INSTALLED_APPS = [
     'cmsplugin_carousel',
     'cmsplugin_plaintext',
     'cmsplugin_cascade',
-    'opacweb.opaccms'
+
+    'opacweb.opaccms',
+    'opacweb.cascade_materialize'
 ]
 
 THUMBNAIL_PROCESSORS = (
@@ -139,10 +141,6 @@ CMS_TEMPLATES = (
     ('opacappnet/template_main.html', 'Main Template'),
     ('opacappnet/template_front.html', 'Frontpage Template'),
 )
-CMSPLUGIN_CASCADE_PLUGINS = ('cmsplugin_cascade.bootstrap3',)
-CMSPLUGIN_CASCADE = {
-    'alien_plugins': ('CardPlugin', 'TextPlugin'),
-}
 
 CACHES = {
     'default': {
@@ -160,3 +158,9 @@ MIGRATION_MODULES = {
 }
 
 SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
+
+# Materialize.css
+CMSPLUGIN_CASCADE_PLUGINS = ('opacweb.cascade_materialize', 'cmsplugin_cascade.bootstrap3')
+CMSPLUGIN_CASCADE = {
+    'alien_plugins': ('CardPlugin', 'TextPlugin'),
+}
