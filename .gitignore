@@ -6,3 +6,12 @@ media/
 *.pyc
 *.sqlite3
 *.mo
+node_modules/
+_site
+.sass-cache
+.jekyll-metadata
+node_modules
+.idea
+shared/css/flat-ui.css
+shared/css/flat-ui.min.css
+Thumbs.db
