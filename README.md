@@ -1,7 +1,7 @@
 opacapp.net Website
 ===================
 
-This repo contains the source code for the website [opacapp.net](https://oapcapp.net).
+This repo contains the source code for the website [opacapp.net](https://opacapp.net).
 
 The website design is based on [Flat UI Free](http://designmodo.github.io/Flat-UI/) by Designmodo, which itself is based on [Twitter Bootstrap](http://getbootstrap.com/) and also uses the following libraries:
 
