@@ -10,32 +10,32 @@ siteurl: ""
 markdown: kramdown
 redcarpet:
     extensions: [footnotes]
-permalink: /:path/:basename
+permalink: /:path/:basename/
 
 navigation_de:
   - title: Startseite
     url: /de/
   - title: Liste der Bibliotheken
-    url: /de/bibliotheken
+    url: /de/bibliotheken/
   - title: Für Bibliotheken
-    url: /de/fuer-bibliotheken
+    url: /de/fuer-bibliotheken/
   - title: FAQ
-    url: /de/faq
+    url: /de/faq/
   - title: Open Source
-    url: /de/opensource
+    url: /de/opensource/
   - title: Kontakt
-    url: /de/kontakt
+    url: /de/kontakt/
 
 navigation_en:
   - title: Front page
     url: /en/
   - title: Library list
-    url: /en/libraries
+    url: /en/libraries/
   - title: For libraries
-    url: /en/for-libraries
+    url: /en/for-libraries/
   - title: FAQ
-    url: /en/faq
+    url: /en/faq/
   - title: Open Source
-    url: /en/opensource
+    url: /en/opensource/
   - title: Contact
-    url: /en/contact
+    url: /en/contact/

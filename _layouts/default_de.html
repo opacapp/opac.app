@@ -19,12 +19,8 @@
                 {% assign current_page = nil %}
                 {% for link in site.navigation_de %}
                     {% assign current = '' %}
-                    {% if page.url == "/" and link.url == "/index.html" %}
-                        {% assign current = 'current' %}
-                        {% assign current_page = link %}
-                    {% endif %}
-                    {% if page.url contains link.url %}
-                        {% assign current = 'current' %}
+                    {% if page.url == link.url %}
+                        {% assign current = 'active' %}
                         {% assign current_page = link %}
                     {% endif %}
                     <li class="menu-item {{ current }}">
@@ -39,12 +35,8 @@
                 {% assign current_page = nil %}
                 {% for link in site.navigation_de %}
                     {% assign current = '' %}
-                    {% if page.url == "/" and link.url == "/index.html" %}
-                        {% assign current = 'current' %}
-                        {% assign current_page = link %}
-                    {% endif %}
-                    {% if page.url contains link.url %}
-                        {% assign current = 'current' %}
+                    {% if page.url == link.url %}
+                        {% assign current = 'active' %}
                         {% assign current_page = link %}
                     {% endif %}
                     <li class="menu-item {{ current }}">

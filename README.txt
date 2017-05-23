@@ -1,10 +1,11 @@
 Dependencies:
 
-
-gem install kramdown
-gem install jekyll
-
+    gem install kramdown jekyll sass
 
 Lokal ausführen:
 
-jekyll serve --watch
+    jekyll serve --watch
+
+CSS neu bauen:
+
+    make

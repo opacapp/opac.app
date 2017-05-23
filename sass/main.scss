@@ -5,10 +5,6 @@
 @import "contact";
 @import "dividers";
 
-html {
-  margin: 0 !important; /* Django CMS toolbar */
-}
-
 /* Sticky footer (stays at the bottom even on tall screens with short pages) */
 body {
   display: flex;
@@ -21,11 +17,6 @@ body {
   padding-top: 20px;
 }
 
-h2 {
-  font-size: 3rem;
-}
-
-.card h2:first-child, .card h3:first-child {
+.card h1:first-child, .card h2:first-child, .card h3:first-child {
   margin-top: 0;
 }
-

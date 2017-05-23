@@ -1,0 +1,16 @@
+* Fancy frontpage
+* All contents
+    * DE
+    * EN
+    * Hidden pages
+        * werbematerial
+        * download
+        * kompatibilitaet
+        * impressum
+        * privacy
+        * ...
+* Deploy
+* Make redirects from old pages
+* Fix responsiveness of footer
+* library list/map
+* overall style review
