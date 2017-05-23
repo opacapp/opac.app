@@ -1,0 +1,41 @@
+# Site settings
+title: Web Opac App
+email: info@opacapp.net
+description: "Public libraries on android"
+baseurl: ""
+url: "https://opacapp.net"
+siteurl: ""
+
+# Build settings
+markdown: kramdown
+redcarpet:
+    extensions: [footnotes]
+permalink: /:path/:basename
+
+navigation_de:
+  - title: Startseite
+    url: /de/
+  - title: Liste der Bibliotheken
+    url: /de/bibliotheken
+  - title: Für Bibliotheken
+    url: /de/fuer-bibliotheken
+  - title: FAQ
+    url: /de/faq
+  - title: Open Source
+    url: /de/opensource
+  - title: Kontakt
+    url: /de/kontakt
+
+navigation_en:
+  - title: Front page
+    url: /en/
+  - title: Library list
+    url: /en/libraries
+  - title: For libraries
+    url: /en/for-libraries
+  - title: FAQ
+    url: /en/faq
+  - title: Open Source
+    url: /en/opensource
+  - title: Contact
+    url: /en/contact

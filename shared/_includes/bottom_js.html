@@ -1,7 +1,0 @@
-<script type="text/javascript" src='{{ "/js/vendor/jquery.min.js" | prepend: site.baseurl }}'></script>
-<script type="text/javascript" src='{{ "/js/flat-ui.min.js" | prepend: site.baseurl }}'></script>
-<script type="text/javascript" src='{{ "/js/vendor/html5shiv.min.js" | prepend: site.baseurl }}'></script>
-<script type="text/javascript" src='{{ "/js/vendor/respond.min.js" | prepend: site.baseurl }}'></script>
-{% for js in page.customjs %}
-<script type="text/javascript" src="{{ js }}"></script>
-{% endfor %}

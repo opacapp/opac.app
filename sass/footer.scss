@@ -1,0 +1,20 @@
+
+footer.page-footer {
+
+  a {
+    color: white;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  p {
+    margin-bottom: 0;
+  }
+
+  .logo img {
+    height: 65px;
+    width: auto;
+  }
+
+}
