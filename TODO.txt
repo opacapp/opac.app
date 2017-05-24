@@ -1,8 +1,9 @@
 * All contents
     * DE
         * Fancy frontpage
-        * library list/map
-            * Suggestion form
+            * responsive
+        * Feature page
+        * library suggestion form?
         * werbematerial   --  create new
         * ...
     * EN
