@@ -2,8 +2,23 @@
 layout: singlecard_de
 ---
 
-Open Source
+Datenschutz
 ===========
+
+Die App
+-------
+
+Sämtliche Kommunikation findet direkt zwischen der App und dem Server deiner Bibliothek statt.
+**Wir speichern keine Daten über dein Nutzungsverhalten, da wir auch keine zu sehen bekommen.**
+Weder getätigte Suchanfragen, noch Ausweisdaten. Was der Server der Bibliothek speichert, wissen wir nicht – für
+diese Information muss man sich an die Bibliothek wenden.
+Die App kommuniziert jedoch in regelmäßigen Abständen mit unserem Server, um die Informationen über die vielen
+Bibliotheken aktuell zu halten. Desweiteren schickt uns die App in einigen Fällen eine Meldung an den Server, wenn ein
+Fehler auftritt. Hierbei werden niemals personenbezogene Daten erhoben oder gespeichert.
+Weitere Ausnahme in manchen Bibliotheken: Wenn man über das Menü in der App ein Suchergebnisse verschickt, dann nimmt
+der Link, auf den der Empfänger klickt, manchmal einen Umweg über unsere Website. Das liegt daran, dass diese
+„Teilen“-Funktion etwas ist, was einige Bibliothekssysteme eigentlich gar nicht können, und was wir deswegen über
+diesen kleinen Umweg nachbauen müssen. In diesem Fall greift die Datenschutzerklärung von weiter unten.
 
 Die Opac App ist freie Software, und zwar frei wie in „Freiheit“, nicht wie in „Freibier“, wie man es oft erklärt
 bekommt: Sie ist nicht nur kostenlos, sondern der Programmcode ist im Rahmen der MIT-Lizenz frei verfügbar und damit ist
@@ -14,15 +29,16 @@ den verbesserten Programmcode einschicken. Wir bedanken uns an dieser Stelle bei
 die Einsendung von Programmcode zur Unterstützung weiterer Bibliothekssysteme.
 Der Quellcode und weitere Informationen hierzu sind auf [GitHub](https://github.com/raphaelm/opacclient) zu finden, Bugreports und Pull Requests sind gerne gesehen.
 
-Und warum dann doch eine kommerzielle Variante?
------------------------------------------------
+Die Website
+-----------
 
-Die Idee, eine gesonderte Version zu verkaufen, die auf einzelne Bibliotheken zugeschnitten wurde, stammt nicht einmal
-von uns, sondern von Bibliotheken. Diese zugeschnittenen Versionen sind zwar selbst nicht Open Source, basieren aber
-vollständig auf der Open Source Variante und enthalten nur einige zusätzliche Funktionen. Sämtliche Verbesserungen am
-Kern und an den Funktionen, die in der Open Source Variante enthalten sind, fließen schon aus technischen Gründen
-ausnahmslos und sofort in die Open Source Variante zurück. Die Open Source Variante wird aktiv weiterentwickelt und um
-Funktionen erweitert und sie wird niemals zu Gunsten eines kommerziellen Projekts komplett eingestellt werden, eher ist
-das kommerzielle Projekt dazu da, die Existenz der Open Source Variante langfristig zu sichern. Die App in der Form, in
-der sie als „Web Opac: [Zahl] Bibliotheken“ im Play Store erhältlich ist, ist und bleibt zu einhundert Prozent freie
-Software.
+Zu jedem Aufruf dieser Website werden der Zeitpunkt der Anfrage und die aufgerufene Adresse gespeichert, nicht aber
+Ihre IP-Adresse. Es sind keine Inhalte von anderen Anbietern direkt eingebunden.
+Zur Analyse und Optimierung unseres Angebots verwenden wir Piwik, eine Open-Source-Software zur statistischen Auswertung
+der Besucherzugriffe. Piwik verwendet sog. „Cookies“, kleine Textdateien, die auf Ihrem Computer gespeichert werden und
+die eine Analyse der Benutzung der Website durch Sie ermöglichen. Die durch den Cookie erzeugten Informationen über Ihre
+Benutzung dieses Internetangebotes werden auf dem Server des Anbieters in Deutschland gespeichert. Die IP-Adresse wird
+sofort nach der Verarbeitung und vor deren Speicherung anonymisiert. Sie können die Installation der Cookies durch eine
+entsprechende Einstellung Ihrer Browser-Software verhindern, z.B. durch die „Do Not Track“-Option in jedem modenen
+Browser.
+

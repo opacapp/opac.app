@@ -1,16 +1,13 @@
-* Fancy frontpage
 * All contents
     * DE
-    * EN
-    * Hidden pages
-        * werbematerial
-        * download
+        * Fancy frontpage
+        * library list/map
+        * werbematerial   --  create new
         * kompatibilitaet
-        * impressum
-        * privacy
         * ...
+    * EN
+        * everything
+* Fix responsiveness of footer
+* overall style review
 * Deploy
 * Make redirects from old pages
-* Fix responsiveness of footer
-* library list/map
-* overall style review
