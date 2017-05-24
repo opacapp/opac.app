@@ -2,6 +2,7 @@
     * DE
         * Fancy frontpage
         * library list/map
+            * Suggestion form
         * werbematerial   --  create new
         * ...
     * EN

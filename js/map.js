@@ -15,7 +15,6 @@ $(function () {
             $(".map-info .playstore").attr("href", data.link_android || "https://play.google.com/store/apps/details?id=de.geeksfactory.opacclient");
 
             var conf = data.active_androidconfig_plus || data.active_androidconfig;
-            console.log(conf);
             $(".map-info .support-search").text(conf._active ? "done" : "clear");
             $(".map-info .support-account").text((conf._active && conf.account_supported) ? "done" : "clear");
             $(".map-info .support-onleihe").text((conf._active && conf.data.onleihe) ? "done" : "clear");
@@ -25,7 +24,9 @@ $(function () {
         });
     }
 
-    var markers = L.markerClusterGroup();
+    var markers = L.markerClusterGroup({
+        showCoverageOnHover: false
+    });
     $.getJSON(api + '/libraries/?has_active_androidconfig=1', function (data) {
         $("#num").text(data.length);
 
@@ -48,4 +49,99 @@ $(function () {
         $(".map-loading").hide();
         map.addLayer(markers);
     });
+
+
+    function load_region(region, callback) {
+        $("#sub-regions").html('<li class="collection-item loading">Lädt…</li>');
+        $.getJSON(api + "/regions/?parent=" + region, function (data) {
+            data.sort(function (a, b) {
+                return a.name.localeCompare(b.name)
+            });
+            $.each(data, function (i, subreg) {
+                if (subreg.name === "Test") {
+                    return;
+                }
+                var $a = $("<a>").attr("href", "#region-list").addClass("collection-item").attr("data-region", subreg.id).text(subreg.name);
+                $("#sub-regions").append($a);
+            });
+
+            if (region) {
+                $.getJSON(api + "/libraries/?long=true&region=" + region, function (data) {
+                    data.sort(function (a, b) {
+                        // Reverse order since we prepend
+                        return - a.shortname.localeCompare(b.shortname);
+                    });
+                    $.each(data, function (i, lib) {
+                        var url = lib.link_android || "https://play.google.com/store/apps/details?id=de.geeksfactory.opacclient";
+                        var conf = lib.active_androidconfig_plus || lib.active_androidconfig;
+
+                        var $a = $("<li>").addClass("collection-item").attr("data-library", lib.id)
+                            .append($("<b>").text(lib.libname))
+                            .append("<br>");
+                        if (conf) {
+                            if (conf._active) {
+                                $a.append($("<i>").addClass("material-icons").text("search")).append("Suche");
+                            }
+                            if (conf._active && conf.account_supported) {
+                                $a.append($("<i>").addClass("material-icons").text("person")).append("Kontozugang");
+                            }
+                            if (conf._active && conf.data.onleihe) {
+                                $a.append($("<i>").addClass("material-icons").text("smartphone")).append("Onleihe-Integration");
+                            }
+                            $a.append(
+                                $("<a>").attr("href", url).text("App-Download").prepend(
+                                    $("<i>").addClass("material-icons").text("file_download")
+                                )
+                            );
+                        } else {
+                            $a.append($("<i>").addClass("material-icons").text("clear")).append("Aktuell nicht unterstützt");
+                        }
+                        $("#sub-regions").prepend($a);
+                    });
+
+                    $('#sub-regions .loading').remove();
+                    if ($("#sub-regions a, #sub-regions li").length === 0) {
+                        $("#sub-regions").html('<li class="collection-item loading">Keine Ergebnisse</li>');
+                    }
+                    if (callback) {
+                        callback();
+                    }
+                });
+            } else {
+                $('#sub-regions .loading').remove();
+                if (callback) {
+                    callback();
+                }
+            }
+        });
+    }
+
+    $("#sub-regions").on("click", "a[data-library]", function (e) {
+        e.preventDefault();
+
+    });
+
+    $("#sub-regions").on("click", "a[data-region]", function (e) {
+        e.preventDefault();
+        $("#region-crumbs").append(
+            $("<a>")
+                .attr("href", "#region-list")
+                .attr("data-region", $(this).attr("data-region"))
+                .addClass("breadcrumb")
+                .text($(this).text())
+        );
+        load_region($(this).attr("data-region"), function (e) {
+            $(document).scrollTop($("#region-list").position().top - $(".navbar-fixed").height() - 20);
+        });
+    });
+
+    $("#region-crumbs").on("click", "a[data-region]", function (e) {
+        e.preventDefault();
+        $(this).nextAll("a").remove();
+        load_region($(this).attr("data-region"), function () {
+            $(document).scrollTop($("#region-list").position().top - $(".navbar-fixed").height() - 20);
+        });
+    });
+
+    load_region("");
 });
