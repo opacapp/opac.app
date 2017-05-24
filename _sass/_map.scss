@@ -1,0 +1,33 @@
+.map-container {
+  position: relative;
+
+  #map {
+    height: 600px;
+  }
+
+  .map-loading {
+    position: absolute;
+    padding: 0;
+    text-align: center;
+    z-index: 10000;
+    font-size: 70px;
+    font-weight: bold;
+
+    background: rgba(255, 255, 255, 0.5);
+    width: 90%;
+    left: 5%;
+    top: 5%;
+    height: 90%;
+  }
+
+  .playstore img {
+    height: 50px;
+    width: auto;
+  }
+  & > .map-info {
+    display:  none;
+  }
+  .leaflet-popup-content p {
+    margin: 0;
+  }
+}

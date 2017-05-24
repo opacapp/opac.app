@@ -7,6 +7,10 @@
 @import "_footer";
 @import "_contact";
 @import "_dividers";
+@import "_compatibility";
+@import "_leaflet";
+@import "_markercluster.scss";
+@import "_map";
 
 /* Sticky footer (stays at the bottom even on tall screens with short pages) */
 body {
@@ -24,51 +28,3 @@ body {
   margin-top: 0;
 }
 
-table.compatibility {
-  border: 0;
-  width: 100%;
-  td,
-  th {
-    padding: 5px 10px;
-  }
-  th {
-    vertical-align: bottom;
-  }
-  td {
-    line-height: 30px;
-    border-radius: 0;
-  }
-  th.fw {
-    width: 160px;
-  }
-  td.green,
-  td.yellow,
-  td.red {
-    text-align: center;
-    font-size: 25px;
-    line-height: 30px;
-    width: 160px;
-  }
-  td.green {
-    background-color: color("green", "lighten-2") !important;
-  }
-  td.yellow {
-    background-color: color("yellow", "lighten-2") !important;
-  }
-  td.red {
-    background-color: color("red", "lighten-2") !important;
-  }
-  td.note {
-    font-size: 11px;
-  }
-  span.note {
-    font-size: 11px;
-    line-height: 11px;
-  }
-  td.vendor {
-    font-size: 12px;
-    font-weight: bold;
-    padding-top: 15px;
-    line-height: 12px;
-  }
-}

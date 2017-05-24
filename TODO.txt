@@ -3,11 +3,11 @@
         * Fancy frontpage
         * library list/map
         * werbematerial   --  create new
-        * kompatibilitaet
         * ...
     * EN
         * everything
 * Fix responsiveness of footer
+* Fix responsiveness of compatibility table
 * overall style review
 * Deploy
 * Make redirects from old pages
