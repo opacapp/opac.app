@@ -5,6 +5,9 @@
         * Feature page
         * library suggestion form?
         * werbematerial   --  create new
+        * library list loading "animation"
+            * remove "Stadtbibliotheken Berlin" that are marked as unsupported
+            * remove empty regions?
         * ...
     * EN
         * everything
