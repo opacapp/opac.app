@@ -89,7 +89,7 @@ $(function () {
                                 $a.append($("<i>").addClass("material-icons").text("smartphone")).append("Onleihe-Integration");
                             }
                             $a.append(
-                                $("<a>").attr("href", url).text("App-Download").prepend(
+                                $("<a>").attr("href", url).attr("target", "_blank").text("App-Download").prepend(
                                     $("<i>").addClass("material-icons").text("file_download")
                                 )
                             );

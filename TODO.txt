@@ -12,3 +12,4 @@
 * overall style review
 * Deploy
 * Make redirects from old pages
+* Piwik
