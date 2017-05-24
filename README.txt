@@ -5,7 +5,3 @@ Dependencies:
 Lokal ausführen:
 
     jekyll serve --watch
-
-CSS neu bauen:
-
-    make
