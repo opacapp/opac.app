@@ -1,3 +1,60 @@
+#hero {
+  background: url("/img/library_stock_photo_dark.jpg") no-repeat;
+  background-size: cover;
+  color: white;
+  box-shadow: 0px 4px 6px -4px grey;
+  margin-top: -20px;
+
+  h1 {
+    font-size: 40px;
+    margin-top: 0px;
+  }
+
+  .tagline {
+    font-size: 20px;
+  }
+
+  .description {
+    font-size: 20px;
+    font-weight: 300;
+  }
+
+  #logo {
+    width: 128px;
+    height: 128px;
+    vertical-align: middle;
+  }
+
+  #screenshot_framed {
+    max-width: 400px;
+  }
+
+  .playbadge {
+    padding: 20px;
+  }
+
+  .playbadge img {
+    height: 70px;
+    margin-right: 10px;
+  }
+}
+
+.promo {
+  i {
+    margin: 40px 0;
+    color: $primary-color;
+    font-size: 7rem;
+    display: block;
+  }
+
+  .promo-caption {
+    font-size: 1.7rem;
+    font-weight: 500;
+    margin-top: 5px;
+    margin-bottom: 0;
+  }
+}
+
 
 .jumbo-header {
   width: 100%;
