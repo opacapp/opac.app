@@ -1,0 +1,11 @@
+@media(max-width: 400px) {
+  .brand-logo span {
+    display: none;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .brand-logo span {
+    display: none;
+  }
+}
