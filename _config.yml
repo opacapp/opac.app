@@ -17,6 +17,8 @@ navigation_de:
     url: /de/
   - title: Liste der Bibliotheken
     url: /de/bibliotheken/
+  - title: Features
+    url: /de/features
   - title: Für Bibliotheken
     url: /de/fuer-bibliotheken/
   - title: FAQ

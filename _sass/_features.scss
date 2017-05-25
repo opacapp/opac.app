@@ -1,0 +1,39 @@
+.features-screenshot {
+  width: 100%;
+}
+
+.features-list {
+  font-size: 18px;
+  font-weight: 300;
+
+  li:before {
+    @extend .material-icons;
+    content: 'check';
+    margin-right: 8px;
+  }
+}
+
+.features-row {
+  .row {
+    margin-bottom: 0;
+    padding-top: 20px;
+
+    h2 {
+      display: inline-block;
+      vertical-align: middle;
+    }
+
+    .plus-badge {
+      margin-left: 16px;
+      font-weight: 300;
+      color: #fff;
+      background-color: $primary-color;
+      border-radius: 2px;
+      min-width: 3rem;
+      padding: 0 6px;
+      text-align: center;
+      box-sizing: border-box;
+      vertical-align: middle;
+    }
+  }
+}
