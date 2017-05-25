@@ -1,6 +1,8 @@
 table.compatibility {
   border: 0;
-  width: 100%;
+  width: auto;
+  margin: 0 auto;
+
   td,
   th {
     padding: 5px 10px;
@@ -19,9 +21,12 @@ table.compatibility {
   td.yellow,
   td.red {
     text-align: center;
-    font-size: 25px;
-    line-height: 30px;
     width: 160px;
+
+    i {
+      font-size: 25px;
+      line-height: 30px;
+    }
   }
   td.green {
     background-color: color("green", "lighten-2") !important;
