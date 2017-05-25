@@ -3,7 +3,10 @@
   background-size: cover;
   color: white;
   box-shadow: 0px 4px 6px -4px grey;
-  margin-top: -20px;
+  margin-top: -20px - $navbar-height-mobile;
+  padding-top: $navbar-height-mobile;
+  z-index: 10;
+  position: relative;
 
   h1 {
     font-size: 40px;
@@ -48,6 +51,28 @@
     height: 70px;
     margin-right: 10px;
   }
+}
+
+@media #{$medium-and-up} {
+  #hero {
+    margin-top: -20px - $navbar-height;
+    padding-top: $navbar-height;
+  }
+}
+.frontpage .navbar-fixed nav {
+  background: rgba(0, 0, 0, 0.15);
+  box-shadow: none;
+}
+
+.frontpage .subpage:before {
+  @extend .z-depth-1;
+  background: $primary-color;
+  content: "";
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: $navbar-height;
+  z-index: 9;
 }
 
 .promo {
