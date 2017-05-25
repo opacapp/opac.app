@@ -30,3 +30,38 @@
   display: block;
   content: '';
 }
+
+
+.screenshot-framed-half {
+  background: url("/img/nexus5x_back_half.png") no-repeat;
+  background-size: contain;
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+
+  img {
+    position: absolute;
+    width: 90.1%;
+    left: 4.59%;
+    top: 19.33%;
+  }
+}
+
+.screenshot-framed-half:before {
+  position: absolute;
+  content: '';
+  background: url("/img/nexus5x_glare_half.png") no-repeat;
+  background-size: contain;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  pointer-events: none;
+  z-index: 1;
+}
+
+.screenshot-framed-half:after {
+  padding-top: 100.58%;
+  display: block;
+  content: '';
+}
