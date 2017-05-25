@@ -61,19 +61,38 @@
   }
 }
 .frontpage .navbar-fixed nav {
-  background: rgba(0, 0, 0, 0.15);
+  background: rgba(0, 0, 0, 0);
   box-shadow: none;
 }
+.frontpage .navbar-shadow {
+  height: 64px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.15);
+  box-shadow: none;
+  z-index: 11;
+}
 
-.frontpage .subpage:before {
+.frontpage .navbar-fixed .brand-logo {
+  display: none;
+}
+.frontpage .frontpage-nav-container {
   @extend .z-depth-1;
   background: $navbar-color;
   content: "";
+  color: white;
   position: fixed;
   top: 0;
   width: 100%;
   height: $navbar-height;
   z-index: 9;
+}
+.frontpage .frontpage-nav-container .brand-logo {
+  position: absolute;
+  top: 0;
+  z-index: 1000000;
 }
 
 .promo {
