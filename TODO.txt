@@ -6,12 +6,14 @@
         * library list loading "animation"
             * remove "Stadtbibliotheken Berlin" that are marked as unsupported
             * remove empty regions?
+        * "Plus Ed" -> "Plus-Ed."
         * ...
     * EN
         * everything
-* Fix responsiveness of footer
 * Fix responsiveness of compatibility table
+* navbar bei ~1048 px breite
 * overall style review
+* Device Frame als eigenes Bild
 * Deploy
 * Make redirects from old pages
 * Piwik

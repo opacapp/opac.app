@@ -71,136 +71,49 @@
   p.light {
     text-align: justify;
     hyphens: auto;
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
   }
 }
 
-
-.jumbo-header {
-  width: 100%;
-  @extend .red;
-  min-height: 600px;
-
-  .text {
-    padding-top: 40px;
-    color: #FFFFFF;
+.plusshowcase {
+  h3 {
+    font-size: 1.7rem;
+    font-weight: 500;
+    margin-top: 5px;
+    margin-bottom: 0;
+  }
+  h4 {
+    margin-bottom: 14px;
+    margin-top: 14px;
+  }
+  p.light {
+    text-align: justify;
+    hyphens: auto;
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+  }
+  .description {
+    min-height: 150px;
   }
 
-  h1 {
-    font-size: 90px;
+  .appicon {
+    display: block;
+    width: 100%;
+    text-align: center;
+    color: black;
     font-weight: 300;
-    line-height: 1;
-    letter-spacing: -0.04em;
-    margin: 0;
-  }
+    margin-bottom: 20px;
+    height: 142px;
 
-  h2.slogan {
-    font-size: 35px;
-    font-weight: 300;
-  }
-
-  .intro {
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 24px;
-    letter-spacing: 0.04em;
-  }
-
-  .screenshots {
-    position: relative;
-    height: 600px;
-    width: 350px;
-    float: left;
-  }
-
-  .screenshots img.back,
-  .screenshots img.glare,
-  .screenshots img.shadow {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 600px;
-  }
-
-  .carousel {
-    position: absolute;
-    top: 100px;
-    left: 63px;
-    width: 222px;
-  }
-
-  .carousel img {
-    width: 222px;
-  }
-
-  .carousel-indicators {
-    bottom: -33px;
-  }
-
-  .carousel-indicators li, .carousel-indicators li.active {
-    width: 8px;
-    height: 8px;
-    margin: 1px;
-  }
-  .playbadge {
-    padding: 20px;
-  }
-  a {
-    color: white;
-  }
-
-  .playbadge img {
-    height: 70px;
-    margin-right: 10px;
-  }
-}
-
-@media #{$small-and-down} {
-  .jumbo-header {
-    .screenshots {
-      margin: auto;
+    img {
+      width: 72px;
+      height: auto;
       display: block;
-      float: none;
+      margin: 0 auto 8px;
     }
-    h1 {
-      font-size: 50px;
-    }
-    h2 {
-      font-size: 30px;
-    }
-    .intro {
-      font-size: 15px;
-    }
-  }
-}
-
-@media (max-width: 370px) {
-  .jumbo-header {
-
-    .screenshots {
-      width: 100%;
-      height: auto;
-    }
-
-    .screenshots img.shadow {
-      position: static;
-    }
-
-    .screenshots img.back,
-    .screenshots img.glare,
-    .screenshots img.shadow {
-      width: 100%;
-      height: auto;
-    }
-
-    .carousel {
-      top: 16.4%;
-      left: 18%;
-      width: 63.4%;
-      height: 64.9%;
-    }
-
-    .carousel img {
-      width: 100%;
+    &.larger img {
+      width: 96px;
     }
   }
 }

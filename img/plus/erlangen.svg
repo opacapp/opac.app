@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="517.11853"
+   height="517.12"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.5 r10040"
+   sodipodi:docname="ic_launcher.svg"
+   inkscape:export-filename="/daten/proj/opacclient/city-erlangen/res/drawable-xxhdpi/ic_launcher_white.png"
+   inkscape:export-xdpi="64.569336"
+   inkscape:export-ydpi="64.569336">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.98994949"
+     inkscape:cx="-205.30963"
+     inkscape:cy="223.56499"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="1272"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     fit-margin-top="5"
+     fit-margin-left="5"
+     fit-margin-right="5"
+     fit-margin-bottom="5" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Ebene 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(1.552197,-379.55533)">
+    <path
+       inkscape:connector-curvature="0"
+       id="path4293"
+       d="m 179.22006,544.57444 0,115.02394 72.50536,72.05783 0,-116.36667 z"
+       style="opacity:0.75151517;fill:#7b7b7b;fill-opacity:1;stroke:#7b7b7b;stroke-width:3.54452658px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       style="opacity:0.75151517;fill:#7b7b7b;fill-opacity:1;stroke:#7b7b7b;stroke-width:3.54452658px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 336.79407,544.57444 0,115.02394 -72.50539,72.05783 0,-116.36667 z"
+       id="path4295"
+       inkscape:connector-curvature="0" />
+    <path
+       style="opacity:0.5;fill:#bbbbbb;fill-opacity:1;stroke:#bbbbbb;stroke-width:3.54452658px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 351.22006,544.57444 0,115.02394 72.50536,72.05783 0,-116.36667 z"
+       id="path4301"
+       inkscape:connector-curvature="0" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path4303"
+       d="m 508.79407,544.57444 0,115.02394 -72.50539,72.05783 0,-116.36667 z"
+       style="opacity:0.5;fill:#bbbbbb;fill-opacity:1;stroke:#bbbbbb;stroke-width:3.54452658px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       style="fill:#990000;fill-opacity:1;stroke:#990000;stroke-width:3.54452658px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 5.2200659,544.57446 0,115.02394 72.5053581,72.05779 0,-116.36663 z"
+       id="path3087"
+       inkscape:connector-curvature="0" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path3089"
+       d="m 162.79408,544.57446 0,115.02394 -72.505399,72.05779 0,-116.36663 z"
+       style="fill:#990000;fill-opacity:1;stroke:#990000;stroke-width:3.54452658px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+  </g>
+</svg>
