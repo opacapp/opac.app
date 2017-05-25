@@ -23,8 +23,6 @@ navigation_de:
     url: /de/fuer-bibliotheken/
   - title: FAQ
     url: /de/faq/
-  - title: Open Source
-    url: /de/opensource/
   - title: Kontakt
     url: /de/kontakt/
 
@@ -37,7 +35,5 @@ navigation_en:
     url: /en/for-libraries/
   - title: FAQ
     url: /en/faq/
-  - title: Open Source
-    url: /en/opensource/
   - title: Contact
     url: /en/contact/
