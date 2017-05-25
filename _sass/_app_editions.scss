@@ -1,0 +1,17 @@
+.app-editions-table {
+  width: auto;
+  margin: 0 auto;
+
+  td {
+    max-width: 300px;
+  }
+
+  td:first-child {
+    text-align: right;
+    padding-right: 16px;
+  }
+
+  td.text-with-icons {
+    line-height: 175%;
+  }
+}
