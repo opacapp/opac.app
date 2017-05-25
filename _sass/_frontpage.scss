@@ -117,3 +117,9 @@
     }
   }
 }
+
+@media(max-width: 991px) {
+  .plusshowcase .description {
+    min-height: inherit;
+  }
+}
