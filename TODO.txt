@@ -10,7 +10,6 @@
         * ...
     * EN
         * everything
-* Fix responsiveness of compatibility table
 * navbar bei ~1048 px breite
 * overall style review
 * Device Frame als eigenes Bild
