@@ -7,10 +7,9 @@
             * remove "Stadtbibliotheken Berlin" that are marked as unsupported
             * remove empty regions?
         * ...
+        * style of the edition comparison
     * EN
         * everything
-* navbar bei ~1048 px breite
-* overall style review
 * Device Frame als eigenes Bild
 * screenshots machen
 * icon oben schatten?
