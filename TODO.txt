@@ -12,3 +12,4 @@
 * Deploy
 * Make redirects from old pages
 * Piwik
+* Favicon
