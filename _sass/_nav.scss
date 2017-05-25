@@ -1,22 +1,23 @@
-.brand-logo {
-  height: 100%;
-}
-
-.brand-logo img {
-  height: 80%;
-  position: relative;
-  top: 10%;
-  width: auto;
-}
-
-.brand-logo span {
-  max-height: 80%;
-  position: relative;
-  top: -7px;
-}
-
 .navbar-fixed {
   z-index: 100000;
+
+  .brand-logo {
+    height: 100%;
+  }
+
+  .brand-logo img {
+    height: 80%;
+    position: relative;
+    top: 10%;
+    width: auto;
+  }
+
+  .brand-logo span {
+    max-height: 80%;
+    position: relative;
+    top: -7px;
+  }
+
   .button-collapse {
     padding: 0 16px;
   }
@@ -26,7 +27,6 @@
     width: 100vw;
   }
 }
-
 .side-nav {
   li {
     padding: 0;
@@ -36,7 +36,6 @@
     }
   }
 }
-
 .dropdown-content li > a {
   display: block;
 }
