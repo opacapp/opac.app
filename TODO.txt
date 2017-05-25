@@ -1,18 +1,14 @@
 * All contents
     * DE
-        * Feature page?
         * library suggestion form?
-        * werbematerial   --  create new
         * library list loading "animation"
             * remove "Stadtbibliotheken Berlin" that are marked as unsupported
             * remove empty regions?
         * ...
-        * style of the edition comparison
     * EN
         * everything
-* Device Frame als eigenes Bild
-* screenshots machen
 * icon oben schatten?
+* Sprachen querverlinken
 * Deploy
 * Make redirects from old pages
 * Piwik
