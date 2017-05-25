@@ -130,16 +130,16 @@ $(function () {
                 .addClass("breadcrumb")
                 .text($(this).text())
         );
+        $(document).scrollTop($("#region-list").position().top - $(".navbar-fixed").height() - 20);
         load_region($(this).attr("data-region"), function (e) {
-            $(document).scrollTop($("#region-list").position().top - $(".navbar-fixed").height() - 20);
         });
     });
 
     $("#region-crumbs").on("click", "a[data-region]", function (e) {
         e.preventDefault();
         $(this).nextAll("a").remove();
+        $(document).scrollTop($("#region-list").position().top - $(".navbar-fixed").height() - 20);
         load_region($(this).attr("data-region"), function () {
-            $(document).scrollTop($("#region-list").position().top - $(".navbar-fixed").height() - 20);
         });
     });
 

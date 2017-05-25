@@ -1,8 +1,6 @@
 * All contents
     * DE
-        * Fancy frontpage
-            * responsive
-        * Feature page
+        * Feature page?
         * library suggestion form?
         * werbematerial   --  create new
         * library list loading "animation"
@@ -11,9 +9,9 @@
         * ...
     * EN
         * everything
-* Fix responsiveness of footer
-* Fix responsiveness of compatibility table
+* navbar bei ~1048 px breite
 * overall style review
+* Device Frame als eigenes Bild
 * Deploy
 * Make redirects from old pages
 * Piwik

@@ -11,6 +11,7 @@
 @import "_leaflet";
 @import "_markercluster.scss";
 @import "_map";
+@import "_faq";
 @import "_features";
 @import "_screenshots";
 
@@ -30,3 +31,14 @@ body {
   margin-top: 0;
 }
 
+.scroll-table {
+  max-width: 100%;
+  overflow-x: auto;
+}
+
+a.anchor {
+  display: block;
+  position: relative;
+  top: -72px;
+  visibility: hidden;
+}
