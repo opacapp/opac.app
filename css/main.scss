@@ -32,3 +32,10 @@ body {
   max-width: 100%;
   overflow-x: auto;
 }
+
+a.anchor {
+  display: block;
+  position: relative;
+  top: -72px;
+  visibility: hidden;
+}

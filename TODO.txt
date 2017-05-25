@@ -6,7 +6,6 @@
         * library list loading "animation"
             * remove "Stadtbibliotheken Berlin" that are marked as unsupported
             * remove empty regions?
-        * "Plus Ed" -> "Plus-Ed."
         * ...
     * EN
         * everything
