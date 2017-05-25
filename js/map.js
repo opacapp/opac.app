@@ -53,7 +53,7 @@ $(function () {
 
     function load_region(region, callback) {
         $("#sub-regions").html('<li class="collection-item loading">Lädt…</li>');
-        $.getJSON(api + "/regions/?parent=" + region, function (data) {
+        $.getJSON(api + "/regions/?non_empty=1&parent=" + region, function (data) {
             data.sort(function (a, b) {
                 return a.name.localeCompare(b.name)
             });
@@ -69,7 +69,7 @@ $(function () {
                 $.getJSON(api + "/libraries/?long=true&region=" + region, function (data) {
                     data.sort(function (a, b) {
                         // Reverse order since we prepend
-                        return - a.shortname.localeCompare(b.shortname);
+                        return -a.shortname.localeCompare(b.shortname);
                     });
                     $.each(data, function (i, lib) {
                         var url = lib.link_android || "https://play.google.com/store/apps/details?id=de.geeksfactory.opacclient";
@@ -131,16 +131,14 @@ $(function () {
                 .text($(this).text())
         );
         $(document).scrollTop($("#region-list").position().top - $(".navbar-fixed").height() - 20);
-        load_region($(this).attr("data-region"), function (e) {
-        });
+        load_region($(this).attr("data-region"));
     });
 
     $("#region-crumbs").on("click", "a[data-region]", function (e) {
         e.preventDefault();
         $(this).nextAll("a").remove();
         $(document).scrollTop($("#region-list").position().top - $(".navbar-fixed").height() - 20);
-        load_region($(this).attr("data-region"), function () {
-        });
+        load_region($(this).attr("data-region"));
     });
 
     load_region("");
