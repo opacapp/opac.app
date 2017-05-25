@@ -67,7 +67,7 @@
 
 .frontpage .subpage:before {
   @extend .z-depth-1;
-  background: $primary-color;
+  background: $navbar-color;
   content: "";
   position: fixed;
   top: 0;
