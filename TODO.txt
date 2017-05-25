@@ -2,12 +2,12 @@
     * DE
         * library suggestion form?
         * library list loading "animation"
-            * remove "Stadtbibliotheken Berlin" that are marked as unsupported
-            * remove empty regions?
+        * remove cities with only unsupported libraries?
         * ...
     * EN
         * everything
 * icon oben schatten?
+* JPEG size
 * Sprachen querverlinken
 * Deploy
 * Make redirects from old pages
