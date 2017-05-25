@@ -15,29 +15,27 @@ permalink: /:path/:basename/
 navigation_de:
   - title: Startseite
     url: /de/
-  - title: Liste der Bibliotheken
+  - title: Bibliotheken
     url: /de/bibliotheken/
   - title: Features
-    url: /de/features
-  - title: Für Bibliotheken
+    url: /de/features/
+  - title: App-Editionen
     url: /de/fuer-bibliotheken/
   - title: FAQ
     url: /de/faq/
-  - title: Open Source
-    url: /de/opensource/
   - title: Kontakt
     url: /de/kontakt/
 
 navigation_en:
   - title: Front page
     url: /en/
-  - title: Library list
+  - title: Libraries
     url: /en/libraries/
-  - title: For libraries
+  - title: Features
+    url: /en/features/
+  - title: App Editions
     url: /en/for-libraries/
   - title: FAQ
     url: /en/faq/
-  - title: Open Source
-    url: /en/opensource/
   - title: Contact
     url: /en/contact/
