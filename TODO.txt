@@ -7,6 +7,7 @@
     * EN
         * everything
 * icon oben schatten?
+* JPEG size
 * Sprachen querverlinken
 * Deploy
 * Make redirects from old pages
