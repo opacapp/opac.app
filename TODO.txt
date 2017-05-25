@@ -2,7 +2,7 @@
     * DE
         * library suggestion form?
         * library list loading "animation"
-            * remove "Stadtbibliotheken Berlin" that are marked as unsupported
+        * remove cities with only unsupported libraries?
         * ...
     * EN
         * everything
