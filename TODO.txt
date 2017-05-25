@@ -1,8 +1,6 @@
 * All contents
     * DE
-        * Fancy frontpage
-            * responsive
-        * Feature page
+        * Feature page?
         * library suggestion form?
         * werbematerial   --  create new
         * library list loading "animation"
