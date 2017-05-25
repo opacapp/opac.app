@@ -60,14 +60,21 @@
     padding-top: $navbar-height;
   }
 }
+
+$navbar-alpha-value: 0.15;
+
 .frontpage .navbar-fixed nav {
-  background: rgba(0, 0, 0, 0.15);
+  background: rgba(0, 0, 0, $navbar-alpha-value);
   box-shadow: none;
 }
 
 .frontpage .subpage:before {
   @extend .z-depth-1;
-  background: $navbar-color;
+  background: rgb(
+                  red($navbar-color) / (1-$navbar-alpha-value),
+                  green($navbar-color) / (1-$navbar-alpha-value),
+                  blue($navbar-color) / (1-$navbar-alpha-value)
+  );
   content: "";
   position: fixed;
   top: 0;
