@@ -76,26 +76,27 @@ $(function () {
                         var url = lib.link_android || "https://play.google.com/store/apps/details?id=de.geeksfactory.opacclient";
                         var conf = lib.active_androidconfig_plus || lib.active_androidconfig;
 
+                        var $meta = $("<div>").addClass("lib-meta");
                         var $a = $("<li>").addClass("collection-item").attr("data-library", lib.id)
                             .append($("<b>").text(lib.libname))
-                            .append("<br>");
+                            .append($meta);
                         if (conf) {
                             if (conf._active) {
-                                $a.append($("<i>").addClass("material-icons").text("search")).append("Suche");
+                                $meta.append($("<i>").addClass("material-icons").text("search")).append("Suche");
                             }
                             if (conf._active && conf.account_supported) {
-                                $a.append($("<i>").addClass("material-icons").text("person")).append("Kontozugang");
+                                $meta.append($("<i>").addClass("material-icons").text("person")).append("Kontozugang");
                             }
                             if (conf._active && conf.data.onleihe) {
-                                $a.append($("<i>").addClass("material-icons").text("smartphone")).append("Onleihe-Integration");
+                                $meta.append($("<i>").addClass("material-icons").text("smartphone")).append("Onleihe-Integration");
                             }
-                            $a.append(
+                            $meta.append(
                                 $("<a>").attr("href", url).attr("target", "_blank").text("App-Download").prepend(
                                     $("<i>").addClass("material-icons").text("file_download")
                                 )
                             );
                         } else {
-                            $a.append($("<i>").addClass("material-icons").text("clear")).append("Aktuell nicht unterstützt");
+                            $meta.append($("<i>").addClass("material-icons").text("clear")).append("Aktuell nicht unterstützt");
                         }
                         $("#sub-regions").prepend($a);
                     });

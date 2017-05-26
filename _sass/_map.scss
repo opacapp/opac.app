@@ -61,4 +61,11 @@
       margin-top: 50px;
     }
   }
+
+  .lib-meta i {
+    margin-left: 10px;
+  }
+  .lib-meta > i:first-child {
+    margin-left: 0;
+  }
 }
