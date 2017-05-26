@@ -1,7 +1,6 @@
 * All contents
     * DE
         * library suggestion form?
-        * remove cities with only unsupported libraries?
         * ...
     * EN
         * everything

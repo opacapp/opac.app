@@ -54,7 +54,7 @@ $(function () {
     function load_region(region, callback) {
         $("#sub-regions").html('');
         $("#list-loader").stop().show();
-        $.getJSON(api + "/regions/?non_empty=1&parent=" + region, function (data) {
+        $.getJSON(api + "/regions/?has_child_or_androidconfig=1&parent=" + region, function (data) {
             data.sort(function (a, b) {
                 return a.name.localeCompare(b.name)
             });
@@ -67,7 +67,7 @@ $(function () {
             });
 
             if (region) {
-                $.getJSON(api + "/libraries/?long=true&region=" + region, function (data) {
+                $.getJSON(api + "/libraries/?long=true&has_active_androidconfig=1&region=" + region, function (data) {
                     data.sort(function (a, b) {
                         // Reverse order since we prepend
                         return -a.shortname.localeCompare(b.shortname);
