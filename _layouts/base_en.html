@@ -1,4 +1,4 @@
-<html lang="de">
+<html lang="en">
 <head>
     {% include head.html %}
 </head>
@@ -7,7 +7,7 @@
     <nav>
         <div class="nav-wrapper container">
             <div class="brand-logo">
-                <a href="/de/">
+                <a href="/en/">
                     <img src="/img/logo.svg" alt="Web Opac App">
                     <span>Web Opac App</span>
                 </a>
@@ -17,7 +17,7 @@
             </a>
             <ul id="nav-mobile" class="right hide-on-med-and-down">
                 {% assign current_page = nil %}
-                {% for link in site.navigation_de %}
+                {% for link in site.navigation_en %}
                 {% assign current = '' %}
                 {% if page.url == link.url %}
                 {% assign current = 'active' %}
@@ -33,7 +33,7 @@
             </ul>
             <ul class="side-nav" id="mobile-nav">
                 {% assign current_page = nil %}
-                {% for link in site.navigation_de %}
+                {% for link in site.navigation_en %}
                 {% assign current = '' %}
                 {% if page.url == link.url %}
                 {% assign current = 'active' %}
@@ -64,25 +64,25 @@
                     Michel</a><br/>
                     Android, Google Play and the Google Play logo are trademarks of Google Inc.<br/>
                     Font Roboto by Google, Apache License<br/>
-                    Titelfoto: <a href="https://unsplash.com/photos/8hJQKRIQZMY">Cristina Gottardi</a>
+                    title photo: <a href="https://unsplash.com/photos/8hJQKRIQZMY">Cristina Gottardi</a>
                 </p>
             </div>
             <div class="col l4 offset-l2">
                 <h5 class="white-text">Links</h5>
                 <ul>
                     <li>
-                        <a class="grey-text text-lighten-3" href="/de/kontakt/">
-                            Impressum
+                        <a class="grey-text text-lighten-3" href="/en/contact/">
+                            Imprint
                         </a>
                     </li>
                     <li>
-                        <a class="grey-text text-lighten-3" href="/de/datenschutz/">
-                            Datenschutz
+                        <a class="grey-text text-lighten-3" href="/en/privacy/">
+                            Privacy
                         </a>
                     </li>
                     <li>
                         <a class="grey-text text-lighten-3" href="https://play.google.com/store/apps/details?id=de.geeksfactory.opacclient" target="_blank">
-                            App bei Google Play
+                            App on Google Play
                         </a>
                     </li>
                     <li>

@@ -1,0 +1,82 @@
+---
+layout: default_en
+map: true
+---
+
+<h1><span id="num"></span> Supported libraries</h1>
+<div class="row">
+    <div class="col s12">
+        <div class="card map-container">
+            <div id="map" class="card">
+            </div>
+            <div class="map-loading">
+                <div class="preloader-wrapper big active">
+                    <div class="spinner-layer spinner-red-only">
+                        <div class="circle-clipper left">
+                            <div class="circle"></div>
+                        </div>
+                        <div class="gap-patch">
+                            <div class="circle"></div>
+                        </div>
+                        <div class="circle-clipper right">
+                            <div class="circle"></div>
+                        </div>
+                    </div>
+                </div>
+                <noscript><br>Please enable JavaScript!</noscript>
+            </div>
+            <div class="map-info">
+                <div>
+                    <b class="libname">Bibliothek</b>
+                    <p class="branchname">Bibliothek</p>
+                    <p>
+                        <i class="support-search material-icons">done</i> Catalogue search<br>
+                        <i class="support-account material-icons">clear</i> Account view<br>
+                        <i class="support-onleihe material-icons">clear</i> Onleihe integration
+                    </p>
+                    <p>
+                        <a href="" class="infosite" target="_blank">
+                            Library Information
+                        </a> &middot; <a href="https://play.google.com/store/apps/details?id=de.geeksfactory.opacclient"
+                                         class="playstore" target="_blank">
+                        App Download
+                    </a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row" id="region-list">
+    <div class="col s12">
+        <div>
+            <nav>
+                <div class="nav-wrapper">
+                    <div class="col s12" id="region-crumbs">
+                        <a href="#region-list" data-region="" class="breadcrumb">World</a>
+                    </div>
+                </div>
+            </nav>
+
+            <div id="list-wrapper">
+                <div id="list-loader">
+                    <div class="preloader-wrapper big active">
+                        <div class="spinner-layer spinner-red-only">
+                            <div class="circle-clipper left">
+                                <div class="circle"></div>
+                            </div>
+                            <div class="gap-patch">
+                                <div class="circle"></div>
+                            </div>
+                            <div class="circle-clipper right">
+                                <div class="circle"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <ul class="collection" id="sub-regions">
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>

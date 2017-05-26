@@ -3,7 +3,12 @@
         * library suggestion form?
         * ...
     * EN
-        * everything
+        * features
+        * for-libraries
+        * index
+        * promotional
+        * screenshots!
+        * strings in der map.js
 * JPEG size
 * Sprachen querverlinken
 * Deploy
