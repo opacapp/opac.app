@@ -9,15 +9,23 @@
     position: absolute;
     padding: 0;
     text-align: center;
-    z-index: 100;
+    z-index: 1000;
     font-size: 70px;
     font-weight: bold;
 
-    background: rgba(255, 255, 255, 0.5);
-    width: 90%;
-    left: 5%;
-    top: 5%;
-    height: 90%;
+    background: #FFFFFF;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    .preloader-wrapper {
+      margin-top: 50px;
+    }
   }
 
   .playstore img {
@@ -29,5 +37,28 @@
   }
   .leaflet-popup-content p {
     margin: 0;
+  }
+}
+
+#list-wrapper {
+  position: relative;
+  min-height: 200px;
+  #list-loader {
+    position: absolute;
+    padding: 0;
+    text-align: center;
+    z-index: 1000;
+    font-size: 70px;
+    font-weight: bold;
+
+    background: rgba(255, 255, 255, 0.8);
+    width: 100%;
+    left: 0;
+    top: 0;
+    height: 100%;
+
+    .preloader-wrapper {
+      margin-top: 50px;
+    }
   }
 }

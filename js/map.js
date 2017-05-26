@@ -46,13 +46,14 @@ $(function () {
             }
         });
 
-        $(".map-loading").hide();
         map.addLayer(markers);
+        $(".map-loading").fadeOut(1000);
     });
 
 
     function load_region(region, callback) {
-        $("#sub-regions").html('<li class="collection-item loading">Lädt…</li>');
+        $("#sub-regions").html('');
+        $("#list-loader").stop().show();
         $.getJSON(api + "/regions/?non_empty=1&parent=" + region, function (data) {
             data.sort(function (a, b) {
                 return a.name.localeCompare(b.name)
@@ -99,7 +100,7 @@ $(function () {
                         $("#sub-regions").prepend($a);
                     });
 
-                    $('#sub-regions .loading').remove();
+                    $("#list-loader").fadeOut(500);
                     if ($("#sub-regions a, #sub-regions li").length === 0) {
                         $("#sub-regions").html('<li class="collection-item loading">Keine Ergebnisse</li>');
                     }
@@ -108,7 +109,7 @@ $(function () {
                     }
                 });
             } else {
-                $('#sub-regions .loading').remove();
+                $("#list-loader").fadeOut(500);
                 if (callback) {
                     callback();
                 }

@@ -8,10 +8,22 @@ map: true
     <div class="col s12">
         <div class="card map-container">
             <div id="map" class="card">
-                <div class="map-loading">
-                    Lädt…
-                    <noscript><br>Bitte JavaScript anschalten!</noscript>
+            </div>
+            <div class="map-loading">
+                <div class="preloader-wrapper big active">
+                    <div class="spinner-layer spinner-red-only">
+                        <div class="circle-clipper left">
+                            <div class="circle"></div>
+                        </div>
+                        <div class="gap-patch">
+                            <div class="circle"></div>
+                        </div>
+                        <div class="circle-clipper right">
+                            <div class="circle"></div>
+                        </div>
+                    </div>
                 </div>
+                <noscript><br>Bitte JavaScript anschalten!</noscript>
             </div>
             <div class="map-info">
                 <div>
@@ -27,8 +39,8 @@ map: true
                             Infoseite der Bibliothek
                         </a> &middot; <a href="https://play.google.com/store/apps/details?id=de.geeksfactory.opacclient"
                                          class="playstore" target="_blank">
-                            App-Download
-                        </a>
+                        App-Download
+                    </a>
                     </p>
                 </div>
             </div>
@@ -46,9 +58,25 @@ map: true
                 </div>
             </nav>
 
-            <ul class="collection" id="sub-regions">
-                <a href="#" class="collection-item">Lädt…</a>
-            </ul>
+            <div id="list-wrapper">
+                <div id="list-loader">
+                    <div class="preloader-wrapper big active">
+                        <div class="spinner-layer spinner-red-only">
+                            <div class="circle-clipper left">
+                                <div class="circle"></div>
+                            </div>
+                            <div class="gap-patch">
+                                <div class="circle"></div>
+                            </div>
+                            <div class="circle-clipper right">
+                                <div class="circle"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <ul class="collection" id="sub-regions">
+                </ul>
+            </div>
         </div>
     </div>
 </div>

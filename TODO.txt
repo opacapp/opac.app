@@ -1,12 +1,10 @@
 * All contents
     * DE
         * library suggestion form?
-        * library list loading "animation"
         * remove cities with only unsupported libraries?
         * ...
     * EN
         * everything
-* icon oben schatten?
 * JPEG size
 * Sprachen querverlinken
 * Deploy
