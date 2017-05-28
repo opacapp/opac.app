@@ -1,9 +1,5 @@
-* All contents
-    * EN
-        * screenshots!
 * Deploy
 * Make redirects from old pages
-* Favicon
 
 * release app
 * new play store screenshots
