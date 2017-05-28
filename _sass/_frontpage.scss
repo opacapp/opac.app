@@ -59,6 +59,9 @@
     margin-top: -20px - $navbar-height;
     padding-top: $navbar-height;
   }
+  .frontpage .subpage:before {
+    height: $navbar-height;
+  }
 }
 
 $navbar-alpha-value: 0.15;
@@ -79,7 +82,7 @@ $navbar-alpha-value: 0.15;
   position: fixed;
   top: 0;
   width: 100%;
-  height: $navbar-height;
+  height: $navbar-height-mobile;
   z-index: 9;
 }
 
