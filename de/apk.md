@@ -14,5 +14,5 @@ Trotzdem gibt es hier einen direkten Downloadlink für die aktuelle APK-Programm
 
 <p>&nbsp;</p>
 <p class="center-align">
-    <a class="waves-effect waves-light red btn-large" href="https://opacapp.de/download/latest.apk">APK Download</a>
+    <a class="waves-effect waves-light red btn-large" href="/download/latest.apk">APK Download</a>
 </p>
