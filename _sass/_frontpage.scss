@@ -180,8 +180,9 @@ $navbar-alpha-value: 0.15;
   }
 }
 
-/* Large Desktop - ratio 1.5 and up to Retina */
-@media (min-width: 1201px) and (min-device-pixel-ratio: 1.5), (min-width: 1201px) and (min-resolution: 144dpi) {
+/* Large Desktop - ratio 1.5 and up to Retina - or huge desktop */
+@media (min-width: 1201px) and (min-device-pixel-ratio: 1.5), (min-width: 1201px) and (min-resolution: 144dpi),
+(min-width: 1921px) {
   #hero {
     background-image: url("/img/library_stock_photo_dark_3840.jpg");
   }

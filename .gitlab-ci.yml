@@ -1,11 +1,7 @@
-stages:
-    - build
-    - deploy
-
-build:
-    stage: build
+deploy:
+    type: deploy
     script:
         - jekyll build
-    artifacts:
-        paths:
-            - _site
+        - scp -r -o UserKnownHostsFile=/keys/known_hosts -i /keys/opacweb_deploy _site/* opacweb@smedry.rami.io:html/
+    only:
+        - master
