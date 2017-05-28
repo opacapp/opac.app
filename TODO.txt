@@ -5,7 +5,6 @@
 * Sprachen querverlinken
 * Deploy
 * Make redirects from old pages
-* Piwik
 * Favicon
 
 * release app
