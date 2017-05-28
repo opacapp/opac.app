@@ -50,5 +50,4 @@ navigation_en:
 uncss:
   stylesheets:
     - css/main.css
-
   compress: true
