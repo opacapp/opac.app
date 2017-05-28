@@ -82,28 +82,28 @@ $(function () {
                             .append($meta);
                         if (conf) {
                             if (conf._active) {
-                                $meta.append($("<i>").addClass("material-icons").text("search")).append("Suche");
+                                $meta.append($("<i>").addClass("material-icons").text("search")).append(map_strings.search);
                             }
                             if (conf._active && conf.account_supported) {
-                                $meta.append($("<i>").addClass("material-icons").text("person")).append("Kontozugang");
+                                $meta.append($("<i>").addClass("material-icons").text("person")).append(map_strings.account);
                             }
                             if (conf._active && conf.data.onleihe) {
-                                $meta.append($("<i>").addClass("material-icons").text("smartphone")).append("Onleihe-Integration");
+                                $meta.append($("<i>").addClass("material-icons").text("smartphone")).append(map_strings.onleihe);
                             }
                             $meta.append(
-                                $("<a>").attr("href", url).attr("target", "_blank").text("App-Download").prepend(
+                                $("<a>").attr("href", url).attr("target", "_blank").text(map_strings.done).prepend(
                                     $("<i>").addClass("material-icons").text("file_download")
                                 )
                             );
                         } else {
-                            $meta.append($("<i>").addClass("material-icons").text("clear")).append("Aktuell nicht unterstützt");
+                            $meta.append($("<i>").addClass("material-icons").text("clear")).append(map_strings.notsupported);
                         }
                         $("#sub-regions").prepend($a);
                     });
 
                     $("#list-loader").fadeOut(500);
                     if ($("#sub-regions a, #sub-regions li").length === 0) {
-                        $("#sub-regions").html('<li class="collection-item loading">Keine Ergebnisse</li>');
+                        $("#sub-regions").html('<li class="collection-item loading">' + map_strings.noresults + '</li>');
                     }
                     if (callback) {
                         callback();

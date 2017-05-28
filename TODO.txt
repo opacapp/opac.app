@@ -1,17 +1,12 @@
 * All contents
-    * DE
-        * library suggestion form?
-        * ...
     * EN
-        * features
-        * for-libraries
-        * index
-        * promotional
         * screenshots!
-        * strings in der map.js
 * JPEG size
 * Sprachen querverlinken
 * Deploy
 * Make redirects from old pages
 * Piwik
 * Favicon
+
+* release app
+* new play store screenshots

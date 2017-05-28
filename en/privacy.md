@@ -2,43 +2,30 @@
 layout: singlecard_en
 ---
 
-Datenschutz
-===========
+Privacy
+=======
 
-Die App
+The app
 -------
 
-Sämtliche Kommunikation findet direkt zwischen der App und dem Server deiner Bibliothek statt.
-**Wir speichern keine Daten über dein Nutzungsverhalten, da wir auch keine zu sehen bekommen.**
-Weder getätigte Suchanfragen, noch Ausweisdaten. Was der Server der Bibliothek speichert, wissen wir nicht – für
-diese Information muss man sich an die Bibliothek wenden.
-Die App kommuniziert jedoch in regelmäßigen Abständen mit unserem Server, um die Informationen über die vielen
-Bibliotheken aktuell zu halten. Desweiteren schickt uns die App in einigen Fällen eine Meldung an den Server, wenn ein
-Fehler auftritt. Hierbei werden niemals personenbezogene Daten erhoben oder gespeichert.
-Weitere Ausnahme in manchen Bibliotheken: Wenn man über das Menü in der App ein Suchergebnisse verschickt, dann nimmt
-der Link, auf den der Empfänger klickt, manchmal einen Umweg über unsere Website. Das liegt daran, dass diese
-„Teilen“-Funktion etwas ist, was einige Bibliothekssysteme eigentlich gar nicht können, und was wir deswegen über
-diesen kleinen Umweg nachbauen müssen. In diesem Fall greift die Datenschutzerklärung von weiter unten.
+All communication happens directly between your app and the server of your library. **We do not store any data about
+you, as we do not know any data about you.** We do not see your search request, account details or anything else.
+Please contact your library for their privacy policy.
 
-Die Opac App ist freie Software, und zwar frei wie in „Freiheit“, nicht wie in „Freibier“, wie man es oft erklärt
-bekommt: Sie ist nicht nur kostenlos, sondern der Programmcode ist im Rahmen der MIT-Lizenz frei verfügbar und damit ist
-jedem rechtlich gestattet, mit diesem unter [geringen Einschränkungen](https://de.wikipedia.org/wiki/MIT-Lizenz) anzustellen, was er möchte.
-Wir veröffentlichen den Code unter einer derart freien Lizenz, weil wir an Open Source glauben, aber wir profitieren
-dadurch auch, denn Freiwillige, die die App verbessern wollen, können die Verbesserungen direkt selbst vornehmen und uns
-den verbesserten Programmcode einschicken. Wir bedanken uns an dieser Stelle bei Rüdiger Wurth und Johan von Forstner für
-die Einsendung von Programmcode zur Unterstützung weiterer Bibliothekssysteme.
-Der Quellcode und weitere Informationen hierzu sind auf [GitHub](https://github.com/raphaelm/opacclient) zu finden, Bugreports und Pull Requests sind gerne gesehen.
+In regular intervals, the app contacts our server to fetch updated data about the libraries. Also, the app may contact
+our server in case of an application error. We need this to ensure the ongoing quality of the app, but we will **never**
+transmit or store personal data.
 
-Die Website
+There is one exception: In some libraries the library’s catalogue does not support the ‘Share’ feature on his own.
+In this case the link you can send from the app’s ‘Share’ dialog will go through our server.
+
+The website
 -----------
 
-Zu jedem Aufruf dieser Website werden der Zeitpunkt der Anfrage und die aufgerufene Adresse gespeichert, nicht aber
-Ihre IP-Adresse. Es sind keine Inhalte von anderen Anbietern direkt eingebunden.
-Zur Analyse und Optimierung unseres Angebots verwenden wir Piwik, eine Open-Source-Software zur statistischen Auswertung
-der Besucherzugriffe. Piwik verwendet sog. „Cookies“, kleine Textdateien, die auf Ihrem Computer gespeichert werden und
-die eine Analyse der Benutzung der Website durch Sie ermöglichen. Die durch den Cookie erzeugten Informationen über Ihre
-Benutzung dieses Internetangebotes werden auf dem Server des Anbieters in Deutschland gespeichert. Die IP-Adresse wird
-sofort nach der Verarbeitung und vor deren Speicherung anonymisiert. Sie können die Installation der Cookies durch eine
-entsprechende Einstellung Ihrer Browser-Software verhindern, z.B. durch die „Do Not Track“-Option in jedem modenen
-Browser.
+If you access this website, the accessed address is stored together with a timestamp. However, we do not store your
+IP address or anything else we could relate to you. We do directly embed external content.
 
+We use Piwik, a free and open source web analytics too, to analyze and optimize our website. We therefore store
+statistical data, but we cannot relate this data to you as a person, as we anonymize your IP address. All data is
+stored in German datacenters. We will not track anything about your visit if you have the ‘Do Not Track’ header
+enabled in your web browser.
