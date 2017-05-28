@@ -4,7 +4,6 @@
 * Deploy
 * Make redirects from old pages
 * Favicon
-* print css
 
 * release app
 * new play store screenshots

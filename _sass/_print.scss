@@ -1,0 +1,14 @@
+@media print {
+  * {
+    background: none;
+  }
+  .navbar-fixed {
+    display: none;
+  }
+  footer .col:last-child {
+    display: none;
+  }
+  #hero *, .light, p {
+    color: black;
+  }
+}
