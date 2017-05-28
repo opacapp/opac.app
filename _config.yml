@@ -25,6 +25,8 @@ navigation_de:
     url: /de/faq/
   - title: Kontakt
     url: /de/kontakt/
+  - title: English
+    url: /en/
 
 navigation_en:
   - title: Front page
@@ -39,3 +41,5 @@ navigation_en:
     url: /en/faq/
   - title: Contact
     url: /en/contact/
+  - title: Deutsch
+    url: /de/

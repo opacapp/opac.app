@@ -2,7 +2,6 @@
     * EN
         * screenshots!
 * JPEG size
-* Sprachen querverlinken
 * Deploy
 * Make redirects from old pages
 * Favicon
