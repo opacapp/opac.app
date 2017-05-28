@@ -1,4 +1,1 @@
-* bibproxy
-* artwork/, doc/, download/
-* release app
 * new play store screenshots

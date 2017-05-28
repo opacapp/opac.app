@@ -16,5 +16,5 @@ Still, if you need to, you can find the recent APK file here:
 
 <p>&nbsp;</p>
 <p class="center-align">
-    <a class="waves-effect waves-light red btn-large" href="https://opacapp.de/download/latest.apk">APK Download</a>
+    <a class="waves-effect waves-light red btn-large" href="/download/latest.apk">APK Download</a>
 </p>

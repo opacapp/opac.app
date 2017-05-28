@@ -12,6 +12,9 @@ redcarpet:
     extensions: [footnotes]
 permalink: /:path/:basename/
 
+sass:
+  style: compressed
+
 navigation_de:
   - title: Startseite
     url: /de/
