@@ -2,6 +2,6 @@ deploy:
     type: deploy
     script:
         - jekyll build
-        - scp -r -o UserKnownHostsFile=/keys/known_hosts -i /keys/opacweb_deploy _site/* opacweb@smedry.rami.io:html/
+        - scp -r -o UserKnownHostsFile=/keys/known_hosts -i /keys/opacweb_deploy _site/* opacweb@smedry.rami.io:www/
     only:
         - master
