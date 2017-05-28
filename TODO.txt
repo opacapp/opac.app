@@ -1,6 +1,4 @@
-* Deploy
-* /en/promo
-* Make redirects from old pages
+* 404 page
 * bibproxy
 * artwork/, doc/, download/
 * release app

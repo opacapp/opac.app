@@ -15,7 +15,7 @@
    version="1.1"
    id="svg4601"
    inkscape:version="0.92.1 r"
-   sodipodi:docname="BannerQuadrat.svg"
+   sodipodi:docname="BannerQuadrat_en.svg"
    inkscape:export-filename="/home/raphael/proj/opacapp/presskit/Banner/BannerBreit_800x400.png"
    inkscape:export-xdpi="50.799999"
    inkscape:export-ydpi="50.799999">
@@ -51,7 +51,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -152,20 +152,20 @@
     </g>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:3.00560665px;line-height:5.63551235px;font-family:Roboto;-inkscape-font-specification:'Roboto, Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.2254205px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="212.99622"
-       y="91.496696"
+       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:2.86377835px;line-height:5.36958456px;font-family:Roboto;-inkscape-font-specification:'Roboto, Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.21478339px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="213.48201"
+       y="93.269531"
        id="text4539"><tspan
          sodipodi:role="line"
-         id="tspan4537"
-         x="212.99622"
-         y="91.496696"
-         style="font-size:30.05606461px;line-height:31.15641212px;text-align:center;text-anchor:middle;stroke-width:0.2254205px">Der Büchereikatalog</tspan><tspan
+         x="213.48201"
+         y="93.269531"
+         style="font-size:28.63778305px;line-height:29.68620682px;text-align:center;text-anchor:middle;stroke-width:0.21478339px"
+         id="tspan4541">The library catalogue</tspan><tspan
          sodipodi:role="line"
-         x="212.99622"
-         y="122.65311"
-         style="font-size:30.05606461px;line-height:31.15641212px;text-align:center;text-anchor:middle;stroke-width:0.2254205px"
-         id="tspan4541">als Android-App</tspan></text>
+         x="213.48201"
+         y="122.95573"
+         style="font-size:28.63778305px;line-height:29.68620682px;text-align:center;text-anchor:middle;stroke-width:0.21478339px"
+         id="tspan4513">on your smartphone</tspan></text>
     <text
        id="text4547"
        y="56.207836"
