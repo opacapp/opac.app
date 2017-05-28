@@ -3,7 +3,7 @@ $(function () {
     var map = L.map('map').setView([49.40, 8.64], 2);
     var api = 'https://info.opacapp.de';
 
-    L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
         attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
     }).addTo(map);
 
