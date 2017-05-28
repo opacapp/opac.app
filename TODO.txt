@@ -1,6 +1,7 @@
 * Deploy
+* /en/promo
 * Make redirects from old pages
 * bibproxy
+* artwork/, doc/, download/
 * release app
 * new play store screenshots
-* artwork/, doc/, download/
