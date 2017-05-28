@@ -1,5 +1,5 @@
 #hero {
-  background: #251712 url("/img/library_stock_photo_dark.jpg") no-repeat;
+  background: #251712 url("/img/library_stock_photo_dark_1920.jpg") no-repeat;
   background-size: cover;
   color: white;
   box-shadow: 0px 4px 6px -4px grey;
@@ -154,5 +154,63 @@ $navbar-alpha-value: 0.15;
 @media(max-width: 991px) {
   .plusshowcase .description {
     min-height: inherit;
+  }
+}
+
+/* Image resolutions */
+
+/* Desktop */
+@media(min-width: 993px) {
+  #hero {
+    background-image: url("/img/library_stock_photo_dark_1200.jpg");
+  }
+}
+
+/* Desktop - ratio 1.5 and up to Retina */
+@media (min-width: 993px) and (min-device-pixel-ratio: 1.5), (min-width: 993px) and (min-resolution: 144dpi) {
+  #hero {
+    background-image: url("/img/library_stock_photo_dark_2400.jpg");
+  }
+}
+
+/* Large Desktop */
+@media(min-width: 1201px) {
+  #hero {
+    background-image: url("/img/library_stock_photo_dark_1920.jpg");
+  }
+}
+
+/* Large Desktop - ratio 1.5 and up to Retina */
+@media (min-width: 1201px) and (min-device-pixel-ratio: 1.5), (min-width: 1201px) and (min-resolution: 144dpi) {
+  #hero {
+    background-image: url("/img/library_stock_photo_dark_3840.jpg");
+  }
+}
+
+/* Tablet */
+@media(max-width: 992px) {
+  #hero {
+    background-image: url("/img/library_stock_photo_dark_992.jpg");
+  }
+}
+
+/* Tablet - ratio 1.5 and up to Retina */
+@media (max-width: 992px) and (min-device-pixel-ratio: 1.5), (max-width: 992px) and (min-resolution: 144dpi) {
+  #hero {
+    background-image: url("/img/library_stock_photo_dark_1984.jpg");
+  }
+}
+
+/* Phone */
+@media(max-width: 600px) {
+  #hero {
+    background-image: url("/img/library_stock_photo_dark_600.jpg");
+  }
+}
+
+/* Tablet - ratio 1.5 and up to Retina */
+@media (max-width: 600px) and (min-device-pixel-ratio: 1.5), (max-width: 600px) and (min-resolution: 144dpi) {
+  #hero {
+    background-image: url("/img/library_stock_photo_dark_1200.jpg");
   }
 }
