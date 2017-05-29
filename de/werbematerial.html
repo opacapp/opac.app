@@ -1,5 +1,26 @@
 ---
 layout: default_de
+screens:
+  - de_search
+  - de_detail
+  - de_account
+  - de_menu
+  - de_starred
+  - de_notification
+  - de_settings
+  - de_infos
+  - 7inch/de_search
+  - 7inch/de_results
+  - 7inch/de_account
+  - 7inch/de_menu
+  - 7inch/de_infos
+  - 7inch/de_settings
+  - 10inch/de_search
+  - 10inch/de_results
+  - 10inch/de_account
+  - 10inch/de_menu
+  - 10inch/de_infos
+  - 10inch/de_settings
 ---
 
 <h1>Werbematerial</h1>
@@ -76,64 +97,16 @@ layout: default_de
 <h2>Screenshots</h2>
 
 <div class="row">
+    {% for s in page.screens %}
     <div class="col s12 m3">
         <div class="card">
             <div class="card-image presskit-image">
-                <img src="/img/screens/de_search.png">
+                <img src="/img/screens/{{ s }}.png">
             </div>
             <div class="card-action">
-                <a href="/img/screens/de_search.png">PNG (1080x1920)</a>
+                <a href="/img/screens/{{ s }}.png">PNG</a>
             </div>
         </div>
     </div>
-    <div class="col s12 m3">
-        <div class="card">
-            <div class="card-image presskit-image">
-                <img src="/img/screens/de_detail.png">
-            </div>
-            <div class="card-action">
-                <a href="/img/screens/de_detail.png">PNG (1080x1920)</a>
-            </div>
-        </div>
-    </div>
-    <div class="col s12 m3">
-        <div class="card">
-            <div class="card-image presskit-image">
-                <img src="/img/screens/de_account.png">
-            </div>
-            <div class="card-action">
-                <a href="/img/screens/de_account.png">PNG (1080x1920)</a>
-            </div>
-        </div>
-    </div>
-    <div class="col s12 m3">
-        <div class="card">
-            <div class="card-image presskit-image">
-                <img src="/img/screens/de_starred.png">
-            </div>
-            <div class="card-action">
-                <a href="/img/screens/de_starred.png">PNG (1080x1920)</a>
-            </div>
-        </div>
-    </div>
-    <div class="col s12 m3">
-        <div class="card">
-            <div class="card-image presskit-image">
-                <img src="/img/screens/de_notification.png">
-            </div>
-            <div class="card-action">
-                <a href="/img/screens/de_notification.png">PNG (1080x1920)</a>
-            </div>
-        </div>
-    </div>
-    <div class="col s12 m3">
-        <div class="card">
-            <div class="card-image presskit-image">
-                <img src="/img/screens/de_infos.png">
-            </div>
-            <div class="card-action">
-                <a href="/img/screens/de_infos.png">PNG (1080x1920)</a>
-            </div>
-        </div>
-    </div>
+    {% endfor %}
 </div>

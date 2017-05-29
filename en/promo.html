@@ -1,5 +1,26 @@
 ---
 layout: default_en
+screens:
+- en_search
+- en_detail
+- en_account
+- en_menu
+- en_starred
+- en_notification
+- en_settings
+- en_infos
+- 7inch/en_search
+- 7inch/en_results
+- 7inch/en_account
+- 7inch/en_menu
+- 7inch/en_infos
+- 7inch/en_settings
+- 10inch/en_search
+- 10inch/en_results
+- 10inch/en_account
+- 10inch/en_menu
+- 10inch/en_infos
+- 10inch/en_settings
 ---
 
 <h1>Promotional material</h1>
@@ -10,7 +31,7 @@ layout: default_en
     Please link the pictures to www.opacapp.net or to the app's entry in the Google Play Store.
 </p>
 <p>
-    This material is also available <a href="/de/werbematerial">in German language</a>. Contact us if you need additional
+    This material is also available <a href="/de/werbematerial/">in German language</a>. Contact us if you need additional
     languages or different graphics.
 </p>
 <p>
@@ -74,64 +95,16 @@ layout: default_en
 <h2>Screenshots</h2>
 
 <div class="row">
-    <div class="col s12 m3">
-        <div class="card">
-            <div class="card-image presskit-image">
-                <img src="/img/screens/en_search.png">
-            </div>
-            <div class="card-action">
-                <a href="/img/screens/en_search.png">PNG (1080x1920)</a>
-            </div>
-        </div>
-    </div>
-    <div class="col s12 m3">
-        <div class="card">
-            <div class="card-image presskit-image">
-                <img src="/img/screens/en_detail.png">
-            </div>
-            <div class="card-action">
-                <a href="/img/screens/en_detail.png">PNG (1080x1920)</a>
+    {% for s in page.screens %}
+        <div class="col s12 m3">
+            <div class="card">
+                <div class="card-image presskit-image">
+                    <img src="/img/screens/{{ s }}.png">
+                </div>
+                <div class="card-action">
+                    <a href="/img/screens/{{ s }}.png">PNG</a>
+                </div>
             </div>
         </div>
-    </div>
-    <div class="col s12 m3">
-        <div class="card">
-            <div class="card-image presskit-image">
-                <img src="/img/screens/en_account.png">
-            </div>
-            <div class="card-action">
-                <a href="/img/screens/en_account.png">PNG (1080x1920)</a>
-            </div>
-        </div>
-    </div>
-    <div class="col s12 m3">
-        <div class="card">
-            <div class="card-image presskit-image">
-                <img src="/img/screens/en_starred.png">
-            </div>
-            <div class="card-action">
-                <a href="/img/screens/en_starred.png">PNG (1080x1920)</a>
-            </div>
-        </div>
-    </div>
-    <div class="col s12 m3">
-        <div class="card">
-            <div class="card-image presskit-image">
-                <img src="/img/screens/en_notification.png">
-            </div>
-            <div class="card-action">
-                <a href="/img/screens/en_notification.png">PNG (1080x1920)</a>
-            </div>
-        </div>
-    </div>
-    <div class="col s12 m3">
-        <div class="card">
-            <div class="card-image presskit-image">
-                <img src="/img/screens/en_infos.png">
-            </div>
-            <div class="card-action">
-                <a href="/img/screens/en_infos.png">PNG (1080x1920)</a>
-            </div>
-        </div>
-    </div>
+    {% endfor %}
 </div>
