@@ -53,17 +53,6 @@
     margin-right: 10px;
   }
 }
-
-@media #{$medium-and-up} {
-  #hero {
-    margin-top: -20px - $navbar-height;
-    padding-top: $navbar-height;
-  }
-  .frontpage .subpage:before {
-    height: $navbar-height;
-  }
-}
-
 $navbar-alpha-value: 0.15;
 
 .frontpage .navbar-fixed nav {
@@ -85,6 +74,17 @@ $navbar-alpha-value: 0.15;
   height: $navbar-height-mobile;
   z-index: 9;
 }
+
+@media #{$medium-and-up} {
+  #hero {
+    margin-top: -20px - $navbar-height;
+    padding-top: $navbar-height;
+  }
+  .frontpage .subpage:before {
+    height: $navbar-height;
+  }
+}
+
 
 .promo {
   margin-top: -35px;
