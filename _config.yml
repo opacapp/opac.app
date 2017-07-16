@@ -51,3 +51,7 @@ uncss:
   stylesheets:
     - css/main.css
   compress: true
+  ignore:
+    - .collection .collection-item
+    - .collection a.collection-item
+    - .collection a.collection-item:hover
