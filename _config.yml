@@ -46,3 +46,8 @@ navigation_en:
     url: /en/contact/
   - title: Deutsch
     url: /de/
+
+uncss:
+  stylesheets:
+    - css/main.css
+  compress: true
