@@ -3,6 +3,28 @@
     {% include head.html %}
 </head>
 <body {% if page.class %} class="{{ page.class }}" {% endif %}>
+<script>
+    window.addEventListener("load", function(){
+        window.cookieconsent.initialise({
+            "palette": {
+                "popup": {
+                    "background": "#efefef",
+                    "text": "#404040"
+                },
+                "button": {
+                    "background": "#d50000",
+                    "text": "#ffffff"
+                }
+            },
+            "theme": "edgeless",
+            "content": {
+                "message": "This website uses cookies to ensure you get the best experience on our website.",
+                "dismiss": "Got it!",
+                "link": "Learn more",
+                "href": "/en/privacy/"
+            }
+        })});
+</script>
 <div class="navbar-fixed">
     <nav>
         <div class="nav-wrapper container">
