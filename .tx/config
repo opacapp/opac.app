@@ -1,0 +1,79 @@
+[main]
+host = https://www.transifex.com
+
+[opacapp-website.404html]
+file_filter = <lang>/404.html
+minimum_perc = 0
+source_file = en/404.html
+source_lang = en
+type = HTML
+
+[opacapp-website.apkmd]
+file_filter = <lang>/apk.md
+minimum_perc = 0
+source_file = en/apk.md
+source_lang = en
+type = HTML
+
+[opacapp-website.compatibilityhtml]
+file_filter = <lang>/compatibility.html
+minimum_perc = 0
+source_file = en/compatibility.html
+source_lang = en
+type = HTML
+
+[opacapp-website.contacthtml]
+file_filter = <lang>/contact.html
+minimum_perc = 0
+source_file = en/contact.html
+source_lang = en
+type = HTML
+
+[opacapp-website.faqhtml]
+file_filter = <lang>/faq.html
+minimum_perc = 0
+source_file = en/faq.html
+source_lang = en
+type = HTML
+
+[opacapp-website.featureshtml]
+file_filter = <lang>/features.html
+minimum_perc = 0
+source_file = en/features.html
+source_lang = en
+type = HTML
+
+[opacapp-website.for-librarieshtml]
+file_filter = <lang>/for-libraries.html
+minimum_perc = 0
+source_file = en/for-libraries.html
+source_lang = en
+type = HTML
+
+[opacapp-website.indexhtml]
+file_filter = <lang>/index.html
+minimum_perc = 0
+source_file = en/index.html
+source_lang = en
+type = HTML
+
+[opacapp-website.librarieshtml]
+file_filter = <lang>/libraries.html
+minimum_perc = 0
+source_file = en/libraries.html
+source_lang = en
+type = HTML
+
+[opacapp-website.privacyhtml]
+file_filter = <lang>/privacy.html
+minimum_perc = 0
+source_file = en/privacy.html
+source_lang = en
+type = HTML
+
+[opacapp-website.promohtml]
+file_filter = <lang>/promo.html
+minimum_perc = 0
+source_file = en/promo.html
+source_lang = en
+type = HTML

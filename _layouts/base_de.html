@@ -21,7 +21,7 @@
                 "message": "Diese Website nutzt Cookies um Ihr Nutzungserlebnis zu verbessern.",
                 "dismiss": "Verstanden!",
                 "link": "Mehr Infos und Opt-Out",
-                "href": "/de/datenschutz/"
+                "href": "/de/privacy/"
             }
         })});
 </script>
@@ -73,7 +73,25 @@
     </nav>
 </div>
 <div class="subpage">
+    {% if page.class == 'frontpage' or page.class == 'features' %}
     {{ content }}
+    {% elsif page.class == 'singlecard' %}
+    <div class="container">
+        <div class="row">
+            <div class="col s12">
+                <div class="card">
+                    <div class="card-content">
+                        {{ content }}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    {% else %}
+    <div class="container">
+        {{ content }}
+    </div>
+    {% endif %}
 </div>
 <footer class="page-footer">
     <div class="container">
@@ -93,12 +111,12 @@
                 <h5 class="white-text">Links</h5>
                 <ul>
                     <li>
-                        <a class="grey-text text-lighten-3" href="/de/kontakt/">
+                        <a class="grey-text text-lighten-3" href="/de/contakt/">
                             Impressum
                         </a>
                     </li>
                     <li>
-                        <a class="grey-text text-lighten-3" href="/de/datenschutz/">
+                        <a class="grey-text text-lighten-3" href="/de/privacy/">
                             Datenschutz
                         </a>
                     </li>

@@ -1,5 +1,5 @@
 ---
-layout: singlecard_de
+class: singlecard
 ---
 
 Download

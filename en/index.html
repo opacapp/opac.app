@@ -1,5 +1,4 @@
 ---
-layout: base_en
 class: frontpage
 ---
 
@@ -21,18 +20,18 @@ class: frontpage
                 <p>
                     <a class="playbadge"
                        href="https://play.google.com/store/apps/details?id=de.geeksfactory.opacclient">
-                        <img src="/img/en-play-badge.svg"/>
+                        <img src="/img/{{ page.lang }}-play-badge.svg"/>
                     </a>
                 </p>
                 <p style="opacity: 0.7;">
                     <a href="https://github.com/opacapp/opacclient">Source code (GitHub)</a> &middot;
                     <a href="https://f-droid.org/repository/browse/?fdfilter=opac&fdid=de.geeksfactory.opacclient" target="_blank">F-Droid</a> &middot;
-                    <a href="/en/apk/">APK Download</a>
+                    <a href="/{{ page.lang }}/apk/">APK Download</a>
                 </p>
 
             </div>
             <div class="col l5 pull-l7" style="text-align: right">
-                <div class="screenshot-framed" id="screenshot_framed"><img src="/img/screens/en_search.png"/></div>
+                <div class="screenshot-framed" id="screenshot_framed"><img src="/img/screens/{{ page.lang }}_search.png"/></div>
             </div>
         </div>
 
@@ -122,7 +121,7 @@ class: frontpage
                 improved integration of opening hours of the branches and features like acquisition lists, event
                 calendars or news from the library. For some libraries, we realised individual features – as diverse
                 as the libraries themselves. We have been able to bring libraries of every size into the modern age.
-                <a href="/en/for-libraries/">Read more</a>
+                <a href="/{{ page.lang }}/for-libraries/">Read more</a>
             </p>
             <div class="row">
                 {% include references.html %}

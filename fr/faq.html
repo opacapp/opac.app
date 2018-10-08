@@ -1,0 +1,198 @@
+---
+---
+
+<div>
+<h1>FAQ - Questions Fréquemment Posées</h1>
+
+<div class="table-of-contents-static">
+    <h3>Contenus</h3>
+    <ul>
+<li>
+<a href="#user">FAQ - Questions Fréquemment Posées</a> </li>
+        <li>
+<a href="#lib-community">FAQ - Questions Fréquemment Posées (Edition gratuite)</a> </li>
+        <li>
+<a href="#lib-plus">FAQ - Questions Fréquemment Posées (Edition Plus )</a> </li>
+    </ul>
+</div>
+
+
+<h2 class="faq">
+<a name="user" class="anchor"></a>Questions des utilisateurs</h2>
+
+<ul class="collapsible popout">
+<li>
+        <div class="collapsible-header">Pourquoi est-ce que la bibliothèque XY n'est pas supportée ?</div>
+        <div class="collapsible-body">
+            <div class="collapsible-inner">
+                <div>
+<p>Alors qu'il est facile d'ajouter un ensemble de bibliothèques utilisant le même système informatique (ce qui explique pourquoi notre liste de bibliothèques grandit de façon très rapide), il est plus difficile d'ajouter une bibliothèque utilisant un système informatique que nous ne prenons pas encore en charge.</p>
+                    <p>Si votre bibliothèque n'est pas dans notre liste, ceci peut être pour deux raisons :</p>
+                    <ol>
+<li>La bibliothèque utilise un système informatique non pris en charge. Bien que les chances soient plutôt faibles dans ce cas, vous devriez nous demander si nous pourrions prendre en charge la bibliothèque.</li>
+                        <li>Vous êtes le premier à demander, alors rendez vous au formulaire de contact sous la liste des bibliothèques et demandez nous de l'ajouter.</li>
+                    </ol>
+</div>
+            </div>
+        </div>
+    </li>
+    <li>
+        <div class="collapsible-header">Ma bibliothèque utilise "OPAC", pouvez-vous le prendre en charge ?</div>
+        <div class="collapsible-body">
+            <div class="collapsible-inner">
+                <div><p>Malheureusement OPAC est juste un acronyme pour <strong>O</strong>nline <strong>P</strong>ublic <strong>A</strong>ccess <strong>C</strong>atalogue et est le nom d'une catégorie de logiciel. Nous prenons en charge une liste limitée de produits logiciels. Vous pouvez consulter <a href="/{{ page.lang }}/compatibility/" title="Kompatibilität Community Edition">la liste de compatibilité</a>, ou vous pouvez juste utiliser le fomulaire sous la liste des bibliothèques pour nous demander si nous pouvons l'ajouter.</p></div>
+            </div>
+        </div>
+    </li>
+    <li>
+        <div class="collapsible-header">Pourquoi est-ce que je ne peux pas utiliser le scanner de code-barres XY ?</div>
+        <div class="collapsible-body">
+            <div class="collapsible-inner">
+                <div>
+<p>L'application Web Opac App elle-même n'implémente pas de scanner de code-barre, ceci nécessite une application tierce de scanner de code-barre pour rechercher via ISBN. Notre objectif est de prendre en charge autant d'applications de numérisation de codes à barres que possible, mais nous ne pouvons prendre en charge que celles qui présentent une interface publique utilisable. Les éléments suivants sont connus pour fonctionner :</p>
+                    <ul>
+<li>
+<a href="https://play.google.com/store/apps/details?id=com.google.zxing.client.android" target="_blank">Barcode Scanner</a><em> (ZXing Team, gratuit)</em> </li>
+                        <li>
+<a href="https://play.google.com/store/apps/details?id=com.srowen.bs.android" target="_blank">Barcode Scanner+</a><em>(Sean Owen, payant)</em> </li>
+                        <li>
+<a href="https://play.google.com/store/apps/details?id=com.srowen.bs.android.simple" target="_blank">Barcode Scanner+ Simple</a><em> (Sean Owen, payant)</em> </li>
+                        <li>
+<a href="https://play.google.com/store/apps/details?id=la.droid.qr" target="_blank">QR Droid™</a><em>(DroidLa, gratuit)</em> </li>
+                        <li>
+<a href="https://play.google.com/store/apps/details?id=la.droid.qr.priva" target="_blank">QR Droid Private™</a><em> (DroidLa, gratuit)</em> </li>
+                    </ul>
+<p>Les applications de Scan Inc., „ScanLife“ de Scanbuy et „NeoReader“ de NeoMedia ne sont pas supportées. </p>
+                    <p>Votre application de scanner préférée ne figure pas dans la liste? Contactez-nous à info@opacapp.net et nous vérifierons ce qui est possible.</p>
+</div>
+            </div>
+        </div>
+    </li>
+    <li>
+        <div class="collapsible-header">Pourquoi ne puis-je pas ajouter des bibliothèques moi-même?</div>
+        <div class="collapsible-body">
+            <div class="collapsible-inner">
+                <div>
+<p>Bien que l'ajout de nouvelles bibliothèques ne soit pas difficile, il reste tout de même une configuration technique à effectuer. Cela rendrait non seulement irritante l’interface utilisateur de l’application, mais rendrait également très difficile de rechercher les erreurs. Nous pensons que cela ferait plus de mal que de bien, nous ne le fournissons donc pas cette possibilité.</p>
+                    <p>Toutefois, si vous avez de l'expérience en programmation, vous pouvez <a href="https://github.com/raphaelm/opacclient/wiki/Adding-a-new-library"> ajouter une nouvelle bibliothèque </a> et nous envoyer un patch ou une demande d'intégration !</p>
+</div>
+            </div>
+        </div>
+    </li>
+    <li>
+        <div class="collapsible-header">Mes données sont-elles transmises via une connexion cryptée?</div>
+        <div class="collapsible-body">
+            <div class="collapsible-inner">
+                <div>
+<p>Cette réponse dépend de la bibliothèque. La règle de base est que le niveau de cryptage est exactement le même que lorsque vous accédez au site Web de votre bibliothèque à l’aide du navigateur Web de votre téléphone.</p>
+                    <p>Depuis la version 2.0.32, l'application affiche un avertissement jaune lors de la création ou de la modification d'un compte pour une bibliothèque qui ne prend pas en charge les connexions chiffrées.</p>
+</div>
+            </div>
+        </div>
+    </li>
+    <li>
+        <div class="collapsible-header">Je ne reçois pas de notification pour l'expiration des documents empruntés. Quelle est la raison pour ça ?</div>
+        <div class="collapsible-body" style="">
+            <div class="collapsible-inner">
+                <div>
+                    <p>Il y a plusieurs raisons possibles. Nous avons énuméré quelques-unes des plus communes ci-dessous :</p>
+                    <ul class="browser-default">
+<li>Tout d'abord, les notifications d'expiration doivent être activées dans les paramètres de l'application.</li>
+                        <li>Si les éléments prêtés ne sont pas correctement affichés dans la vue "Compte" de l'application (en particulier sans ou avec une mauvaise date de retour), l'application n'est pas en mesure d'envoyer de notifications. S'il vous plaît contactez-nous par e-mail dans ce cas.</li>
+                        <li>Les notifications pour l'application Web Opac auraient pu être désactivées dans les paramètres de l'appareil. Ce paramètre se trouve dans l'application «Paramètres» sous «Applications».</li>
+                        <li>Un mode «Ne pas déranger» disponible sur certains smartphones pourrait également bloquer l'application les notifications de l'application. Cela peut également être désactivé dans les paramètres de l'application.</li>
+                        <li>Les notifications peuvent également être bloquées par une application tierce, par exemple. un logiciel antivirus. S'il vous plaît veuillez également vérifier les paramètres de ces applications.</li>
+                        <li> 
+Certains fabricants de smartphones ajoutent à leurs appareils des fonctionnalités d'économie d'énergie qui agissent de manière agressive et peuvent terminer les applications en cours d'exécution en arrière-plan. Cela peut également interférer avec les notifications de l'application Web Opac. Dans ce cas, les notifications n'apparaissent pas du tout ou apparaissent uniquement lorsque l'application est lancée. Veuillez essayer de désactiver ces fonctions d'économie d'énergie ou d'exclure l'application Web Opac de leur périmètre. Par exemple, les smartphones Huawei étiquettent ce paramètre comme suit : “Applications protégées”.</li>
+                    </ul>
+<p>Si vous avez déjà essayé toutes les suggestions ci-dessus, veuillez nous contacter afin que nous puissions continuer à enquêter sur le problème.</p>
+                </div>
+            </div>
+        </div>
+    </li>
+</ul>
+<h2 class="faq">
+<a name="lib-community" class="anchor"></a>Questions des bibliothèques (Edition gratuite) </h2>
+
+
+<ul class="collapsible popout">
+<li>
+        <div class="collapsible-header">Quelles informations sont nécessaires pour nous ajouter à la liste ?</div>
+        <div class="collapsible-body">
+            <div class="collapsible-inner">
+                <div><p>Cela dépend du système de bibliothèque que vous utilisez. Pour certains, nous n'avons besoin de rien en dehors de votre adresse de catalogue, mais pour d’autres (BiBer, Bibliotheca), nous aurons besoin d’un compte utilisateur avec au moins un document prêté pour tester quelques ajustements.</p></div>
+            </div>
+        </div>
+    </li>
+    <li>
+        <div class="collapsible-header">Combien de temps cela prend-il pour que nous apparaissions dans la liste ?</div>
+        <div class="collapsible-body">
+            <div class="collapsible-inner">
+                <div><p>Comme cela nécessite actuellement une mise à jour pour tous les utilisateurs de l'application, nous avons actuellement un rythme d'environ deux semaines.</p></div>
+            </div>
+        </div>
+    </li>
+    <li>
+        <div class="collapsible-header">Pourquoi sommes-nous inclus dans la liste sans l'avoir demandé ?</div>
+        <div class="collapsible-body">
+            <div class="collapsible-inner">
+                <div>
+<p>Comme ce projet a débuté en tant que projet communautaire, nous acceptons toujours les suggestions de la communauté et incluons les bibliothèques selon les souhaits de l'utilisateur.</p>
+                    <p>Si vous ne souhaitez vraiment pas être inclus dans la liste, veuillez nous contacter à l'adresse <a href="mailto:info@opacapp.net"> info@opacapp.net </a>. Nous supprimerons votre bibliothèque lors de la prochaine mise à jour. . (Bien que cela ne soit jamais arrivé auparavant.)</p>
+</div>
+            </div>
+        </div>
+    </li>
+    <li>
+        <div class="collapsible-header">Quelle est votre politique de confidentialité?</div>
+        <div class="collapsible-body">
+            <div class="collapsible-inner">
+                <div><p>Nous prenons la vie privée très au sérieux. Nous avons principalement résolu le problème en ne collectant aucune donnée : l’application établit directement une connexion entre le périphérique de l’utilisateur et le serveur de la bibliothèque, sans aucune connexion avec nous. Pour plus d'informations, consultez notre  <a href="/{{ page.lang }}/privacy/">Politique de confidentialité </a>.</p></div>
+            </div>
+        </div>
+    </li>
+    <li>
+        <div class="collapsible-header">Pouvons-nous créer un lien vers l'application?</div>
+        <div class="collapsible-body">
+            <div class="collapsible-inner">
+                <div><p>Sûr ! Si vous souhaitez utiliser notre logo, nous avons préparé quelques graphiques <a href="/{{ page.lang }}/promo/"> ici </a>.</p></div>
+            </div>
+        </div>
+    </li>
+    <li>
+        <div class="collapsible-header">Combien de nos utilisateurs utilisent l'application ?</div>
+        <div class="collapsible-body">
+            <div class="collapsible-inner">
+                <div>
+<p>Nous ne pouvons pas vous le dire, car nous ne savons tout simplement pas. Nous connaissons le nombre total de téléchargements de notre application mais nous ne suivons pas les bibliothèques utilisées par nos utilisateurs.</p>
+                    <p>Cependant, vous pouvez le suivre vous-même: Demandez à votre administrateur réseau de surveiller la consultation de votre catalogue en ligne pour le tag HTT User agent «OpacApp/VERSION».</p>
+</div>
+            </div>
+        </div>
+    </li>
+</ul>
+<h2 class="faq">
+<a class="anchor" name="lib-plus"></a>Questions des bibliothèques (Plus Edition) </h2>
+
+
+<ul class="collapsible popout">
+<li>
+        <div class="collapsible-header">Combien coûte l'édition Plus ?</div>
+        <div class="collapsible-body">
+            <div class="collapsible-inner">
+                <div>
+<p>Cela dépend fortement de la taille de votre bibliothèque et des fonctionnalités souhaitées. Veuillez nous contacter à l'adresse <a href="mailto:quotation@opacapp.net"> quotation@opacapp.net </a> et notre partenaire <a href="http://www.subkom.de" target="_ blank" .> subkom GmbH </a> vous contactera.</p>
+                </div>
+            </div>
+        </div>
+    </li>
+    <li>
+        <div class="collapsible-header">L'application iPhone est-elle identique à l'application Android?</div>
+        <div class="collapsible-body">
+            <div class="collapsible-inner">
+                <div><p>Non, et c'est fait exprès. Android et iOS sont des environnements très différents, à la fois en termes techniques et de conception. Nos applications ont pour objectif de s’intégrer de manière native dans ces écosystèmes pour rendre leur utilisation la plus intuitive possible. Pour cette raison, les deux applications ne sont pas des copies l'une de l'autre, mais des logiciels indépendants de développeurs spécialisés. Elles sont cependant le produit d’une communication constante et ont des fonctions très similaires.</p></div>
+            </div>
+        </div>
+    </li>
+</ul>
+</div>

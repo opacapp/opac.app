@@ -1,4 +1,4 @@
-<html lang="en">
+<html lang="fr">
 <head>
     {% include head.html %}
 </head>
@@ -21,7 +21,7 @@
                 "message": "This website uses cookies to ensure you get the best experience on our website.",
                 "dismiss": "Got it!",
                 "link": "Learn more or opt out",
-                "href": "/en/privacy/"
+                "href": "/fr/privacy/"
             }
         })});
 </script>
@@ -29,7 +29,7 @@
     <nav>
         <div class="nav-wrapper container">
             <div class="brand-logo">
-                <a href="/en/">
+                <a href="/fr/">
                     <img src="/img/logo.svg" alt="Web Opac App">
                     <span>Web Opac App</span>
                 </a>
@@ -39,7 +39,7 @@
             </a>
             <ul id="nav-mobile" class="right hide-on-med-and-down">
                 {% assign current_page = nil %}
-                {% for link in site.navigation_en %}
+                {% for link in site.navigation_fr %}
                 {% assign current = '' %}
                 {% if page.url == link.url %}
                 {% assign current = 'active' %}
@@ -55,7 +55,7 @@
             </ul>
             <ul class="side-nav" id="mobile-nav">
                 {% assign current_page = nil %}
-                {% for link in site.navigation_en %}
+                {% for link in site.navigation_fr %}
                 {% assign current = '' %}
                 {% if page.url == link.url %}
                 {% assign current = 'active' %}
@@ -111,12 +111,12 @@
                 <h5 class="white-text">Links</h5>
                 <ul>
                     <li>
-                        <a class="grey-text text-lighten-3" href="/en/contact/">
+                        <a class="grey-text text-lighten-3" href="/fr/contact/">
                             Imprint
                         </a>
                     </li>
                     <li>
-                        <a class="grey-text text-lighten-3" href="/en/privacy/">
+                        <a class="grey-text text-lighten-3" href="/fr/privacy/">
                             Privacy
                         </a>
                     </li>
@@ -148,7 +148,7 @@
 {% if page.map %}
 <script src="/js/leaflet.js" type="text/javascript"></script>
 <script src="/js/leaflet.markercluster.js" type="text/javascript"></script>
-<script src="/js/map.en.js" type="text/javascript"></script>
+<script src="/js/map.fr.js" type="text/javascript"></script>
 <script src="/js/map.js" type="text/javascript"></script>
 {% endif %}
 <script type="text/javascript">
