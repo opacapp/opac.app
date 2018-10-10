@@ -1,6 +1,13 @@
 [main]
 host = https://www.transifex.com
 
+[opacapp-website.base]
+file_filter = _data/<lang>/base.yml
+minimum_perc = 0
+source_file = _data/en/base.yml
+source_lang = en
+type = YAML_GENERIC
+
 [opacapp-website.404html]
 file_filter = <lang>/404.html
 minimum_perc = 0
@@ -8,26 +15,26 @@ source_file = en/404.html
 source_lang = en
 type = HTML
 
-[opacapp-website.apkmd]
-file_filter = <lang>/apk.md
+[opacapp-website.apk]
+file_filter = _data/<lang>/apk.yml
 minimum_perc = 0
-source_file = en/apk.md
+source_file = _data/en/apk.yml
 source_lang = en
-type = HTML
+type = YAML_GENERIC
 
-[opacapp-website.compatibilityhtml]
-file_filter = <lang>/compatibility.html
+[opacapp-website.compatibility]
+file_filter = _data/<lang>/compatibility.yml
 minimum_perc = 0
-source_file = en/compatibility.html
+source_file = _data/en/compatibility.yml
 source_lang = en
-type = HTML
+type = YAML_GENERIC
 
-[opacapp-website.contacthtml]
-file_filter = <lang>/contact.html
+[opacapp-website.contact]
+file_filter = _data/<lang>/contact.yml
 minimum_perc = 0
-source_file = en/contact.html
+source_file = _data/en/contact.yml
 source_lang = en
-type = HTML
+type = YAML_GENERIC
 
 [opacapp-website.faqhtml]
 file_filter = <lang>/faq.html
@@ -36,26 +43,26 @@ source_file = en/faq.html
 source_lang = en
 type = HTML
 
-[opacapp-website.featureshtml]
-file_filter = <lang>/features.html
+[opacapp-website.features]
+file_filter = _data/<lang>/features.yml
 minimum_perc = 0
-source_file = en/features.html
+source_file = _data/en/features.yml
 source_lang = en
-type = HTML
+type = YAML_GENERIC
 
-[opacapp-website.for-librarieshtml]
-file_filter = <lang>/for-libraries.html
+[opacapp-website.for-libraries]
+file_filter = _data/<lang>/for_libraries.yml
 minimum_perc = 0
-source_file = en/for-libraries.html
+source_file = _data/en/for_libraries.yml
 source_lang = en
-type = HTML
+type = YAML_GENERIC
 
-[opacapp-website.indexhtml]
-file_filter = <lang>/index.html
+[opacapp-website.index]
+file_filter =  _data/<lang>/index.yml
 minimum_perc = 0
-source_file = en/index.html
+source_file =  _data/en/index.yml
 source_lang = en
-type = HTML
+type = YAML_GENERIC
 
 [opacapp-website.librarieshtml]
 file_filter = <lang>/libraries.html

@@ -1,0 +1,45 @@
+title: Features
+desc: Im Folgenden finden Sie eine detaillierte Übersicht über die Funktionen der App.
+catalogue_title: Katalogsuche
+catalogue_item1: Schnelle Suche im Katalog der Bibliothek
+catalogue_item2: Erweiterte Suche mit allen verfügbaren Suchfeldern
+catalogue_item3: Suche nach ISBN mit Barcode-Scanner
+catalogue_item4: Nachträgliche Filterung mit Facetten
+catalogue_item5: Neuanschaffungslisten
+badge_plus_edition: Plus Edition
+details_title: Mediendetails
+details_item1: Übersichtliche Anzeige der Mediendetails
+details_item2: "Verfügbare Exemplare, Zweigstellenliste"
+details_item3: Link zum Medium mit Freunden teilen
+details_item4: Medien direkt in der App vormerken
+details_item5: Export der Mediendetails
+starred_title: Merkliste
+starred_item1: Gewünschte Medien für den nächsten Bibliotheksbesuch speichern
+starred_item2: Direkte Verbindung zur Detailansicht
+starred_item3: Versand der Merkliste per E-Mail o.ä.
+account_title: Kontoansicht
+account_item1: Überblick über entliehene und reservierte Medien
+account_item2: Ablaufende Medien verlängern
+account_item3: Reservierungen stornieren
+account_item4: "Weitere Informationen zum Konto (Gültigkeitszeitraum, Ausstehende Gebühren, etc.)"
+account_item5: Mehrere Konten in einer App
+library_title: Informationen zur Bibliothek
+library_item1: Einbindung der Bibliothekswebsite
+library_item2: Übersichtliche Infoseite mit einfacher Pflege im Content Management System „bibInfo“
+reminder_title: Erinnerungsfunktion
+reminder_item1: Erinnerung an ablaufende Medien
+reminder_item2: Vorwarnung mit konfigurierbarer Anzahl an Tagen
+reminder_item3: Abruf der aktuellen Kontodaten im Hintergrund
+reminder_disclaimer: "Die Funktion hat unterstützenden Charakter, aber wir können keine Garantie für fehlende Benachrichtigungen übernehmen."
+onleihe_title: Onleihe/Overdrive-Integration
+onleihe_item1: Integration des Onleihe-Kontos in die Kontoanzeige
+onleihe_item2: Direkte E-Medien-Ausleihe und -Vormerkung aus der Suche
+onleihe_item3: Direkter E-Medien-Download aus der App
+calendar_title: Kalender und Nachrichten
+calendar_item1: Veranstaltungen der Bibliothek direkt in der App
+calendar_item2: Neuigkeiten der Bibliothek direkt in der App
+calendar_item3: Inhalte automatisch aus RSS-Feed oder iCal-Kalender
+calendar_item4: Veranstaltungen filterbar nach Zweigestelle
+card_title: Digitaler Bibliotheksausweis
+card_item1: Anzeige des Ausweis-Barcodes auf dem Smartphone-Display
+card_item2: Zeitersparnis bei vergessenen Ausweisen

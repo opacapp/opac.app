@@ -1,0 +1,45 @@
+title: Features
+desc: On this page, you find a detailled list of the apps' features.
+catalogue_title: Library catalogue
+catalogue_item1: Quick search in the library's catalogue
+catalogue_item2: Advanced search with all available search parameters
+catalogue_item3: Search by ISBN using a barcode scanner
+catalogue_item4: Subsequent filtering or results (facets)
+catalogue_item5: Acquisition lists
+badge_plus_edition: Plus Edition
+details_title: Result details
+details_item1: All available data about found media
+details_item2: Available copies, list of branches
+details_item3: Share a link to the result with friends
+details_item4: Place a reservation directly from the app
+details_item5: Export details
+starred_title: Bookmarks
+starred_item1: Star books and remember them for later
+starred_item2: Takes you directly to the detail view
+starred_item3: Share bookmarks via email etc.
+account_title: Account view
+account_item1: List lent and reserved books
+account_item2: Renew books directly from the app
+account_item3: Cancel reservations
+account_item4: Account information (validity, open fees, etc.)
+account_item5: Multiple accounts in one app
+library_title: Library information
+library_item1: Embedded library website
+library_item2: Structured info page managed in our Content Management System „bibInfo“
+reminder_title: Reminder feature
+reminder_item1: Reminder for expiring books
+reminder_item2: Pre-notification with a configurable number of days
+reminder_item3: Fetching of account information in the background
+reminder_disclaimer: This feature as informative character, as we cannot give any guarantees for the notifications.
+onleihe_title: Onleihe/Overdrive Integration
+onleihe_item1: Integration of the Onleihe/Overdrive account in the account view
+onleihe_item2: Directly check out or reserve ebooks from the app
+onleihe_item3: Directly download ebooks from the app
+calendar_title: Calendar and news
+calendar_item1: Library events directly in the app,
+calendar_item2: Library news directly in the app
+calendar_item3: Automatic content management via RSS feed or iCal calendar
+calendar_item4: Events can be filtered by branch
+card_title: Digital library card
+card_item1: Display a membership card barcode on the smartphone display
+card_item2: Save time if patrons forget to bring their card

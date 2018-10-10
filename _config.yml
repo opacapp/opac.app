@@ -81,18 +81,20 @@ uncss:
 defaults:
   -
     scope:
+      path: ""
+    values:
+      layout: "base"
+  -
+    scope:
       path: "en"
     values:
-      layout: "base_en"
       lang: "en"
   -
     scope:
       path: "de"
     values:
-      layout: "base_de"
       lang: "de"
   - scope:
       path: "fr"
     values:
-      layout: "base_fr"
       lang: "fr"

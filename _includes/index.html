@@ -1,0 +1,102 @@
+{% assign t = site.data[page.lang].index %}
+{% assign tbase = site.data[page.lang].base %}
+
+<div id="hero">
+
+    <div class="container">
+        <div class="row">
+            <div class="col l7 push-l5" style="margin-top: 80px">
+                <img src="/img/logo.svg" id="logo"/>
+                <div class="headerbox">
+                    <h1>{{ tbase.app_name }}</h1>
+                    <span class="tagline">{{ t.tagline }}</span>
+                </div>
+                <p class="description">
+                    {{ t.description }}
+                </p>
+                <p>
+                    <a class="playbadge"
+                       href="https://play.google.com/store/apps/details?id=de.geeksfactory.opacclient">
+                        <img src="/img/{{ page.lang }}-play-badge.svg"/>
+                    </a>
+                </p>
+                <p style="opacity: 0.7;">
+                    <a href="https://github.com/opacapp/opacclient">{{ t.source_code_github }}</a> &middot;
+                    <a href="https://f-droid.org/repository/browse/?fdfilter=opac&fdid=de.geeksfactory.opacclient" target="_blank">{{ t.f_droid }}</a> &middot;
+                    <a href="/{{ page.lang }}/apk/">{{ t.apk_download }}</a>
+                </p>
+
+            </div>
+            <div class="col l5 pull-l7" style="text-align: right">
+                <div class="screenshot-framed" id="screenshot_framed"><img src="/img/screens/{{ page.lang }}_search.png"/></div>
+            </div>
+        </div>
+
+    </div>
+</div>
+<div class="container section">
+    <div class="row promo">
+        <div class="col m4">
+            <i class="material-icons">search</i>
+            <p class="promo-caption">{{ t.promo_catalogue_search_title }}</p>
+            <p class="light">
+                {{ t.promo_catalogue_search_desc }}
+            </p>
+        </div>
+        <div class="col m4">
+            <i class="material-icons">account_circle</i>
+            <p class="promo-caption">{{ t.promo_account_title }}</p>
+            <p class="light">
+                {{ t.promo_account_desc }}
+            </p>
+        </div>
+        <div class="col m4">
+            <i class="material-icons">alarm</i>
+            <p class="promo-caption">{{ t.promo_reminder_title }}</p>
+            <p class="light">
+                {{ t.promo_reminder_desc }}
+            </p>
+        </div>
+    </div>
+    <div class="center-align">
+        <a href="features/" class="waves-effect waves-light btn red">{{ t.more_features }} <i class="material-icons">&#xE5C8;</i></a>
+    </div>
+</div>
+<div class="container section plusshowcase">
+    <h3>{{ t.plusshowcase_title }}</h3>
+    <div class="row">
+        <div class="col l4 m12">
+            <h4>{{ t.plusshowcase_community_title }}</h4>
+            <p class="description light">
+                {{ t.plusshowcase_community_desc1 }}
+            </p>
+            <div class="row">
+                <div class="col s12">
+                    <a href="https://play.google.com/store/apps/details?id=de.geeksfactory.opacclient" target="_blank"
+                       class="appicon larger">
+                        <img src="/img/logo.svg">
+                        <span>{{ tbase.app_name }}</span>
+                    </a>
+                </div>
+            </div>
+            <p class="light">
+                {{ t.plusshowcase_community_desc2 }}
+            </p>
+            <p class="light">
+                {{ t.plusshowcase_community_desc3 }}
+            </p>
+            <p class="light">
+                {{ t.plusshowcase_community_desc4 }}
+            </p>
+        </div>
+        <div class="col l8 m12">
+            <h4>{{ plusshowcase_plus_title }}</h4>
+            <p class="description light">
+                {{ plusshowcase_plus_desc }}
+            </p>
+            <div class="row">
+                {% include references.html %}
+            </div>
+        </div>
+    </div>
+</div>

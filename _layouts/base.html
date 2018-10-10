@@ -1,4 +1,9 @@
-<html lang="en">
+---
+---
+
+{% assign t = site.data[page.lang].base %}
+
+<html lang="{{ page.lang }}">
 <head>
     {% include head.html %}
 </head>
@@ -18,10 +23,10 @@
             },
             "theme": "edgeless",
             "content": {
-                "message": "This website uses cookies to ensure you get the best experience on our website.",
-                "dismiss": "Got it!",
-                "link": "Learn more or opt out",
-                "href": "/en/privacy/"
+                "message": "{{ t.cookie_message }}",
+                "dismiss": "{{ t.cookie_dismiss }}",
+                "link": "{{ t.cookie_link }}",
+                "href": "/{{ page.lang }}/privacy/"
             }
         })});
 </script>
@@ -29,17 +34,18 @@
     <nav>
         <div class="nav-wrapper container">
             <div class="brand-logo">
-                <a href="/en/">
-                    <img src="/img/logo.svg" alt="Web Opac App">
-                    <span>Web Opac App</span>
+                <a href="/{{ page.lang }}/">
+                    <img src="/img/logo.svg" alt="{{ t.app_name }}">
+                    <span>{{ t.app_name }}</span>
                 </a>
             </div>
             <a href="#" data-activates="mobile-nav" class="button-collapse">
                 <i class="material-icons">&#xE5D2;</i>
             </a>
+            {% assign nav = 'navigation_' | append: page.lang %}
             <ul id="nav-mobile" class="right hide-on-med-and-down">
                 {% assign current_page = nil %}
-                {% for link in site.navigation_en %}
+                {% for link in site[nav] %}
                 {% assign current = '' %}
                 {% if page.url == link.url %}
                 {% assign current = 'active' %}
@@ -55,7 +61,7 @@
             </ul>
             <ul class="side-nav" id="mobile-nav">
                 {% assign current_page = nil %}
-                {% for link in site.navigation_en %}
+                {% for link in site[nav] %}
                 {% assign current = '' %}
                 {% if page.url == link.url %}
                 {% assign current = 'active' %}
@@ -97,40 +103,40 @@
     <div class="container">
         <div class="row">
             <div class="col l6 s12">
-                <h5 class="white-text">Web Opac App</h5>
+                <h5 class="white-text">{{ t.app_name }}</h5>
 
                 <p class="grey-text text-lighten-4">
                     built with ♥ by <a href="https://rami.io">rami.io</a> / <a href="https://www.raphaelmichel.de">Raphael
                     Michel</a><br/>
                     Android, Google Play and the Google Play logo are trademarks of Google Inc.<br/>
                     Font Roboto by Google, Apache License<br/>
-                    title photo: <a href="https://unsplash.com/photos/8hJQKRIQZMY">Cristina Gottardi</a>
+                    {{ t.title_photo }}: <a href="https://unsplash.com/photos/8hJQKRIQZMY">Cristina Gottardi</a>
                 </p>
             </div>
             <div class="col l4 offset-l2">
-                <h5 class="white-text">Links</h5>
+                <h5 class="white-text">{{ t.links }}</h5>
                 <ul>
                     <li>
-                        <a class="grey-text text-lighten-3" href="/en/contact/">
-                            Imprint
+                        <a class="grey-text text-lighten-3" href="/{{ page.lang }}/contact/">
+                            {{ t.link_imprint }}
                         </a>
                     </li>
                     <li>
-                        <a class="grey-text text-lighten-3" href="/en/privacy/">
-                            Privacy
+                        <a class="grey-text text-lighten-3" href="/{{ page.lang }}/privacy/">
+                            {{ t.link_privacy }}
                         </a>
                     </li>
                     <li>
                         <a class="grey-text text-lighten-3" href="https://play.google.com/store/apps/details?id=de.geeksfactory.opacclient" target="_blank">
-                            App on Google Play
+                            {{ t.link_app_play }}
                         </a>
                     </li>
                     <li>
                         <a class="grey-text text-lighten-3" href="https://github.com/opacapp" target="_blank">
-                            GitHub
+                            {{ t.link_github }}
                         </a> &middot;
                         <a class="grey-text text-lighten-3" href="https://twitter.com/opacapp" target="_blank">
-                            Twitter
+                            {{ t.link_twitter }}
                         </a>
                     </li>
                 </ul>

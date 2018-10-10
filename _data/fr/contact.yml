@@ -1,0 +1,25 @@
+title: Contact
+project_by: "L'application Web Opac App pour Android et OpacApp.net sont un project de :"
+germany: Allemagne
+email: "Email "
+# office phone number
+office_phone: Bureau
+# european union identification number for value added tax, https://en.wikipedia.org/wiki/VAT_identification_number
+vat_id: n° TVA
+privacy_policy: Vie privée
+disclaimer_title: " Déni de responsabilité du site"
+only_german_binding: Seuls les mots allemands sont engageants.
+disclaimer1: >
+  Nous avons pris grand soin de monter ce site. Toutefois, nous ne pouvons être tenus pour responsables de l'absence d'erreurs, de l'exactitude, de l'exhaustivité, de l'actualité ou de l'exactitude de ce site. Nous excluons toute responsabilité pour tous les dommages résultant de l'utilisation de ce site.
+disclaimer2: >
+  Tout le contenu de la page est la propriété des auteurs de la page. La reproduction, l'édition ou la distribution du contenu nécessite l'autorisation de l'auteur de la page. Les téléchargements et les copies de la page sont autorisés pour un usage privé. Tous les contenus de cette page qui n'ont pas été créés par les auteurs de la page sont signalés de manière appropriée. Si vous constatez toutefois une violation du droit d'auteur sur ce site, nous vous prions de bien vouloir nous contacter. Nous supprimerons ces contenus aussi rapidement que possible.
+disclaimer3: >
+  Toutes les pages externes qui sont liées à ce site Web sont hors de notre contrôle. Au moment où nous avons créé les liens, ils ne contenaient aucun contenu illégal visible. Cependant, comme nous ne pouvons pas les vérifier à tout moment, nous ne pouvons en assumer aucune responsabilité et vous prions de bien vouloir nous contacter, si un lien sur cette page pointe vers une page Web illégale. Dans ce cas, nous supprimerons le lien le plus rapidement possible.
+app_disclaimer_title: Déni de responsabilité de l'application
+app_disclaimer1: >
+  Nous avons pris soin de développer l'application et de la tester régulièrement. Cependant, en raison du nombre important de bibliothèques prises en charge, il ne nous est pas possible de tester tous les cas susceptibles de se produire. Nous déclinons donc toute responsabilité pour les dommages causés par l'utilisation de l'application. En particulier, nous ne sommes pas responsables si des amendes sont infligées car l'utilisateur s'est totalement fié à la fonction de rappel de l'application. Pour des raisons techniques, nous ne pouvons pas donner une garantie à 100% ici.
+app_disclaimer2: >
+  Nous essayons d'obtenir l'exhaustivité, l'exactitude et l'actualité de toutes les données affichées par l'application, mais nous ne pouvons pas le garantir, car les défaillances techniques sont impossibles à prédire. Dès que nous prenons connaissance d'un bug, nous travaillons sur un correctif opportun. Tous les contenus de l'application (résultats de recherche, liens, etc.) sont directement affichés à partir des données de la bibliothèque et nous ne pouvons pas influencer ces contenus. Nous excluons donc toute responsabilité associée à ces données.
+final_remarks_title: Remarques finales
+final_remarks: >-
+  Si une disposition de cette page est ou devient légalement invalide ou s'il reste une lacune à combler, la validité du reste de la page ne sera pas affectée.

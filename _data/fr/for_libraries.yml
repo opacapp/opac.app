@@ -1,0 +1,43 @@
+title: Pour les bibliothèques
+desc1: >
+  Les bibliothèques ont des catalogues en ligne depuis des années, mais la plupart d’entre eux sont épuisants à utiliser sur un appareil mobile, car ils sont rarement conçus pour les petits affichages et les interactions tactiles. Notre application fournit une interface magnifique, intégrée de manière native dans le système d'exploitation mobile Android.
+desc2: >
+  En réponse à de multiples demandes, nous fournissons à présent une Edition Plus de notre application qui contient non seulement des fonctionnalités additionnelles mais est aussi disponible sur Apple iOS. De plus l'Edition Plus est fournie avec votre logo et vos couleurs et est disponible dans les app stores en tant qu'application pour votre bibliothèque.
+desc3: "Nous sommes prêts à implémenter des souhaits complémentaires, contactez nous !"
+desc4: "L'Edition Plus est vendue par notre partenaire, subkom GmbH."
+community_edition: Edition gratuite
+plus_edition: Edition Plus
+operating_systms: Systèmes d'exploitation
+android: Android
+ios: Apple iOS
+# other operating systems
+others: Autres
+native: (native)
+webapp: (WebApp HTML5)
+compatible_opacs: Systèmes de gestion de biblbiothèques compatibles
+# only catalog search is supported
+search_only: (seulement recherche)
+complete: (complèt)
+details: Détails
+more_on_request: complément disponible sur demande
+catalogue: "Catalogue "
+account_features: Caractéristiques du compte
+library_info: Information bibliothèque
+library_website: Votre site web de bibliothèque
+bibinfo: Magnifique et mis en forme
+ebook_support: "Support compte Ebook externe (Onleihe, Overdrive)"
+facets: Fltres de recherche ("facettes")
+for_supported_opacs: Pour les systèmes de gestion de catalogue en ligne pris en charge.
+news_calendar: "Flux d'actualités, Calendrier"
+new_acq: Liste des acquisitions
+delivery: Mise à disposition
+entry_in_webopac: 'Entrée dans la liste de "<a href="https://play.google.com/store/apps/details?id=de.geeksfactory.opacclient">Web Opac App</a>" '
+own_app: 'Votre propre application dans les app stores avec un logo customisé et un design (branding) adapté de votre bibliothèque<br> <a target="_blank" href="https://play.google.com/store/apps/details?id=de.opacapp.bremen">exemple Android</a> · <a target="_blank" href="https://itunes.apple.com/de/app/id705872965?mt=8">exemple iOS</a>         '
+developer: Développeur
+and_contrib: et contributeurs
+ios_and_web: iOS et WebApp
+price: Prix
+free: gratuit
+on_request: sur demande
+send_request: Envoyez une demande
+request_quotation: Demandez un devis

@@ -1,0 +1,87 @@
+{% assign t = site.data[page.lang].contact %}
+
+<div class="row">
+    <div class="col s12 m6">
+        <div class="card">
+            <div class="card-content">
+                <h1>{{ t.title }}</h1>
+                <p>{{ t.project_by }}</p>
+                <div class="contact-info">
+                    <div class="contact-info-line">
+                        <div class="contact-info-icon"><i class="material-icons"></i></div>
+                        <p>Raphael Michel</p>
+                        <p class="secondary">rami.io Softwareentwicklung</p>
+                    </div>
+
+                    <hr>
+                    <div class="contact-info-line">
+                        <div class="contact-info-icon"><i class="material-icons"></i></div>
+                        <p>Römerstraße 245<br>
+                            69126 Heidelberg<br>
+                            {{ t.germany }}</p>
+                    </div>
+
+                    <hr>
+                    <div class="contact-info-line single-line">
+                        <div class="contact-info-icon"><i class="material-icons"></i></div>
+                        <p><a href="mailto:info@opacapp.de">info@opacapp.de</a></p>
+                        <p class="secondary">{{ t.email }}</p>
+                    </div>
+
+                    <hr>
+                    <div class="contact-info-line">
+                        <div class="contact-info-icon"><i class="material-icons"></i></div>
+                        <p>+49 6221 32177-60</p>
+                        <p class="secondary">{{ t.office_phone }}</p>
+                    </div>
+
+                    <hr>
+                    <div class="contact-info-line">
+                        <div class="contact-info-icon"><i class="material-icons"></i></div>
+                        <p>DE297792401</p>
+                        <p class="secondary">{{ t.vat_id }}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="center-align">
+            <a href="/{{ page.lang }}/privacy/" class="waves-effect waves-light btn red">{{ t.privacy_policy }} <i
+                    class="material-icons">&#xE5C8;</i></a>
+        </div>
+    </div>
+
+    <div class="col s12 m6">
+        <div class="card">
+            <div class="card-content">
+                <h2>{{ t.disclaimer_title }}</h2>
+                {% if page.lang != 'de' %}
+                <p>
+                    <em><a href="/de/kontakt/">{{ t.only_german_binding }}</a></em>
+                </p>
+                {% endif %}
+                <p>{{ t.disclaimer1 }}</p>
+                <p>
+                    {{ t.disclaimer2 }}
+                </p>
+                <p>
+                    {{ t.disclaimer3 }}
+                </p>
+
+                <h2>{{ t.app_disclaimer_title }}</h2>
+
+                <p>
+                    {{ t.app_disclaimer1 }}
+                </p>
+                <p>
+                    {{ t.app_disclaimer2 }}
+                </p>
+
+                <h2>{{ t.final_remarks_title }}</h2>
+
+                <p>
+                    {{ t.final_remarks }}
+                </p>
+            </div>
+        </div>
+    </div>
+</div>

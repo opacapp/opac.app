@@ -1,0 +1,186 @@
+{% assign t = site.data[page.lang].features %}
+
+<div class="container">
+    <h1>{{ t.title }}</h1>
+    <p>{{ t.desc }}</p>
+</div>
+
+<div class="features-row">
+    <div class="container">
+        <div class="row">
+            <div class="col m9 push-m3">
+                <h2>{{ t.catalogue_title }}</h2>
+
+                <ul class="features-list">
+                    <li>{{ t.catalogue_item1 }}</li>
+                    <li>{{ t.catalogue_item2 }}</li>
+                    <li>{{ t.catalogue_item3 }}</li>
+                    <li>{{ t.catalogue_item4 }} <span class="plus-badge">{{ t.badge_plus_edition }}</span></li>
+                    <li>{{ t.catalogue_item5 }} <span class="plus-badge">{{ t.badge_plus_edition }}</span></li>
+                </ul>
+            </div>
+            <div class="col m3 pull-m9">
+                <div class="screenshot-framed-half"><img src="/img/screens/{{ page.lang }}_search.png"/></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="features-row grey lighten-4">
+    <div class="container">
+        <div class="row">
+            <div class="col m9">
+                <h2>{{ t.details_title }}</h2>
+
+                <ul class="features-list">
+                    <li>{{ t.details_item1 }}</li>
+                    <li>{{ t.details_item2 }}</li>
+                    <li>{{ t.details_item3 }}</li>
+                    <li>{{ t.details_item4 }}</li>
+                    <li>{{ t.details_item5 }}</li>
+                </ul>
+            </div>
+            <div class="col m3">
+                <div class="screenshot-framed-half"><img src="/img/screens/{{ page.lang }}_detail.png"/></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="features-row">
+    <div class="container">
+        <div class="row">
+            <div class="col m9 push-m3">
+                <h2>{{ t.starred_title }}</h2>
+
+                <ul class="features-list">
+                    <li>{{ t.starred_item1 }}</li>
+                    <li>{{ t.starred_item2 }}</li>
+                    <li>{{ t.starred_item3 }}</li>
+                </ul>
+            </div>
+            <div class="col m3 pull-m9">
+                <div class="screenshot-framed-half"><img src="/img/screens/{{ page.lang }}_starred.png"/></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="features-row grey lighten-4">
+    <div class="container">
+        <div class="row">
+            <div class="col m9">
+                <h2>{{ t.account_title }}</h2>
+
+                <ul class="features-list">
+                    <li>{{ t.account_item1 }}</li>
+                    <li>{{ t.account_item2 }}</li>
+                    <li>{{ t.account_item3 }}</li>
+                    <li>{{ t.account_item4 }}</li>
+                    <li>{{ t.account_item5 }}</li>
+                </ul>
+            </div>
+            <div class="col m3">
+                <div class="screenshot-framed-half"><img src="/img/screens/{{ page.lang }}_account.png"/></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="features-row">
+    <div class="container">
+        <div class="row">
+            <div class="col m3">
+                <div class="screenshot-framed-half"><img src="/img/screens/{{ page.lang }}_infos.png"/></div>
+            </div>
+            <div class="col m9">
+                <h2>{{ t.library_title}}</h2>
+
+                <ul class="features-list">
+                    <li>{{ t.library_item1 }}</li>
+                    <li>{{ t.library_item2 }} <span class="plus-badge">{{ t.badge_plus_edition }}</span></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="features-row grey lighten-4">
+    <div class="container">
+        <div class="row">
+            <div class="col m9">
+                <h2>{{ t.reminder_title }}</h2>
+
+                <ul class="features-list">
+                    <li>{{ t.reminder_item1}}</li>
+                    <li>{{ t.reminder_item2}}</li>
+                    <li>{{ t.reminder_item3}}</li>
+                </ul>
+                <small>{{ t.reminder_disclaimer }}</small>
+            </div>
+            <div class="col m3">
+                <div class="screenshot-framed-half"><img src="/img/screens/{{ page.lang }}_notification.png"/></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="features-row">
+    <div class="container">
+        <div class="row">
+            <div class="col m9 push-m3">
+                <h2>{{ t.onleihe_title }}</h2>
+                <span class="plus-badge">{{ t.badge_plus_edition }}</span>
+
+                <ul class="features-list">
+                    <li>{{ t.onleihe_item1 }}</li>
+                    <li>{{ t.onleihe_item2 }}</li>
+                    <li>{{ t.onleihe_item3 }}</li>
+                </ul>
+            </div>
+            <div class="col m3 pull-m9">
+                <div class="screenshot-framed-half"><img src="/img/screens/{{ page.lang }}_onleihe.png"/></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="features-row grey lighten-4">
+    <div class="container">
+        <div class="row">
+            <div class="col m9">
+                <h2>{{ t.calendar_title }}</h2>
+                <span class="plus-badge">{{ t.badge_plus_edition }}</span>
+
+                <ul class="features-list">
+                    <li>{{ t.calendar_item1 }}</li>
+                    <li>{{ t.calendar_item2 }}</li>
+                    <li>{{ t.calendar_item3 }}</li>
+                    <li>{{ t.calendar_item4 }}</li>
+                </ul>
+            </div>
+            <div class="col m3">
+                <div class="screenshot-framed-half"><img src="/img/screens/{{ page.lang }}_calendar.png"/></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="features-row">
+    <div class="container">
+        <div class="row">
+            <div class="col m9 push-m3">
+                <h2>{{ t.card_title }}</h2>
+                <span class="plus-badge">{{ t.badge_plus_edition }}</span>
+
+                <ul class="features-list">
+                    <li>{{ t.card_item1 }}</li>
+                    <li>{{ t.card_item2 }}</li>
+                </ul>
+            </div>
+            <div class="col m3 pull-m9">
+                <div class="screenshot-framed-half"><img src="/img/screens/{{ page.lang }}_barcode.png"/></div>
+            </div>
+        </div>
+    </div>
+</div>
