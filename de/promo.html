@@ -1,93 +1,25 @@
 ---
 screens:
-- en_search
-- en_detail
-- en_account
-- en_menu
-- en_starred
-- en_notification
-- en_settings
-- en_infos
-- 7inch/en_search
-- 7inch/en_results
-- 7inch/en_account
-- 7inch/en_menu
-- 7inch/en_infos
-- 7inch/en_settings
-- 10inch/en_search
-- 10inch/en_results
-- 10inch/en_account
-- 10inch/en_menu
-- 10inch/en_infos
-- 10inch/en_settings
+- LANG_search
+- LANG_detail
+- LANG_account
+- LANG_menu
+- LANG_starred
+- LANG_notification
+- LANG_settings
+- LANG_infos
+- 7inch/LANG_search
+- 7inch/LANG_results
+- 7inch/LANG_account
+- 7inch/LANG_menu
+- 7inch/LANG_infos
+- 7inch/LANG_settings
+- 10inch/LANG_search
+- 10inch/LANG_results
+- 10inch/LANG_account
+- 10inch/LANG_menu
+- 10inch/LANG_infos
+- 10inch/LANG_settings
 ---
 
-<div>
-<h1>Werbematerial</h1>
-<p>Die folgenden Grafiken dürfen Sie gerne und ohne weitere Nachfrage verwenden um darauf hinzuweisen, dass Ihre
-    Bibliothek von der Web Opac App unterstützt wird oder im Rahmen sämtlicher Berichterstattung über die App in
-    jeglicher
-    Form. Es ist nicht gestattet, diese Grafiken in Kontexten zu verwenden, die mit der Web Opac App nichts zu tun
-    haben.
-    Bitte verlinken Sie die Grafiken mit www.opacapp.de oder mit dem Eintrag der App im Google Play Store.</p>
-<p>Das Werbematerial stellen wir zusätzlich auch <a href="/en/promo">in Englischer Sprache</a> bereit. Kontaktieren Sie
-    uns, falls Sie weitere Sprachen oder andere Grafiken benötigen.</p>
-<p>Android, Google Play, das Android-Logo und das Google Play-Logo sind geschützte Marken von Google Inc. und müssen
-    gegebenenfalls als solche gekennzeichnet werden.</p>
-
-<h2>Website-Grafiken</h2>
-
-<div class="row">
-    <div class="col s12 m6">
-        <div class="card">
-            <div class="card-image presskit-image"><img src="/presskit/Logo/logo.svg"></div>
-            <div class="card-action">
-<a href="/presskit/Logo/logo.svg">SVG</a>
-                <a href="/presskit/Logo/logo.png">PNG</a>
-                <a href="/presskit/Logo/logo.pdf">PDF</a>
-</div>
-        </div>
-    </div>
-    <div class="col s12 m6">
-        <div class="card">
-            <div class="card-image presskit-image"><img src="/presskit/Banner/BannerBreit_vector.svg"></div>
-            <div class="card-action">
-<a href="/presskit/Banner/BannerBreit_vector.svg" class="">SVG</a>
-                <a href="/presskit/Banner/BannerBreit_400x200.png" class="">PNG (400x200)</a>
-                <a href="/presskit/Banner/BannerBreit_800x400.png" class="">PNG (800x400)</a>
-</div>
-        </div>
-    </div>
-    <div class="col s12 m6">
-        <div class="card">
-            <div class="card-image presskit-image"><img src="/presskit/Banner/BannerQuadrat_vector.svg"></div>
-            <div class="card-action">
-<a href="/presskit/Banner/BannerQuadrat_vector.svg">SVG</a>
-                <a href="/presskit/Banner/BannerQuadrat_160.png">PNG (160x160)</a>
-                <a href="/presskit/Banner/BannerQuadrat_250.png">PNG (250x250)</a>
-</div>
-        </div>
-    </div>
-    <div class="col s12 m6">
-        <div class="card">
-            <div class="card-image presskit-image"><img src="/presskit/Banner/BannerQuadrat2_vector.svg"></div>
-            <div class="card-action">
-<a href="/presskit/Banner/BannerQuadrat2_vector.svg">SVG</a>
-                <a href="/presskit/Banner/BannerQuadrat2_160.png">PNG (160x160)</a>
-                <a href="/presskit/Banner/BannerQuadrat2_250.png">PNG (250x250)</a>
-</div>
-        </div>
-    </div>
-</div>
-
-<h2>Screenshots</h2>
-
-<div class="row">{% for s in page.screens %}<div class="col s12 m3">
-            <div class="card">
-                <div class="card-image presskit-image"><img src="/img/screens/{{ s }}.png"></div>
-                <div class="card-action"><a href="/img/screens/{{ s }}.png">PNG</a></div>
-            </div>
-        </div>
-    {% endfor %}
-</div>
-</div>
+{% include promo.html %}

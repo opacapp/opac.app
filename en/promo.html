@@ -1,109 +1,25 @@
 ---
 screens:
-- en_search
-- en_detail
-- en_account
-- en_menu
-- en_starred
-- en_notification
-- en_settings
-- en_infos
-- 7inch/en_search
-- 7inch/en_results
-- 7inch/en_account
-- 7inch/en_menu
-- 7inch/en_infos
-- 7inch/en_settings
-- 10inch/en_search
-- 10inch/en_results
-- 10inch/en_account
-- 10inch/en_menu
-- 10inch/en_infos
-- 10inch/en_settings
+- LANG_search
+- LANG_detail
+- LANG_account
+- LANG_menu
+- LANG_starred
+- LANG_notification
+- LANG_settings
+- LANG_infos
+- 7inch/LANG_search
+- 7inch/LANG_results
+- 7inch/LANG_account
+- 7inch/LANG_menu
+- 7inch/LANG_infos
+- 7inch/LANG_settings
+- 10inch/LANG_search
+- 10inch/LANG_results
+- 10inch/LANG_account
+- 10inch/LANG_menu
+- 10inch/LANG_infos
+- 10inch/LANG_settings
 ---
 
-<h1>Promotional material</h1>
-<p>
-    You are invited to use the following pictures without further permission in order to show that your library
-    is supported by our app or when you are writing about our app in our way. It is not permitted to use them
-    in contexts that are not related to our app.
-    Please link the pictures to www.opacapp.net or to the app's entry in the Google Play Store.
-</p>
-<p>
-    This material is also available <a href="/de/werbematerial/">in German language</a>. Contact us if you need additional
-    languages or different graphics.
-</p>
-<p>
-    Android, Google Play, the Android logo and the Google Play logo are registered trademarks by Google Inc. and
-    in some cases need to be marked as such.
-</p>
-
-<h2>Website graphics</h2>
-
-<div class="row">
-    <div class="col s12 m6">
-        <div class="card">
-            <div class="card-image presskit-image">
-                <img src="/presskit/Logo/logo.svg">
-            </div>
-            <div class="card-action">
-                <a href="/presskit/Logo/logo.svg">SVG</a>
-                <a href="/presskit/Logo/logo.png">PNG</a>
-                <a href="/presskit/Logo/logo.pdf">PDF</a>
-            </div>
-        </div>
-    </div>
-    <div class="col s12 m6">
-        <div class="card">
-            <div class="card-image presskit-image">
-                <img src="/presskit/Banner/BannerBreit_en_vector.svg">
-            </div>
-            <div class="card-action">
-                <a href="/presskit/Banner/BannerBreit_en_vector.svg" class="">SVG</a>
-                <a href="/presskit/Banner/BannerBreit_en_400x200.png" class="">PNG (400x200)</a>
-                <a href="/presskit/Banner/BannerBreit_en_800x400.png" class="">PNG (800x400)</a>
-            </div>
-        </div>
-    </div>
-    <div class="col s12 m6">
-        <div class="card">
-            <div class="card-image presskit-image">
-                <img src="/presskit/Banner/BannerQuadrat_en_vector.svg">
-            </div>
-            <div class="card-action">
-                <a href="/presskit/Banner/BannerQuadrat_en_vector.svg">SVG</a>
-                <a href="/presskit/Banner/BannerQuadrat_en_160.png">PNG (160x160)</a>
-                <a href="/presskit/Banner/BannerQuadrat_en_250.png">PNG (250x250)</a>
-            </div>
-        </div>
-    </div>
-    <div class="col s12 m6">
-        <div class="card">
-            <div class="card-image presskit-image">
-                <img src="/presskit/Banner/BannerQuadrat2_en_vector.svg">
-            </div>
-            <div class="card-action">
-                <a href="/presskit/Banner/BannerQuadrat2_en_vector.svg">SVG</a>
-                <a href="/presskit/Banner/BannerQuadrat2_en_160.png">PNG (160x160)</a>
-                <a href="/presskit/Banner/BannerQuadrat2_en_250.png">PNG (250x250)</a>
-            </div>
-        </div>
-    </div>
-</div>
-
-<h2>Screenshots</h2>
-
-<div class="row">
-    {% for s in page.screens %}
-        <div class="col s12 m3">
-            <div class="card">
-                <div class="card-image presskit-image">
-                    <img src="/img/screens/{{ s }}.png">
-                </div>
-                <div class="card-action">
-                    <a href="/img/screens/{{ s }}.png">PNG</a>
-                </div>
-            </div>
-        </div>
-    {% endfor %}
-</div>
+{% include promo.html %}

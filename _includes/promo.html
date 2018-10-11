@@ -1,0 +1,82 @@
+{% assign t = site.data[page.lang].promo %}
+
+<h1>{{ t.title }}</h1>
+<p>
+    {{ t.desc }}
+</p>
+<p>
+    {{ t.languages }}
+</p>
+<p>
+    {{ t.trademarks }}
+</p>
+
+<h2>{{ t.website_graphics }}</h2>
+
+<div class="row">
+    <div class="col s12 m6">
+        <div class="card">
+            <div class="card-image presskit-image">
+                <img src="/presskit/Logo/logo.svg">
+            </div>
+            <div class="card-action">
+                <a href="/presskit/Logo/logo.svg">SVG</a>
+                <a href="/presskit/Logo/logo.png">PNG</a>
+                <a href="/presskit/Logo/logo.pdf">PDF</a>
+            </div>
+        </div>
+    </div>
+    <div class="col s12 m6">
+        <div class="card">
+            <div class="card-image presskit-image">
+                <img src="/presskit/Banner/BannerBreit_{{ page.lang }}_vector.svg">
+            </div>
+            <div class="card-action">
+                <a href="/presskit/Banner/BannerBreit_{{ page.lang }}_vector.svg" class="">SVG</a>
+                <a href="/presskit/Banner/BannerBreit_{{ page.lang }}_400x200.png" class="">PNG (400x200)</a>
+                <a href="/presskit/Banner/BannerBreit_{{ page.lang }}_800x400.png" class="">PNG (800x400)</a>
+            </div>
+        </div>
+    </div>
+    <div class="col s12 m6">
+        <div class="card">
+            <div class="card-image presskit-image">
+                <img src="/presskit/Banner/BannerQuadrat_{{ page.lang }}_vector.svg">
+            </div>
+            <div class="card-action">
+                <a href="/presskit/Banner/BannerQuadrat_{{ page.lang }}_vector.svg">SVG</a>
+                <a href="/presskit/Banner/BannerQuadrat_{{ page.lang }}_160.png">PNG (160x160)</a>
+                <a href="/presskit/Banner/BannerQuadrat_{{ page.lang }}_250.png">PNG (250x250)</a>
+            </div>
+        </div>
+    </div>
+    <div class="col s12 m6">
+        <div class="card">
+            <div class="card-image presskit-image">
+                <img src="/presskit/Banner/BannerQuadrat2_{{ page.lang }}_vector.svg">
+            </div>
+            <div class="card-action">
+                <a href="/presskit/Banner/BannerQuadrat2_{{ page.lang }}_vector.svg">SVG</a>
+                <a href="/presskit/Banner/BannerQuadrat2_{{ page.lang }}_160.png">PNG (160x160)</a>
+                <a href="/presskit/Banner/BannerQuadrat2_{{ page.lang }}_250.png">PNG (250x250)</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<h2>{{ t.screenshots }}</h2>
+
+<div class="row">
+    {% for s in page.screens %}
+    <div class="col s12 m3">
+        <div class="card">
+            <div class="card-image presskit-image">
+                <img src="/img/screens/{{ s | replace: 'LANG', page.lang }}.png">
+            </div>
+            <div class="card-action">
+                <a href="/img/screens/{{ s | replace: 'LANG', page.lang }}.png">PNG</a>
+            </div>
+        </div>
+    </div>
+    {% endfor %}
+</div>

@@ -78,9 +78,9 @@ source_file = en/privacy.html
 source_lang = en
 type = HTML
 
-[opacapp-website.promohtml]
-file_filter = <lang>/promo.html
+[opacapp-website.promo]
+file_filter = _data/<lang>/promo.yml
 minimum_perc = 0
-source_file = en/promo.html
+source_file = _data/en/promo.yml
 source_lang = en
-type = HTML
+type = YAML_GENERIC
