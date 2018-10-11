@@ -28,10 +28,6 @@ navigation_de:
     url: /de/faq/
   - title: Kontakt
     url: /de/contact/
-  - title: English
-    url: /en/
-  - title: Français
-    url: /fr/
 
 navigation_en:
   - title: Front page
@@ -46,10 +42,6 @@ navigation_en:
     url: /en/faq/
   - title: Contact
     url: /en/contact/
-  - title: Deutsch
-    url: /de/
-  - title: Français
-    url: /fr/
 
 navigation_fr:
 - title: Accueil
@@ -64,10 +56,14 @@ navigation_fr:
   url: /fr/faq/
 - title: Contact
   url: /fr/contact/
+
+languages:
 - title: Deutsch
-  url: /de/
+  code: de
 - title: English
-  url: /en/
+  code: en
+- title: Français
+  code: fr
 
 uncss:
   stylesheets:

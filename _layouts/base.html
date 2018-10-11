@@ -58,6 +58,15 @@
                     </a>
                 </li>
                 {% endfor %}
+                {% for lang in site.languages %}
+                {% unless page.lang == lang.code %}
+                <li class="menu-item">
+                    <a href="{{ site.baseurl }}/{{ lang.code }}/{{ page.url | split: '/' | shift | shift | join: '' }}">
+                        {{ lang.title }}
+                    </a>
+                </li>
+                {% endunless %}
+                {% endfor %}
             </ul>
             <ul class="side-nav" id="mobile-nav">
                 {% assign current_page = nil %}
@@ -73,6 +82,15 @@
                     {{ link.title }}
                     </a>
                 </li>
+                {% endfor %}
+                {% for lang in site.languages %}
+                {% unless page.lang == lang.code %}
+                <li class="menu-item">
+                    <a href="{{ site.baseurl }}/{{ lang.code }}/{{ page.url | split: '/' | shift | shift | join: '' }}">
+                    {{ lang.title }}
+                    </a>
+                </li>
+                {% endunless %}
                 {% endfor %}
             </ul>
         </div>
