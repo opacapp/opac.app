@@ -1,0 +1,86 @@
+[main]
+host = https://www.transifex.com
+
+[opacapp-website.base]
+file_filter = _data/<lang>/base.yml
+minimum_perc = 0
+source_file = _data/en/base.yml
+source_lang = en
+type = YAML_GENERIC
+
+[opacapp-website.404html]
+file_filter = <lang>/404.html
+minimum_perc = 0
+source_file = en/404.html
+source_lang = en
+type = HTML
+
+[opacapp-website.apk]
+file_filter = _data/<lang>/apk.yml
+minimum_perc = 0
+source_file = _data/en/apk.yml
+source_lang = en
+type = YAML_GENERIC
+
+[opacapp-website.compatibility]
+file_filter = _data/<lang>/compatibility.yml
+minimum_perc = 0
+source_file = _data/en/compatibility.yml
+source_lang = en
+type = YAML_GENERIC
+
+[opacapp-website.contact]
+file_filter = _data/<lang>/contact.yml
+minimum_perc = 0
+source_file = _data/en/contact.yml
+source_lang = en
+type = YAML_GENERIC
+
+[opacapp-website.faqhtml]
+file_filter = <lang>/faq.html
+minimum_perc = 0
+source_file = en/faq.html
+source_lang = en
+type = HTML
+
+[opacapp-website.features]
+file_filter = _data/<lang>/features.yml
+minimum_perc = 0
+source_file = _data/en/features.yml
+source_lang = en
+type = YAML_GENERIC
+
+[opacapp-website.for-libraries]
+file_filter = _data/<lang>/for_libraries.yml
+minimum_perc = 0
+source_file = _data/en/for_libraries.yml
+source_lang = en
+type = YAML_GENERIC
+
+[opacapp-website.index]
+file_filter =  _data/<lang>/index.yml
+minimum_perc = 0
+source_file =  _data/en/index.yml
+source_lang = en
+type = YAML_GENERIC
+
+[opacapp-website.librarieshtml]
+file_filter = <lang>/libraries.html
+minimum_perc = 0
+source_file = en/libraries.html
+source_lang = en
+type = HTML
+
+[opacapp-website.privacyhtml]
+file_filter = <lang>/privacy.html
+minimum_perc = 0
+source_file = en/privacy.html
+source_lang = en
+type = HTML
+
+[opacapp-website.promo]
+file_filter = _data/<lang>/promo.yml
+minimum_perc = 0
+source_file = _data/en/promo.yml
+source_lang = en
+type = YAML_GENERIC

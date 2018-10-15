@@ -1,0 +1,5 @@
+apk_title: Download
+apk_desc1: >
+  Wir raten vom direkten Download der APK-Programmdatei ab, weil man auf diesem Wege keine Updates für die Software erhält, die Fehler beheben könnten. Wir empfehlen den Download über <a href="https://play.google.com/store/apps/details?id=de.geeksfactory.opacclient">Google Play</a>. Ist dieser mangels eines Google-Accounts oder eines für Google Play zugelassenen Gerätes nicht möglich, so kann man unsere App auch über den freien Markt <a href="https://f-droid.org/repository/browse/?fdfilter=opac&fdid=de.geeksfactory.opacclient">F-Droid</a> beziehen, auch wenn wir dort keine Kontrolle über die Updates haben.
+apk_desc2: "Trotzdem gibt es hier einen direkten Downloadlink für die aktuelle APK-Programmdatei:"
+download_button: APK-Download

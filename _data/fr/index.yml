@@ -1,0 +1,29 @@
+tagline: Bibliothèques publiques sur Android
+description: Notre application Android permet un accès facile de n'importe où depuis votre smartphone ou tablette aux catalogues et comptes personnels de plus de 1 000 bibliothèques publiques et scientifiques en Europe et tout autour du monde.
+f_droid: F-Droid
+source_code_github: Code source (GitHub)
+apk_download: Télécharger APK
+promo_catalogue_search_title: Recherche dans le catalogue
+promo_catalogue_search_desc: >
+  L'application permet de rechercher facilement le catalogue de plus de 1 000 bibliothèques publiques et scientifiques autour du monde. Tous les filtres de recherche des catalogues respectifs sont supportés et les résultats de recherche peuvent être enregistrés en local vers une liste de favoris pour usage ultérieur. En utilisant une application de scanner de code-barres vous pouvez scanner directement le code-barre ISBN d'un livre et le chercher dans votre bibliothèque favorite.
+promo_account_title: Fonctionnalités de compte
+promo_account_desc: >
+  Dans la plupart des bibliothèques, l'application est capable d'accéder directement aux comptes des membres et vous permet ainsi de consulter les documents empruntés et connaitre leur date de retour. Les documents peuvent être prolongés directement depuis l'application et vous pouvez placer des réservations sur les résultats de recherche. Des comptes multiples dans une ou plusieurs bibliothèques sont gérés en simultané.
+promo_reminder_title: Rappel
+promo_reminder_desc: >
+  L'application vous aide à éviter de coûteuses amendes : si activée, l'application vérifiera régulièrement votre compte de bibliothèque en arrière-plan et vous enverra une notification dès qu'un document doit être rendu bientôt. L'application vous aide en vous fournissant un accès rapide au site web de la bibliothèque et à ses horaires d'ouverture. Rendre des documents à l'heure n'a jamais été aussi facile!
+more_features: Plus de foncionnalités
+plusshowcase_title: Une puissante combinaison
+plusshowcase_community_title: Une application pour toutes les bibliothèques
+plusshowcase_community_desc1: >
+  Notre application Web Opac App fournit un accès à plus de 1 000 bibliothèques prises en charge. Des comptes pour de multiples bibliothèques peuvent être intégrés au même moment - parfait pour quelqu'un utilisant de multiples bibliothèques. L'application est complètement gratuite à la fois pour les utilisateurs et les bibliothèques.
+plusshowcase_community_desc2: >
+  Cette application gratuite a démarré comme un projet communautaire et a toujours été <strong>100% open source</strong> en termes de logiciel. Son code source est publié <a href="https://github.com/opacapp/opacclient" target="_blank">sur GitHub</a> et délivré sous les termes libéraux de la Licence MIT. De nombreuses fonctionnalités et implémentations pour des systèmes spécifiques de bibliothèques n'ont été rendues possibles que grâce aux retours, patches et demandes d'intégrations de la part des contributeurs de la communauté. Nous remercions toutes les personnes impliquées.
+plusshowcase_community_desc3: >
+  Le coeur de l'application, qui est responsable de la communication avec le logiciel de chaque bibiliothèque, est disponible en tant que librairie Java séparée du nom de <a href="https://github.com/opacapp/opacclient/blob/master/opacclient/libopac/README.md" target="_blank">libopac</a>. Dans <a href="https://github.com/opacapp/opacapp-config-files" target="_blank">un autre dépôt</a> nous publions les fichiers spécifiques de configuration que nous utilisons pour les différentes bibliothèques.
+plusshowcase_community_desc4: >
+  Grâce à notre merveilleuse communauté, l'application n'est plus seulement disponible en Allemand et Anglais mais dans un nombre grandissant de langues. Si vous voulez nous aider avec le processus de traduction, rendez vous sur <a href="https://www.transifex.com/projects/p/opacapp/">Transifex</a>. 
+plusshowcase_plus_title: >
+  Applications sur mesure pour bibliothèques spécifiques
+plusshowcase_plus_desc: >-
+  Avec l'édition Plus de notre application, nous avons une offre spéciale pour les bibliothèques : en addition des fonctionnalités de l'application gratuite, ces applications peuvent intégrer une intégration complète de services tels qu'Onleihe ou Overdrive, une intégration améliorée des horaires d'ouverture des différentes et des fonctionnalités telles que la liste des nouvelles acquisitions, le calendrier des événements et des actualités de la bibliothèque. Pour certaines bibliothèques, nous avons réalisé des fonctionnalités particulières - aussi diverses que les bibliothèques elles-mêmes. Nous sommes en mesure d'emmener des bibliothèques de toute taille à l'âge moderne. <a href="/{{ page.lang }}/for-libraries/">Apprenez-en plus</a>

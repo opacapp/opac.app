@@ -1,0 +1,43 @@
+title: Für Bibliotheken
+desc1: >
+  Viele Bibliotheken bieten zwar schon seit langem Online-Kataloge an, die meisten System sind jedoch auf mobilen Geräten anstrengend zu nutzen, weil sie auf kleine Displays und Touch-Bedienung vorbereitet sind. Unsere App bietet eine praktische Oberfläche, in der sich Nutzer des Android-Betriebssystems schnell zurecht finden.
+desc2: >
+  Als Antwort auf die Anfragen zahlreicher Bibliotheken können wir nun eine Plus-Edition der App präsentieren, die nicht nur über zusätzliche Funktionen verfügt, sondern vor allem auch für iPhones erhältlich ist. Darüber hinaus ist sie „gebrandet“ erhältlich, kann also Logo und Farben einer einzelnen Bibliothek tragen und einen einzelnen Eintrag in den App-Stores erhalten, damit sie optimal beworben werden kann.
+desc3: "Im Rahmen des Projekts sind wir auch bereit, weitere Zusatzfunktionen nach Wünschen der Bibliothek umzusetzen. Nehmen Sie einfach Kontakt mit uns auf!"
+desc4: Die Plus-Edition wird von unserem Kooperationspartner subkom GmbH vertrieben und verkauft.
+community_edition: Community Edition
+plus_edition: Plus Edition
+operating_systms: Mobile Betriebssysteme
+android: Android
+ios: Apple iOS
+# other operating systems
+others: Sonstige
+native: (nativ)
+webapp: (HTML5-WebApp)
+compatible_opacs: Kompatible Bibliothekssysteme
+# only catalog search is supported
+search_only: (nur Suche)
+complete: (vollständig)
+details: Details
+more_on_request: weitere auf Anfrage
+catalogue: Katalogrecherche
+account_features: Kontofunktionen
+library_info: Informationen zur Bibliothek
+library_website: Simple Einbindung der Bibliothekswebsite
+bibinfo: "Angepasste, frei gestaltbare Informationen"
+ebook_support: "Vollintegration von E-Book-Diensten (Onleihe, Overdrive)"
+facets: Suche nachträglich verfeinern („Facetten“)
+for_supported_opacs: für unterstützte Systeme
+news_calendar: "RSS-Feed, Kalender"
+new_acq: Neuanschaffungslisten
+delivery: Auslieferung
+entry_in_webopac: 'Eintrag in der Liste von über 1000 Bibliotheken in der "<a href="https://play.google.com/store/apps/details?id=de.geeksfactory.opacclient">Web Opac App</a>"'
+own_app: 'Eigene App in den Appstores mit eigenem Logo und Design (Branding) der Bibliothek<br><a target="_blank" href="https://play.google.com/store/apps/details?id=de.opacapp.bremen">Beispiel Android</a> · <a target="_blank" href="https://itunes.apple.com/de/app/id705872965?mt=8">Beispiel iOS</a>'
+developer: Entwickler
+and_contrib: und Community-Beiträge
+ios_and_web: iOS und Web
+price: Preis
+free: kostenlos
+on_request: auf Anfrage
+send_request: Anfrage schicken
+request_quotation: Angebot anfordern

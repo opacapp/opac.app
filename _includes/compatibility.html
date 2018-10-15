@@ -1,0 +1,196 @@
+{% assign t = site.data[page.lang].compatibility %}
+
+<h1>{{ t.title }}</h1>
+<div class="scroll-table">
+    <table class="compatibility">
+        <thead>
+        <tr>
+            <th>{{ t.opac }}</th>
+            <th>{{ t.notes }}</th>
+            <th class="fw">{{ t.search }}<br>
+                {{ t.details }}
+            </th>
+            <th class="fw">{{ t.account }}<br>
+                {{ t.renewals }}<br>
+                {{ t.notifications }}
+            </th>
+            <th class="fw">{{ t.reservations }}</th>
+            <th class="fw">{{ t.starred }}</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td class="vendor">{{ t.open_standards }}</td>
+            <td colspan="4"></td>
+        </tr>
+        <tr>
+            <td>SRU</td>
+            <td class="note"></td>
+            <td class="green"><i class="material-icons">check</i></td>
+            <td></td>
+            <td></td>
+            <td class="green"><i class="material-icons">check</i></td>
+        </tr>
+        <tr>
+            <td class="vendor">OCLC</td>
+            <td colspan="4"></td>
+        </tr>
+        <tr>
+            <td>Bibliotheca</td>
+            <td class="note">(Web Opac)</td>
+            <td class="green"><i class="material-icons">check</i></td>
+            <td class="green"><i class="material-icons">check</i></td>
+            <td class="green"><i class="material-icons">check</i></td>
+            <td class="green"><i class="material-icons">check</i></td>
+        </tr>
+        <tr>
+            <td>Bibliotheca</td>
+            <td class="note">(OPEN)</td>
+            <td class="green"><i class="material-icons">check</i></td>
+            <td class="yellow">{{ t.plus_ed }}</td>
+            <td class="yellow">{{ t.plus_ed }}</td>
+            <td class="green"><i class="material-icons">check</i></td>
+        </tr>
+        <tr>
+            <td>SunRise</td>
+            <td class="note"></td>
+            <td class="green"><i class="material-icons">check</i></td>
+            <td class="green"><i class="material-icons">check</i></td>
+            <td class="green"><i class="material-icons">check</i></td>
+            <td class="yellow"><i class="material-icons">check</i></td>
+        </tr>
+        <tr>
+            <td>TouchPoint</td>
+            <td class="note"></td>
+            <td class="green"><i class="material-icons">check</i></td>
+            <td class="green"><i class="material-icons">check</i></td>
+            <td class="green"><i class="material-icons">check</i></td>
+            <td class="green"><i class="material-icons">check</i></td>
+        </tr>
+        <tr>
+            <td>PICA</td>
+            <td class="note"></td>
+            <td class="green"><i class="material-icons">check</i></td>
+            <td class="green"><i class="material-icons">check</i></td>
+            <td class="yellow"><i class="material-icons">check</i></td>
+            <td class="green"><i class="material-icons">check</i></td>
+        </tr>
+        <tr>
+            <td class="vendor">BiBer</td>
+            <td colspan="4"></td>
+        </tr>
+        <tr>
+            <td>BibDia</td>
+            <td class="note"></td>
+            <td class="green"><i class="material-icons">check</i></td>
+            <td class="green"><i class="material-icons">check</i></td>
+            <td class="green"><i class="material-icons">check</i></td>
+            <td class="green"><i class="material-icons">check</i></td>
+        </tr>
+        <tr>
+            <td class="vendor">Ex Libris</td>
+            <td colspan="4"></td>
+        </tr>
+        <tr>
+            <td>Primo</td>
+            <td class="note"></td>
+            <td class="green"><i class="material-icons">check</i></td>
+            <td class="red"><i class="material-icons">close</i></td>
+            <td class="red"><i class="material-icons">close</i></td>
+            <td class="green"><i class="material-icons">check</i></td>
+        </tr>
+        <tr>
+            <td class="vendor">aStec</td>
+            <td colspan="4"></td>
+        </tr>
+        <tr>
+            <td>aDIS/BMS</td>
+            <td class="note"></td>
+            <td class="green"><i class="material-icons">check</i></td>
+            <td class="green"><i class="material-icons">check</i></td>
+            <td class="green"><i class="material-icons">check</i></td>
+            <td class="yellow"><i class="material-icons">check</i></td>
+        </tr>
+        <tr>
+            <td class="vendor">datronic</td>
+            <td colspan="4"></td>
+        </tr>
+        <tr>
+            <td>WinBIAP</td>
+            <td class="note"></td>
+            <td class="green"><i class="material-icons">check</i></td>
+            <td class="green"><i class="material-icons">check</i></td>
+            <td class="green"><i class="material-icons">check</i></td>
+            <td class="green"><i class="material-icons">check</i></td>
+        </tr>
+        <tr>
+            <td class="vendor">MondoIn</td>
+            <td colspan="4"></td>
+        </tr>
+        <tr>
+            <td>Zones</td>
+            <td class="note"></td>
+            <td class="green"><i class="material-icons">check</i></td>
+            <td class="green"><i class="material-icons">check</i></td>
+            <td class="green"><i class="material-icons">check</i></td>
+            <td class="green"><i class="material-icons">check</i></td>
+        </tr>
+        <tr>
+            <td class="vendor">Predata</td>
+            <td colspan="4"></td>
+        </tr>
+        <tr>
+            <td>winMedio.net</td>
+            <td class="note"></td>
+            <td class="green"><i class="material-icons">check</i></td>
+            <td class="green"><i class="material-icons">check</i></td>
+            <td class="green"><i class="material-icons">check</i></td>
+            <td class="green"><i class="material-icons">check</i></td>
+        </tr>
+        <tr>
+            <td class="vendor">Littera</td>
+            <td colspan="4"></td>
+        </tr>
+        <tr>
+            <td>web-opac.at</td>
+            <td class="note"></td>
+            <td class="green"><i class="material-icons">check</i></td>
+            <td class="red"><i class="material-icons">close</i></td>
+            <td class="red"><i class="material-icons">close</i></td>
+            <td class="green"><i class="material-icons">check</i></td>
+        </tr>
+        <tr>
+            <td class="vendor">Fleischmann</td>
+            <td colspan="4"></td>
+        </tr>
+        <tr>
+            <td>iOpac</td>
+            <td class="note"></td>
+            <td class="green"><i class="material-icons">check</i></td>
+            <td class="green"><i class="material-icons">check</i></td>
+            <td class="green"><i class="material-icons">check</i></td>
+            <td class="green"><i class="material-icons">check</i></td>
+        </tr>
+        <tr>
+            <td class="vendor">{{ t.others }}</td>
+            <td colspan="4"></td>
+        </tr>
+        <tr>
+            <td>VuFind</td>
+            <td class="note"></td>
+            <td class="yellow"><i class="material-icons">check</i></td>
+            <td class="red"><i class="material-icons">close</i></td>
+            <td class="red"><i class="material-icons">close</i></td>
+            <td class="green"><i class="material-icons">check</i></td>
+        </tr>
+        <tr>
+            <td>HEIDI</td>
+            <td class="note"></td>
+            <td class="green"><i class="material-icons">check</i></td>
+            <td class="green"><i class="material-icons">check</i></td>
+            <td class="green"><i class="material-icons">check</i></td>
+            <td class="green"><i class="material-icons">check</i></td>
+        </tr>
+        </tbody>
+    </table>
+</div>

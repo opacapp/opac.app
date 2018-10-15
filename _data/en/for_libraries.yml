@@ -1,0 +1,51 @@
+title: For libraries
+desc1: >
+  While library have online catalogues for years now, most of them are exhausting to use on a mobile device, as they
+  are rarely designed for small displays and touch interaction. Our app provides a beautiful interface, natively
+  integrated into the Android mobile operating system.
+desc2: >
+  In response to multiple requests, we now offer a Plus Edition of our app, which not only contains additional features
+  but is also available for Apple iOS devices. Furthermore, the Plus Edition is branded with your library’s logo and
+  colors and is available in the app stores as a single-purpose app for your library.
+desc3: We are open to implement additional wishes, just contact us!
+desc4: The Plus Edition is being sold by our partner, subkom GmbH.
+community_edition: Community Edition
+plus_edition: Plus Edition
+operating_systms: Operating Systems
+android: Android
+ios: Apple iOS
+# other operating systems
+others: Others
+native: (native)
+webapp: (HTML5 WebApp)
+compatible_opacs: Compatible ILS/OPACs
+# only catalog search is supported
+search_only: (search only)
+complete: (complete)
+details: Details
+more_on_request: more available on request
+catalogue: Catalogue
+account_features: Account features
+library_info: Library information
+library_website: Your library website
+bibinfo: Beautiful and cut into shape
+ebook_support: E-book support (Onleihe, Overdrive)
+facets: Search filters (“Facets”)
+for_supported_opacs: for supported OPAC systems
+news_calendar: News feed, Calendar
+new_acq: New acquisition list
+delivery: Delivery
+entry_in_webopac: 'Entry in the list of the "<a
+  href="https://play.google.com/store/apps/details?id=de.geeksfactory.opacclient">Web Opac App</a>"'
+own_app: 'Own app in the app stores with custom logo and design (branding) of your library<br>
+  <a target="_blank" href="https://play.google.com/store/apps/details?id=de.opacapp.bremen">example
+  Android</a> · <a target="_blank" href="https://itunes.apple.com/de/app/id705872965?mt=8">example
+  iOS</a>'
+developer: Developer
+and_contrib: and contributors
+ios_and_web: iOS and Web
+price: Price
+free: free
+on_request: on request
+send_request: Send request
+request_quotation: Request quotation

@@ -1,0 +1,40 @@
+title: Contact
+project_by: "Web Opac App for Android and OpacApp.net are a project by:"
+germany: Germany
+email: Email
+# office phone number
+office_phone: Office
+# european union identification number for value added tax, https://en.wikipedia.org/wiki/VAT_identification_number
+vat_id: VAT ID
+privacy_policy: Privacy Policy
+disclaimer_title: Website disclaimer
+only_german_binding: Only the German words are binding
+disclaimer1: >
+  We took great care with assembling this website. However, we can not take any liability for the absence of errors,
+  for the correctness, completeness, currentness or accuracy of this website. We exclude liability for all harm caused
+  by using this website.
+disclaimer2: >
+  All page contents are the property of the page authors. Reproducing, editing or distributing the contents require
+  permission of the page author. Downloads and copies of the page are allowed for private use. Any contents on this page
+  not created by the page's authors are marked appropriately. Should you however notice a copyright infringement on this
+  website, we kindly ask you to contact us. We will remove such contents as fast as possible.
+disclaimer3: >
+  All external pages that are linked from this website are outside of our control. At the time we created the links,
+  they did not contain any visible illegal content. However, as we cannot check them all the time, we cannot assume any
+  liability for them and kindly ask you to contact us, if a link on this page points to a illegal webpage. We will
+  remove the link as soon as possible in this case.
+app_disclaimer_title: App disclaimer
+app_disclaimer1: >
+  We took care when developing the app and test it regularly. However, due to the huge number of supported libraries,
+  it is not possible for us to test all cases that might occur. We therefore exclude any liability for damage caused by
+  using the app. Especially, we are not liable if fines are imposed because the user completely relied on the app's
+  reminder feature. For technical reasons, we cannot give a 100% guarantee here.
+app_disclaimer2: >
+  We try to achieve completeness, correctness and currentness of all data shown by the app, but we are not able to
+  guarantee it, since technical failures are impossible to predict. As soon as we gain knowledge of a bug, we work on a
+  timely fix. All contents of the app (search results, links, etc.) are directly displayed from the library's data and
+  we cannot influence those contents. Therefore, we exclude any liability associated with that data.
+final_remarks_title: Final remarks
+final_remarks: >
+  If a provision on this page is or becomes legally invalid or if there is any gap that needs to be filled, the
+  validity of the remainder of the page shall not be affected thereby.

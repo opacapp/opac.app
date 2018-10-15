@@ -1,0 +1,45 @@
+title: Fonctionnalités
+desc: "Sur cette page, vous trouverez une liste détaillée des fonctionnalités de l'application."
+catalogue_title: Catalogue de la bibliothèque
+catalogue_item1: Recherche rapide dans le catalogue de la bibliothèque
+catalogue_item2: Recherche avancée avec tous les paramètres de recherche disponible
+catalogue_item3: Recherche par code ISBN en utilisant le scanner de code-barres
+catalogue_item4: "Filtrage des résultats (facettes) <span class=\"plus-badge\">Plus Edition</span> "
+catalogue_item5: Liste des acquisitions
+badge_plus_edition: Edition Plus
+details_title: Détails de résultats
+details_item1: Toute les données disponibles à propos du document trouvé
+details_item2: "Toutes les éditions disponibles, liste des bibliothèques"
+details_item3: Partagez un lien du résultat avec vos amis
+details_item4: Placez une réservation directement depuis l'application
+details_item5: Exportez les détails
+starred_title: Favoris
+starred_item1: Positionnez un favori sur les documents et souvenez-vous d'eux pour plus tard
+starred_item2: Allez directement à la vue détaillée
+starred_item3: "Partagez vos favoris via email, etc..."
+account_title: Visualisation compte
+account_item1: " Listez les documents empruntés et réservés"
+account_item2: " Prolongez directement les documents depuis l'application"
+account_item3: Annulez des réservations
+account_item4: " Informations sur votre compte (validité, frais d'inscription, etc...)"
+account_item5: Multiple comptes avec une seule et même application
+library_title: Information bibliothèque
+library_item1: Site web de la bibliothèque intégré
+library_item2: Page d'information structurée gérée via notre système de gestion de contenu "BibInfo“
+reminder_title: Fonctionnalité de rappel
+reminder_item1: Rappel pour les documents arrivés à expiration
+reminder_item2: Pré-notification avec un nombre de jours configurables
+reminder_item3: " Récupération des informations de compte en arrière-plan"
+reminder_disclaimer: "Cette fonctionnalité est à caractère informatif, nous ne pouvons donner aucune garantie pour les notifications.      "
+onleihe_title: Intégration Onleihe/Overdrive
+onleihe_item1: Intégration de votre compte Onleihe/Overdrive dans la vue compte
+onleihe_item2: Vérifiez directement ou réservez des ebooks depuis l'application
+onleihe_item3: Téléchargez directement des ebooks depuis l'application
+calendar_title: Calendrier et actualités
+calendar_item1: Evénements de la bibliothèque directement dans l'application
+calendar_item2: Actualités de la bibliothèque directement dans l'application
+calendar_item3: Gestion automatique de contenu via flux RSS ou calendrier iCal
+calendar_item4: Les événements peuvent être filtrés par branche
+card_title: Carte de bibliothèque digitale
+card_item1: Affiche le code barre de la carte de bibliothèque sur l'écran du smartphone ou tablette
+card_item2: Economie de temps si le membre a oublié sa carte

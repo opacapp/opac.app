@@ -19,17 +19,15 @@ navigation_de:
   - title: Startseite
     url: /de/
   - title: Bibliotheken
-    url: /de/bibliotheken/
+    url: /de/libraries/
   - title: Features
     url: /de/features/
   - title: App-Editionen
-    url: /de/fuer-bibliotheken/
+    url: /de/for-libraries/
   - title: FAQ
     url: /de/faq/
   - title: Kontakt
-    url: /de/kontakt/
-  - title: English
-    url: /en/
+    url: /de/contact/
 
 navigation_en:
   - title: Front page
@@ -44,8 +42,28 @@ navigation_en:
     url: /en/faq/
   - title: Contact
     url: /en/contact/
-  - title: Deutsch
-    url: /de/
+
+navigation_fr:
+- title: Accueil
+  url: /fr/
+- title: Bibliothèques
+  url: /fr/libraries/
+- title: Fonctionnalités
+  url: /fr/features/
+- title: Pour les bibliothèques
+  url: /fr/for-libraries/
+- title: FAQ
+  url: /fr/faq/
+- title: Contact
+  url: /fr/contact/
+
+languages:
+- title: Deutsch
+  code: de
+- title: English
+  code: en
+- title: Français
+  code: fr
 
 uncss:
   stylesheets:
@@ -55,3 +73,24 @@ uncss:
     - .collection .collection-item
     - .collection a.collection-item
     - .collection a.collection-item:hover
+
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "base"
+  -
+    scope:
+      path: "en"
+    values:
+      lang: "en"
+  -
+    scope:
+      path: "de"
+    values:
+      lang: "de"
+  - scope:
+      path: "fr"
+    values:
+      lang: "fr"

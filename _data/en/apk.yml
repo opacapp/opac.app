@@ -1,0 +1,12 @@
+apk_title: Download
+apk_desc1: >
+  We discourage direct APK file downloads, since you won't receive any bug-correcting updates for the app this way.
+  We recommend downloading the app on
+  <a href="https://play.google.com/store/apps/details?id=de.geeksfactory.opacclient">Google Play</a>. In case this is
+  not possible for you due to lack of a Google account or a Play Store on your device, you can also find our app in the
+  free app store
+  <a href="https://f-droid.org/repository/browse/?fdfilter=opac&fdid=de.geeksfactory.opacclient">F-Droid</a>,
+  although we cannot guarantee that there will always be timely updates for our app there, since this is outside of
+  our control.
+apk_desc2: "Still, if you need to, you can find the recent APK file here:"
+download_button: APK Download

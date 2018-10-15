@@ -1,0 +1,51 @@
+tagline: Public libraries on Android
+description: Our free Android app allows convenient access from wherever you are on your Smartphone or tablet to the catalogues and member accounts of more than 1,000 public and scientific libraries in Europe and all over the world.
+f_droid: F-Droid
+source_code_github: Source code (GitHub)
+apk_download: APK Download
+promo_catalogue_search_title: Catalogue search
+promo_catalogue_search_desc: >
+  The app allows to easily search the catalogue of over 1,000 public and scientific libraries worldwide. All search
+  filters of the respective catalogues are supported and search results can be saved locally to a bookmark list for
+  later reference. Using a barcode scanning app you can directly scan the ISBN barcode of a book and search for it in
+  your favourite library.
+promo_account_title: Account features
+promo_account_desc: >
+  In most libraries, the app is able to directly access member accounts and therefore allows you to conveniently look
+  at the books you lent out and find out their return date. Books can be renewed directly from the app and you can
+  directly place reservations on search results. Multiple accounts in one or even different libraries are supported at
+  the same time.
+promo_reminder_title: Reminder
+promo_reminder_desc: >
+  The app helps you to avoid expensive fines: If activated, the app regularly checks your library account in the
+  background and sends a notification as soon as a book must be returned soon. To return the book, the app assists you
+  with quick access to the library's website and opening hours. Returning books on time never was this easy!
+more_features: More Features
+plusshowcase_title: A powerful combination
+plusshowcase_community_title: One app for all libraries
+plusshowcase_community_desc1: >
+  Our Web Opac App provides access to all 1,000+ supported libraries. Accounts for multiple libraries can be integrated
+  at the same time – perfect for anyone using multiple libraries. The app is completely free for both users and
+  libraries.
+plusshowcase_community_desc2: >
+  This free app has started as a community project and has always been <strong>100% open source</strong> software. Its
+  source code is published <a href="https://github.com/opacapp/opacclient" target="_blank">on GitHub</a> and released
+  under the liberal terms of the MIT License. Many features and implementations for specific library systems have only
+  been possible thanks to feedback, patches and pull requests from the community. We like to thank everyone involved.
+plusshowcase_community_desc3: >
+  The app's core, which is responsible for communicating with the library's software, is available as a separate Java
+  library of the name <a href="https://github.com/opacapp/opacclient/blob/master/opacclient/libopac/README.md"
+  target="_blank">libopac</a>. In <a href="https://github.com/opacapp/opacapp-config-files" target="_blank">yet
+  another repository</a> we publish the specific configuration files that we use for the various libraries.
+plusshowcase_community_desc4: >
+  Thanks to our wonderful community, the app is no longer only available in German and English, but in a growing number
+  of languages. If you’d like to help us with the translation process, head over to
+  <a href="https://www.transifex.com/projects/p/opacapp/">Transifex</a>.
+plusshowcase_plus_title: >
+  Tailor-made apps for single libraries
+plusshowcase_plus_desc: >
+  With the Plus Edition of our app, we have a special offer to libraries: In addition to the features of the free app
+  these apps may includes a full integration of services like Onleihe oder Overdrive, improved integration of opening
+  hours of the branches and features like acquisition lists, event calendars or news from the library. For some
+  libraries, we realised individual features – as diverse as the libraries themselves. We have been able to bring
+  libraries of every size into the modern age. <a href="/{{ page.lang }}/for-libraries/">Read more</a>

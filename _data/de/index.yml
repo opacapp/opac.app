@@ -1,0 +1,30 @@
+tagline: Bibliotheken zugänglich für Android
+description: Unsere kostenlose Android-App ermöglicht den bequemen Zugang von unterwegs und am Tablet auf die Kataloge und Mitgliedskonten von über 1.000 öffentlichen und wissenschaftlichen Bibliotheken im deutschsprachigen Raum und rund um die Welt.
+f_droid: F-Droid
+source_code_github: Quellcode (GitHub)
+apk_download: APK-Download
+promo_catalogue_search_title: Katalogsuche
+promo_catalogue_search_desc: >
+  Die App ermöglicht die bequeme Suche im Katalog von über 1.000 öffentlichen und wissenschaftlichen Bibliotheken – ganz einfach aus der Hosentasche. Es werden alle Suchfelder der jeweiligen Bibliothekskataloge unterstützt und die Suchergebnisse könnten lokal auf einer Merkliste für später gespeichert werden. Über eine Barcode-Scanner-App kann direkt die ISBN eines Buches gescannt und zur Suche verwendet werden.
+promo_account_title: Kontofunktionen
+promo_account_desc: >
+  In den meisten Bibliotheken erlaubt die App den direkten Zugriff auch auf die Kontofunktionen – einfach unterwegs nachsehen, welche Bücher ausgeliehen sind und wann zurückgegeben werden müssen. Die Bücher können direkt aus der App verlängert werden und Suchergebnisse können vielerorts direkt vorgemerkt werden. Mehrere Konten in einer oder sogar mehreren Bibliotheken gleichzeitig verwalten? Kein Problem!
+promo_reminder_title: Erinnerungsfunktion
+promo_reminder_desc: >
+  Bevor es teuer wird, sagt die App Bescheid: Auf Wunsch ruft die App das Bibliothekskonto im Hintergrund regelmäßig ab und schickt eine Benachrichtigung, sobald ein Buch bald wieder abgegeben werden muss. Lästige Mahnschreiben und Mahngebühren kennen unsere Benutzer nicht mehr. Wenn die Bücher dann zurückgegeben werden sollen, kommt man aus der App bequem und direkt auf die Bibliothekswebsite zu den Öffnungszeiten.
+more_features: Weitere Features
+plusshowcase_title: Eine starke Kombination
+plusshowcase_community_title: Eine App für Alle
+plusshowcase_community_desc1: >
+  Unsere Web Opac App bietet Zugriff auf alle über 1.000 unterstützten Bibliotheken. Konten können für unterschiedliche Bibliotheken gleichzeitig abgerufen werden. Perfekt für jeden, der mehrere Bibliotheken nutzt und kostenlos für Nutzer und Bibliotheken.
+plusshowcase_community_desc2: >
+  Die freie Version der Web Opac App ist als Community-Projekt entstanden und ist bis heute <strong>100% Open Source</strong>. Der <a href="https://github.com/opacapp/opacclient" target="_blank">auf GitHub verfügbare</a> Quellcode ist unter den liberalen Bedingungen der MIT-Lizenz für jedermann verwertbar. Viele Anbindungen an Bibliothekssystem und Funktionen konnten wir nur dank Feedback, Patches und Pull Requests aus der Community realisieren, wofür wir uns bedanken möchten.
+plusshowcase_community_desc3: >
+  Der Kern der Opac App, der die Kommunikation mit der Bibliothekssoftware steuert, ist unter dem Namen<a href="https://github.com/opacapp/opacclient/blob/master/opacclient/libopac/README.md" target="_blank">libopac</a> als eigenständige Java-Library verfügbar, die auch in andere Programme eingebunden werden kann. In einem<a href="https://github.com/opacapp/opacapp-config-files" target="_blank">weiteren Repository</a> veröffentlichen wir regelmäßig die Konfigurationsdateien für die einzelnen Bibliotheken, die wir hierzu einsetzen.
+plusshowcase_community_desc4: >
+  Dank unserer wundervollen Community ist die App nicht mehr nur auf Deutsch und Englisch, sondern in
+   einer wachsenden Anzahl verschiedener Sprachen verfügbar. Auf <a href="https://www.transifex.com/projects/p/opacapp/">Transifex</a>kann man uns gerne bei der Übersetzung in weitere Sprachen helfen! 
+plusshowcase_plus_title: >
+  Apps nach Maß für einzelne Bibliotheken
+plusshowcase_plus_desc: >-
+  Mit unserer Plus-Edition bieten wir einzelnen Bibliotheken maßgeschneiderte Apps nach Wunsch: Zusätzlich zu den Funktionen der kostenlosen Apps gibt es hier eine volle Integration der Onleihe, bessere Anbindung der Öffnungszeiten und Anfahrtsdaten der Zweigstellen sowie bei einigen Bibliotheken Neuerwerbungslisten, Veranstaltungskalender oder Neuigkeiten aus der Bibliothek. Für einige haben wir auch ganz individuelle Funktionen umgesetzt – so vielfältig wie die Bibliotheken selbst. Glückliche Bibliotheken jeder Größe von Bremen bis Zürich empfehlen uns weiter. <a href="/{{ page.lang }}/for-libraries/">Mehr Infos</a>
