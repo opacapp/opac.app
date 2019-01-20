@@ -17,6 +17,7 @@ webapp: (HTML5-WebApp)
 compatible_opacs: Kompatible Bibliothekssysteme
 # only catalog search is supported
 search_only: (nur Suche)
+and_lmscloud: (auch LMSCloud)
 complete: (vollständig)
 details: Details
 more_on_request: weitere auf Anfrage

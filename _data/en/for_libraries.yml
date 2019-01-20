@@ -21,6 +21,7 @@ webapp: (HTML5 WebApp)
 compatible_opacs: Compatible ILS/OPACs
 # only catalog search is supported
 search_only: (search only)
+and_lmscloud: (also LMSCloud)
 complete: (complete)
 details: Details
 more_on_request: more available on request
