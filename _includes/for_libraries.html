@@ -15,12 +15,22 @@
         <tr>
             <th>&nbsp;</th>
             <th>{{ t.community_edition }}</th>
+            <th>{{ t.community_edition_supported }}</th>
             <th>{{ t.plus_edition }}</th>
         </tr>
         </thead>
         <tbody>
+        <tr class="headline">
+            <th>{{t.head_compatibility}}</th>
+            <th></th>
+            <th></th>
+            <th></th>
+        </tr>
         <tr>
             <td>{{ t.operating_systems }}</td>
+            <td class="text-with-icons"><i class="material-icons light-green-text">android</i> {{ t.android }}
+                <small>{{ t.native }}</small>
+            </td>
             <td class="text-with-icons"><i class="material-icons light-green-text">android</i> {{ t.android }}
                 <small>{{ t.native }}</small>
             </td>
@@ -36,6 +46,26 @@
         </tr>
         <tr>
             <td style="vertical-align: top">{{ t.compatible_opacs }}</td>
+            <td>Bibliotheca<br>
+                OPEN {{ t.search_only }}<br>
+                SISIS SunRise<br>
+                TouchPoint<br>
+                BiblioMondo<br>
+                BiBer Bibdia<br>
+                PICA / LBS<br>
+                Primo<br>
+                WinBIAP<br>
+                Koha {{ t.and_lmscloud }}<br>
+                NetBiblio<br>
+                Arena<br>
+                Fleischmann iOPAC<br>
+                aDIS/BMS<br>
+                WinMedio.net<br>
+                Littera<br>
+                Zones<br>
+                VuFind<br>
+                HEIDI<br>
+                <a title="Community Edition compatibility" href="/{{ page.lang }}/compatibility/">{{ t.details }}</a></td>
             <td>Bibliotheca<br>
                 OPEN {{ t.search_only }}<br>
                 SISIS SunRise<br>
@@ -81,8 +111,17 @@
                 </p>
             </td>
         </tr>
+        </tbody>
+        <tbody>
+        <tr class="headline">
+            <th>{{t.head_features}}</th>
+            <th></th>
+            <th></th>
+            <th></th>
+        </tr>
         <tr>
             <td>{{ t.catalogue }}</td>
+            <td><i class="material-icons">check</i></td>
             <td><i class="material-icons">check</i></td>
             <td><i class="material-icons">check</i></td>
         </tr>
@@ -90,62 +129,75 @@
             <td>{{ t.account_features }}</td>
             <td><i class="material-icons">check</i></td>
             <td><i class="material-icons">check</i></td>
+            <td><i class="material-icons">check</i></td>
         </tr>
         <tr>
             <td>{{ t.library_info }}</td>
+            <td>{{ t.library_website }}</td>
             <td>{{ t.library_website }}</td>
             <td>{{ t.bibinfo }}</td>
         </tr>
         <tr>
             <td>{{ t.ebook_support }}</td>
             <td><i class="material-icons">close</i></td>
+            <td><i class="material-icons">close</i></td>
             <td><i class="material-icons">check</i></td>
         </tr>
         <tr>
             <td>{{ t.facets }}</td>
+            <td><i class="material-icons">close</i></td>
             <td><i class="material-icons">close</i></td>
             <td>{{ t.for_supported_opacs }}</td>
         </tr>
         <tr>
             <td>{{ t.news_calendar }}</td>
             <td><i class="material-icons">close</i></td>
+            <td><i class="material-icons">close</i></td>
             <td>{{ t.on_request }}</td>
         </tr>
         <tr>
             <td>{{ t.new_acq }}</td>
             <td><i class="material-icons">close</i></td>
+            <td><i class="material-icons">close</i></td>
             <td><i class="material-icons">check</i></td>
+        </tr>
+        </tbody>
+        <tbody>
+        <tr class="headline">
+            <th>{{t.head_more}}</th>
+            <th></th>
+            <th></th>
+            <th></th>
         </tr>
         <tr>
             <td>{{ t.delivery }}</td>
             <td>{{ t.entry_in_webopac }}</td>
+            <td>{{ t.entry_in_webopac }}</td>
             <td>{{ t.own_app}}</td>
         </tr>
         <tr>
-            <td>{{ t.developer }}</td>
-            <td>Raphael Michel<br>
-                <small>{{ t.and_contrib }}</small>
-            </td>
-            <td>Raphael Michel
-                <small>({{ t.android }})</small>
-                <p>&nbsp;</p>
-
-                <p><a target="_blank" href="http://subkom.de">subkom GmbH</a>
-                    <small>({{ t.ios_and_web }})</small>
-                </p>
-            </td>
+            <td><strong>{{ t.support }}</strong></td>
+            <td><strong>{{ t.none }}</strong></td>
+            <td><strong>{{ t.mail }}</strong></td>
+            <td><strong>{{ t.phone }}</strong></td>
         </tr>
         <tr>
-            <td>{{ t.price }}</td>
-            <td>{{ t.free }}</td>
-            <td>{{ t.on_request }}</td>
+            <td><strong>{{ t.price }}</strong></td>
+            <td><strong>{{ t.free }}</strong></td>
+            <td><strong>{{ t.basic_price }}</strong></td>
+            <td><strong>{{ t.on_request }}</strong></td>
         </tr>
         </tbody>
         <tfoot>
         <tr>
             <td>&nbsp;</td>
-            <td><a href="mailto:info@opacapp.net">{{ t.send_request }}</a></td>
-            <td><a href="mailto:quotation@opacapp.net">{{ t.request_quotation }}</a></td>
+            <td><em>{{t.community_unavailable}}</em></td>
+            <td><a href="/Bestellformular.pdf" class="waves-effect waves-light btn red">
+                {{ t.order_form }}
+            </a></td>
+            <td><a href="mailto:quotation@opacapp.net" class="waves-effect waves-light btn red">
+                {{ t.request_quotation }}
+            </a></td>
         </tr>
         </tfoot>
     </table>
