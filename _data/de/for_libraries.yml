@@ -47,7 +47,9 @@ community_unavailable: Momentan für neue Bibliotheken nicht verfügbar
 order_form: Bestellformular
 basic_price: ab 228€/Jahr
 support: Support
-none: durch die Community
+no_support_from_ramiio: kein persönlicher Support durch rami.io
+support_github: Möglichkeit zur Mitwirkung via
+support_policy_moreinfo: mehr Informationen
 mail: E-Mail
 phone: E-Mail und Telefon
 head_compatibility: Kompatibilität

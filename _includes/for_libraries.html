@@ -177,7 +177,11 @@
         </tr>
         <tr>
             <td><strong>{{ t.support }}</strong></td>
-            <td><strong>{{ t.none }}</strong></td>
+            <td>
+                <strong>{{ t.no_support_from_ramiio }}</strong><br>
+                {{ t.support_github }} <a href="https://github.com/opacapp/opacclient">GitHub</a><br>
+                <a href="/{{ page.lang }}/support-policy/">{{ t.support_policy_moreinfo }}</a>
+            </td>
             <td><strong>{{ t.mail }}</strong></td>
             <td><strong>{{ t.phone }}</strong></td>
         </tr>
