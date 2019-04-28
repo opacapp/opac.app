@@ -53,7 +53,7 @@ send_request: Send request
 request_quotation: Request quotation
 community_unavailable: Currently not available for new libraries
 order_form: Order form
-basic_price: from €228/year
+basic_price: from €180/year
 support: Support
 no_support_from_ramiio: no individual support from rami.io
 support_github: Open source contributions via

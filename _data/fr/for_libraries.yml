@@ -41,3 +41,17 @@ free: gratuit
 on_request: sur demande
 send_request: Envoyez une demande
 request_quotation: Demandez un devis
+# TODO:
+order_form: Order form
+basic_price: €180/a +
+support: Support
+no_support_from_ramiio: no individual support from rami.io
+support_github: Open source contributions via
+support_policy_moreinfo: more information
+mail: Email
+phone: Email and phone
+head_compatibility: Compatibility
+head_features: Features
+head_more: Support and pricing
+community_unavailable: Currently not available for new libraries
+community_edition_supported: Edition Basic
