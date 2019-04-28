@@ -66,8 +66,7 @@ languages:
   code: fr
 
 uncss:
-  stylesheets:
-    - css/main.css
+  stylesheets: []
   compress: true
   ignore:
     - .collection .collection-item
