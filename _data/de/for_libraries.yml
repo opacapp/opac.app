@@ -6,6 +6,7 @@ desc2: >
 desc3: "Im Rahmen des Projekts sind wir auch bereit, weitere Zusatzfunktionen nach Wünschen der Bibliothek umzusetzen. Nehmen Sie einfach Kontakt mit uns auf!"
 desc4: Die Plus-Edition wird von unserem Kooperationspartner subkom GmbH vertrieben und verkauft.
 community_edition: Community Edition
+community_edition_supported: Basic Edition
 plus_edition: Plus Edition
 operating_systms: Mobile Betriebssysteme
 android: Android
@@ -42,3 +43,15 @@ free: kostenlos
 on_request: auf Anfrage
 send_request: Anfrage schicken
 request_quotation: Angebot anfordern
+community_unavailable: Momentan für neue Bibliotheken nicht verfügbar
+order_form: Bestellformular
+basic_price: ab 180 €/Jahr
+support: Support
+no_support_from_ramiio: kein persönlicher Support durch rami.io
+support_github: Möglichkeit zur Mitwirkung via
+support_policy_moreinfo: mehr Informationen
+mail: E-Mail
+phone: E-Mail und Telefon
+head_compatibility: Kompatibilität
+head_features: Funktionen
+head_more: Support und Preis

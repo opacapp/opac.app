@@ -24,15 +24,8 @@
                     <hr>
                     <div class="contact-info-line single-line">
                         <div class="contact-info-icon"><i class="material-icons"></i></div>
-                        <p><a href="mailto:info@opacapp.de">info@opacapp.de</a></p>
-                        <p class="secondary">{{ t.email }}</p>
-                    </div>
-
-                    <hr>
-                    <div class="contact-info-line">
-                        <div class="contact-info-icon"><i class="material-icons"></i></div>
-                        <p>+49 6221 32177-60</p>
-                        <p class="secondary">{{ t.office_phone }}</p>
+                        <p><a href="/{{page.lang}}/support/">{{t.contact_options}}</a></p>
+                        <p class="secondary">{{ t.support }}</p>
                     </div>
 
                     <hr>
@@ -45,6 +38,8 @@
             </div>
         </div>
         <div class="center-align">
+            <a href="/{{ page.lang }}/support/" class="waves-effect waves-light btn red">{{ t.contact_options }} <i
+                    class="material-icons">&#xE5C8;</i></a>
             <a href="/{{ page.lang }}/privacy/" class="waves-effect waves-light btn red">{{ t.privacy_policy }} <i
                     class="material-icons">&#xE5C8;</i></a>
         </div>

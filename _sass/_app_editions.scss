@@ -6,6 +6,10 @@
     max-width: 300px;
   }
 
+  .headline th {
+    background: white;
+  }
+
   td:first-child {
     text-align: right;
     padding-right: 16px;
@@ -13,5 +17,11 @@
 
   td.text-with-icons {
     line-height: 175%;
+  }
+  &.striped > tbody > tr:nth-child(2n) {
+    background: #f2f2f2;
+  }
+  &.striped > tbody > tr:nth-child(2n+1) {
+    background: white;
   }
 }
